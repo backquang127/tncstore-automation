@@ -1,0 +1,49 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# TypeScript
+dist/
+build/
+.tsbuildinfo
+
+# Playwright
+playwright-report/
+playwright.config.ts.cache
+
+# Allure
+allure-report/
+allure-results/
+
+# Test results
+test-results/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment / credentials
+.env
+.env.*
+secrets/
+
+# Logs
+logs/
+*.log
+
+# Coverage
+coverage/
+
+# Misc
+*.local
+*.tmp
+*.temp
+__pycache__/
