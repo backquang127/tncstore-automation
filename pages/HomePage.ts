@@ -32,7 +32,7 @@ export class HomePage {
 
     await this.searchButton.click();
   }
-
+  
   async typeSearch(productName: string) {
     await Reporter.logStep(` Type product name: ${productName}`);
     await this.searchBox.waitFor({ state: "visible" });
