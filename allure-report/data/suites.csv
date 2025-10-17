@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","18265","Add multiple products to cart, remove one, and verify total price","Google Chrome","Fri Oct 17 10:17:23 ICT 2025","passed","Fri Oct 17 10:17:41 ICT 2025","","cart.spec.ts","",""
