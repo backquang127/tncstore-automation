@@ -42,7 +42,7 @@ export class CartPage {
   async verifyFirstItemQuantity() {
     const quantity = await this.getFirstItemQuantity();
     expect(quantity).toBe(1);
-    await Reporter.logStep("✅ Verified first item quantity is 1");
+    await Reporter.logStep(" Verified first item quantity is 1");
   }
 
   async checkItemQuantityIncrease() {
@@ -53,7 +53,7 @@ export class CartPage {
     const after = await this.getFirstItemQuantity();
 
     expect(after).toBe(before + 1);
-    await Reporter.logStep(`✅ Quantity increased from ${before} → ${after}`);
+    await Reporter.logStep(` Quantity increased from ${before} → ${after}`);
   }
 
   async checkItemQuantityDecrease() {
@@ -64,11 +64,11 @@ export class CartPage {
     const after = await this.getFirstItemQuantity();
 
     expect(after).toBe(before - 1);
-    await Reporter.logStep(`✅ Quantity decreased from ${before} → ${after}`);
+    await Reporter.logStep(` Quantity decreased from ${before} → ${after}`);
   }
 
   async proceedToCheckout() {
-    await Reporter.logStep("💳 Click Proceed to Checkout");
+    await Reporter.logStep(" Click Proceed to Checkout");
     await this.page.locator(this.makePaymentButton).click();
   }
 
@@ -105,7 +105,7 @@ export class CartPage {
       this.page.locator(this.deleteProductButton).click(),
     ]);
     await dialog.accept();
-    await Reporter.logStep("✅ Product removed successfully");
+    await Reporter.logStep(" Product removed successfully");
   }
 
   async getTotalCartPrice(): Promise<number> {
@@ -161,7 +161,7 @@ export class CartPage {
       `.list-product-cart a.name:has-text("${productName}")`,
       { state: "detached", timeout: 5000 }
     );
-    
+
     const count = await productLocator.count();
     expect(count).toBe(0);
 
