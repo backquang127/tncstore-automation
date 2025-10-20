@@ -33,8 +33,6 @@ test.describe("E-Commerce - End-to-End User Journey", () => {
       await homePage.clickFirstProduct();
       await productDetailPage.addToCart();
       const firstProductName = await productDetailPage.getProductName();
-
-      await Reporter.logStep(`Added product: ${firstProductName}`);
       await productDetailPage.goToCart();
 
       await Reporter.logStep("Step 4: Verify cart contents");

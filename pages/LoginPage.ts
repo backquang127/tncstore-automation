@@ -87,16 +87,9 @@ export class LoginPage {
         (await this.loggedInUserName.textContent())?.trim() || "";
       const success: boolean =
         accountText !== "" && accountText !== "Tài khoản" && accountText !== "Account";
-
-      if (success) {
-        await Reporter.logStep(`✅ Logged in as: ${accountText}`);
-      } else {
-        await Reporter.logStep("❌ Login not detected");
-      }
-
       return success;
     } catch {
-      await Reporter.logStep("❌ Login failed or username not visible");
+      await Reporter.logStep("Login failed or username not visible");
       return false;
     }
   }

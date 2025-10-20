@@ -1,46 +1,68 @@
-import { Page, expect } from "@playwright/test";
+import { Page, Locator, expect } from "@playwright/test";
 import { Reporter } from "../utils/reporter";
 
 export class ProductDetailPage {
-  private readonly addToCartButton = "a:has-text('Thêm vào giỏ hàng')";
-  private readonly cartIcon = "#js-header-cart";
-  private readonly viewCartLink = "a.btn-goCart";
-  private readonly loadingSpinner = "div.loading-spinner";
-  private readonly quantityInput = "#js-buy-quantity";
-  private readonly productName = "h1.name";
-  private readonly successNotification = "div.text-24";
-  private readonly decreaseButton = "a[data-value='-1']";
-  private readonly originalPrice = "div.info-main-price del.old-price";
-  private readonly salePrice = "div.info-main-price div.price";
-  private readonly discountPercent = "div.info-main-price div.saleoff";
-  private readonly similarProduct = "div.similar .owl-item.active:nth-child(2)";
-  private readonly viewedProductsSection = "div.product-history .product-list";
-  private readonly viewedProductNames = "a.product-name";
+  readonly addToCartButton: Locator;
+  readonly cartIcon: Locator;
+  readonly viewCartLink: Locator;
+  readonly buyNowLink: Locator;
+  readonly loadingSpinner: Locator;
+  readonly quantityInput: Locator;
+  readonly productName: Locator;
+  readonly successNotification: Locator;
+  readonly decreaseButton: Locator;
+  readonly originalPrice: Locator;
+  readonly salePrice: Locator;
+  readonly discountPercent: Locator;
+  readonly similarProduct: Locator;
+  readonly viewedProductsSection: Locator;
+  readonly viewedProductNames: Locator;
 
-  constructor(private page: Page) {}
+  constructor(private page: Page) {
+    this.addToCartButton = page.locator("a:has-text('Thêm vào giỏ hàng')");
+    this.cartIcon = page.locator("#js-header-cart");
+
+    this.viewCartLink = page.getByRole("link", { name: "Xem giỏ hàng", exact: true });
+    this.buyNowLink = page.getByRole("link", { name: "Mua hàng", exact: true });
+
+    this.loadingSpinner = page.locator("div.loading-spinner");
+    this.quantityInput = page.locator("#js-buy-quantity");
+    this.productName = page.locator("h1.name");
+    this.successNotification = page.locator("div.text-24");
+    this.decreaseButton = page.locator("a[data-value='-1']");
+    this.originalPrice = page.locator("div.info-main-price del.old-price");
+    this.salePrice = page.locator("div.info-main-price div.price");
+    this.discountPercent = page.locator("div.info-main-price div.saleoff");
+    this.similarProduct = page.locator("div.similar .owl-item.active:nth-child(2)");
+    this.viewedProductsSection = page.locator("div.product-history .product-list");
+    this.viewedProductNames = page.locator("a.product-name");
+  }
 
   async addToCart(quantity = 1) {
-    await this.page.waitForSelector(this.addToCartButton, { state: "visible" });
+    await Reporter.logStep("Adding product to cart");
+    await this.addToCartButton.waitFor({ state: "visible" });
     await this.setQuantity(quantity);
-    await this.page.click(this.addToCartButton);
-    await this.page.waitForTimeout(2000);
+    await this.addToCartButton.click();
+    await this.successNotification.waitFor({ state: "visible" });
   }
 
   async setQuantity(quantity: number) {
-    await this.page.fill(this.quantityInput, quantity.toString());
+    await Reporter.logStep(`Setting quantity: ${quantity}`);
+    await this.quantityInput.fill(quantity.toString());
   }
 
   async goToCart() {
-    await this.page.hover(this.cartIcon);
-    await this.page.waitForSelector(this.viewCartLink, { state: "visible" });
-    await this.page.click(this.viewCartLink);
+    await Reporter.logStep("Navigating to cart");
+    await this.cartIcon.hover();
+    await this.viewCartLink.waitFor({ state: "visible" });
+    await this.viewCartLink.click();
   }
 
   async getProductName(): Promise<string> {
-    await this.page.waitForSelector(this.productName);
-    const name = await this.page.textContent(this.productName);
+    await this.productName.waitFor({ state: "visible" });
+    const name = (await this.productName.textContent())?.trim() || "";
     await Reporter.logStep(`Product name found: ${name}`);
-    return name?.trim() || "";
+    return name;
   }
 
   async verifyDiscountCalculation() {
@@ -52,33 +74,34 @@ export class ProductDetailPage {
     expect(Math.round(salePrice)).toBeCloseTo(Math.round(expectedSale), 0);
 
     await Reporter.logStep(
-      ` Verified discount calculation: ${originalPrice}đ - ${discountPercent}% = ${salePrice}đ`
+      `Verified discount calculation: ${originalPrice}đ - ${discountPercent}% = ${salePrice}đ`
     );
   }
 
   async getOriginalPrice(): Promise<number> {
-    const text = await this.page.textContent(this.originalPrice);
-    return parseFloat(text?.replace(/[^\d]/g, "") || "0");
+    const text = (await this.originalPrice.textContent()) || "";
+    return parseFloat(text.replace(/[^\d]/g, "") || "0");
   }
 
   async getSalePrice(): Promise<number> {
-    const text = await this.page.textContent(this.salePrice);
-    return parseFloat(text?.replace(/[^\d]/g, "") || "0");
+    const text = (await this.salePrice.textContent()) || "";
+    return parseFloat(text.replace(/[^\d]/g, "") || "0");
   }
 
   async getDiscountPercent(): Promise<number> {
-    const text = await this.page.textContent(this.discountPercent);
-    return parseFloat(text?.replace(/[^\d]/g, "") || "0");
+    const text = (await this.discountPercent.textContent()) || "";
+    return parseFloat(text.replace(/[^\d]/g, "") || "0");
   }
 
   async clickSimilarProduct() {
-    await Reporter.logStep("Click first similar product");
-    await this.page.click(this.similarProduct);
+    await Reporter.logStep("Clicking first similar product");
+    await this.similarProduct.click();
   }
 
   async isProductInViewedList(productName: string): Promise<boolean> {
-    await this.page.waitForSelector(this.viewedProductsSection);
-    const names = await this.page.$$eval(this.viewedProductNames, (els) =>
+    await Reporter.logStep(`Checking if '${productName}' is in viewed list`);
+    await this.viewedProductsSection.waitFor({ state: "visible" });
+    const names = await this.page.$$eval("a.product-name", (els) =>
       els.map((e) => e.textContent?.trim() || "")
     );
     return names.some((name) => name.includes(productName));
