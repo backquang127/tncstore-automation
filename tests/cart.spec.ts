@@ -1,8 +1,8 @@
 import { test, expect } from "@playwright/test";
-import { HomePage } from "../pages/HomePage";
-import { ProductDetailPage } from "../pages/ProductDetailPage";
-import { CartPage } from "../pages/CartPage";
-import { Reporter } from "../utils/reporter";
+import { HomePage } from "../src/pages/HomePage";
+import { ProductDetailPage } from "../src/pages/ProductDetailPage";
+import { CartPage } from "../src/pages/CartPage";
+import { Reporter } from "../src/utils/reporter";
 
 test("Add two products and remove the first one", async ({ page }) => {
   const homePage = new HomePage(page);

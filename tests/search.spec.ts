@@ -1,8 +1,8 @@
 import { test, expect } from "@playwright/test";
 import { allure } from "allure-playwright";
-import { Reporter } from "../utils/reporter";
-import { HomePage } from "../pages/HomePage";
-import { SearchPage } from "../pages/SearchPage";
+import { Reporter } from "../src/utils/reporter";
+import { HomePage } from "../src/pages/HomePage";
+import { SearchPage } from "../src/pages/SearchPage";
 
 test.describe("Product Search", () => {
   test("Verify all search results contain keyword", async ({ page }) => {

@@ -1,11 +1,11 @@
 import { test, expect } from "@playwright/test";
-import { LoginPage } from "../pages/LoginPage";
-import { HomePage } from "../pages/HomePage";
-import { ProductDetailPage } from "../pages/ProductDetailPage";
-import { CartPage } from "../pages/CartPage";
-import { Reporter } from "../utils/reporter";
-import { PopupHandler } from "../helpers/PopupHandler";
-import { AuthenticationTestData } from "../data/AuthenticationTestData";
+import { LoginPage } from "../src/pages/LoginPage";
+import { HomePage } from "../src/pages/HomePage";
+import { ProductDetailPage } from "../src/pages/ProductDetailPage";
+import { CartPage } from "../src/pages/CartPage";
+import { Reporter } from "../src/utils/reporter";
+import { PopupHandler } from "../src/helpers/PopupHandler";
+import { AuthenticationTestData } from "../src/data/AuthenticationTestData";
 import { allure } from "allure-playwright";
 
 test.describe("E-Commerce - End-to-End User Journey", () => {
