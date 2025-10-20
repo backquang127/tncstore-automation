@@ -1,4 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","12919","Add multiple products to cart, remove one, and verify total price","Google Chrome","Mon Oct 20 11:32:41 ICT 2025","passed","Mon Oct 20 11:32:54 ICT 2025","","cart.spec.ts","",""
-"Verify complete user journey from login to cart verification","11216","E2E-01: Login → Search → Add to Cart → Verify Cart","Google Chrome","Mon Oct 20 11:32:25 ICT 2025","passed","Mon Oct 20 11:32:37 ICT 2025","E-Commerce - End-to-End User Journey","e2e.spec.ts","",""
-"","15329","Add two products and remove the first one","Google Chrome","Mon Oct 20 11:32:25 ICT 2025","passed","Mon Oct 20 11:32:41 ICT 2025","","cart.spec.ts","",""
