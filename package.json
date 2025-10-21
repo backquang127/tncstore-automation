@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "scripts": {
     "test": "npx playwright test",
-    "allure:clear": "rimraf allure-results allure-report",
-    "allure:generate": "allure generate allure-results --clean -o allure-report",
-    "allure:open": "allure open allure-report",
+    "test:parallel": "npx playwright test --workers=5",
+    "allure:clear": "rimraf ./reports/allure-results ./reports/allure-report",
+    "allure:generate": "allure generate ./reports/allure-results --clean -o ./reports/allure-report",
+    "allure:open": "allure open ./reports/allure-report",
     "test:allure": "npm run allure:clear && npx playwright test && npm run allure:generate && npm run allure:open"
   },
   "devDependencies": {
@@ -13,6 +14,7 @@
     "@types/xlsx": "^0.0.35",
     "allure-commandline": "^2.34.1",
     "allure-playwright": "^3.4.1",
+    "cross-env": "^10.1.0",
     "rimraf": "^6.0.1",
     "typescript": "^5.3.3"
   },

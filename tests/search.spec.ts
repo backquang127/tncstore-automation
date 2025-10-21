@@ -46,6 +46,7 @@ test.describe("Product Search", () => {
     const loadMoreWorks = await searchPage.verifyLoadMoreWorks();
 
     expect(loadMoreWorks).toBeTruthy();
-    await Reporter.logStep(`✅ 'Xem thêm' hoạt động đúng cho từ khóa '${keyword}'`);
+    await Reporter.logStep(`'Xem thêm' hoạt động đúng cho từ khóa '${keyword}'`);
   });
 });
+ 
