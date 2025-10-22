@@ -3,12 +3,12 @@ name: Playwright Tests CI
 
 # Cấu hình các sự kiện sẽ kích hoạt quy trình này
 on:
-  # Chạy khi có code được push lên nhánh `main` hoặc `master`
+  # Chạy khi có code được push lên nhánh `main`
   push:
-    branches: [ main, master ]
-  # Chạy khi có một Pull Request được mở hoặc cập nhật nhắm vào các nhánh trên
+    branches: [ main ]
+  # Chạy khi có một Pull Request được mở hoặc cập nhật nhắm vào nhánh `main`
   pull_request:
-    branches: [ main, master ]
+    branches: [ main ]
   # Cho phép chạy thủ công từ tab Actions trên GitHub
   workflow_dispatch:
 
@@ -42,19 +42,16 @@ jobs:
       run: npx playwright install --with-deps
 
     # Step 5: Chạy các kịch bản kiểm thử Playwright
-    # Lệnh này sẽ tạo ra 'playwright-report', 'test-results', và 'allure-results'
     - name: Run Playwright tests
       run: npx playwright test
 
     # Step 6: Tạo báo cáo Allure từ kết quả đã thu thập
-    # Lệnh này sẽ tạo ra thư mục 'allure-report'
     - name: Generate Allure Report
       run: npm run allure:generate
       # 'always()' đảm bảo bước này luôn chạy, ngay cả khi các test case bị lỗi, để bạn luôn có báo cáo
       if: always()
 
     # Step 7: Tải lên báo cáo HTML của Playwright dưới dạng một 'artifact'
-    # Bạn có thể tải về artifact này sau khi quy trình hoàn tất
     - name: Upload Playwright Report
       uses: actions/upload-artifact@v4
       if: always()
