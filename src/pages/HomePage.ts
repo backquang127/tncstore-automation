@@ -48,7 +48,7 @@ export class HomePage {
       await Reporter.logStep(" No products found on homepage");
       throw new Error("No products found on homepage");
     }
-
+    await this.firstProductLink.scrollIntoViewIfNeeded();
     await this.firstProductLink.click();
   }
 
