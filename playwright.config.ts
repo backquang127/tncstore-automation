@@ -16,7 +16,7 @@ export default defineConfig({
   fullyParallel: true,
   
   // Dùng 5 workers trong CI, ở local Playwright sẽ tự quyết định số worker tối ưu
-  workers: isCI ? 5 : undefined, 
+  workers: isCI ? 3 : undefined, 
 
   outputDir: path.join(REPORTS_DIR, "test-results"),
 
