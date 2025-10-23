@@ -8,6 +8,7 @@ export class HomePage {
   readonly productTitleLinks: Locator;
   readonly firstProductLink: Locator;
   readonly loadingSpinner: Locator;
+  readonly resultTitle: Locator;
 
   constructor(page: Page) {
     this.page = page;
@@ -19,6 +20,7 @@ export class HomePage {
       "(//div[@id='js-product-list']//a[contains(@class,'product-name')])[1]"
     );
     this.loadingSpinner = page.locator("//div[contains(@class,'success-form')]");
+    this.resultTitle = page.locator("h1:has-text('Kết quả tìm kiếm')");
   }
 
   async searchProduct(productName: string) {
@@ -31,6 +33,7 @@ export class HomePage {
     }
 
     await this.searchButton.click();
+    await this.page.waitForSelector("h1:has-text('Kết quả tìm kiếm')");
   }
   
   async typeSearch(productName: string) {
