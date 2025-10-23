@@ -51,13 +51,9 @@ export class HomePage {
    * Hàm click vào sản phẩm đầu tiên, đã được tối ưu hóa và đơn giản hóa.
    */
   async clickFirstProduct() {
-    // 1. Đảm bảo có ít nhất một sản phẩm hiển thị.
     await expect(this.firstProductLink).toBeVisible({ timeout: 10000 });
-
-    // 2. Ẩn header để tránh lỗi bị che.
     await this.hideStickyHeader();
-
-    // 3. Click vào sản phẩm. Playwright sẽ tự động cuộn đến phần tử.
+    await this.firstProductLink.evaluate((el) => el.scrollIntoView({ behavior: 'smooth', block: 'center' }));
     await this.firstProductLink.click();
   }
 

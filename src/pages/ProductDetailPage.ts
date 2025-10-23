@@ -2,6 +2,7 @@ import { Page, Locator, expect } from "@playwright/test";
 import { Reporter } from "../utils/reporter";
 
 export class ProductDetailPage {
+  readonly header: Locator;
   readonly addToCartButton: Locator;
   readonly cartIcon: Locator;
   readonly viewCartLink: Locator;
@@ -19,6 +20,8 @@ export class ProductDetailPage {
   readonly viewedProductNames: Locator;
 
   constructor(private page: Page) {
+    this.header = page.locator(".header-fixed");
+
     this.addToCartButton = page.locator("a:has-text('Thêm vào giỏ hàng')");
     this.cartIcon = page.locator("#js-header-cart");
 
@@ -38,12 +41,20 @@ export class ProductDetailPage {
     this.viewedProductNames = page.locator("a.product-name");
   }
 
-  async addToCart(quantity = 1) {
-    await Reporter.logStep("Adding product to cart");
-    await this.addToCartButton.waitFor({ state: "visible" });
+async hideStickyHeader() {
+    if (await this.header.isVisible()) {
+      await this.header.evaluate(element => element.style.display = 'none');
+    }
+  }
+
+async addToCart(quantity = 1) {
     await this.setQuantity(quantity);
+    await this.hideStickyHeader();
     await this.addToCartButton.click();
-    await this.successNotification.waitFor({ state: "visible" });
+    await expect(
+      this.successNotification, 
+      "Success notification should appear after adding product to cart."
+    ).toBeVisible({ timeout: 10000 });
   }
 
   async setQuantity(quantity: number) {
