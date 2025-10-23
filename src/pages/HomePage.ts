@@ -46,7 +46,9 @@ export class HomePage {
 
     await this.productTitleLinks.first().waitFor({ state: "visible" });
     const count = await this.productTitleLinks.count();
-
+    //push lên lát sửa lại
+    const productListContainer = this.page.locator('#js-product-list');
+    await productListContainer.waitFor({ state: 'visible', timeout: 15000 }); 
     if (count === 0) {
       await Reporter.logStep(" No products found on homepage");
       throw new Error("No products found on homepage");
