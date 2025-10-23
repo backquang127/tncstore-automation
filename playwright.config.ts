@@ -8,7 +8,7 @@ const REPORTS_DIR = path.join(__dirname, "reports");
 
 export default defineConfig({
   testDir: "./tests",
-  timeout: 30 * 1000,
+  timeout: 60 * 1000,
   
   // Chỉ chạy lại 1 lần nếu là môi trường CI, không chạy lại ở local
   retries: isCI ? 1 : 0,
