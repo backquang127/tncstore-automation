@@ -36,12 +36,13 @@ export default defineConfig({
     {
       name: "Google Chrome",
       use: {
-        channel: "chrome",
-        viewport: null, // Enable dynamic viewport
-        launchOptions: {
-          args: ["--start-maximized"], // Maximize window on launch
-        },
+      channel:"chrome",
+      headless: true,
+      viewport: { width: 1920, height: 1080 },
+      launchOptions: {
+        args: ['--start-maximized'],
       },
+    }
     },
   ],
 
