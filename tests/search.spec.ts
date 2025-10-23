@@ -1,35 +1,40 @@
 import { test, expect } from "@playwright/test";
 import { allure } from "allure-playwright";
-import { Reporter } from "../src/utils/reporter";
 import { HomePage } from "../src/pages/HomePage";
 import { SearchPage } from "../src/pages/SearchPage";
 import searchData from "../tests/testdata/searchData.json";
 
 test.describe("Search Functionality", () => {
+  // --- Test case 1: Data-driven test for search results ---
   searchData.forEach(({ keyword }, index) => {
     test(`TID:SEARCH-${index + 1} Verify all search results contain keyword: ${keyword}`, async ({ page }) => {
       await allure.story("Product Search");
       await allure.severity("blocker");
-      await allure.description(`Verify all search results contain keyword '${keyword}'`);
+      await allure.description(`Verify all search results for the keyword '${keyword}' are relevant.`);
 
       const homePage = new HomePage(page);
       const searchPage = new SearchPage(page);
 
-      await Reporter.logStep(`Step 1: Search for product '${keyword}'`);
-      await page.goto("");
-      await homePage.searchProduct(keyword);
+      await test.step(`Step 1: Search for product '${keyword}'`, async () => {
+        await page.goto("");
+        await homePage.searchProduct(keyword);
+      });
 
-      const hasResult = await searchPage.hasResults();
-      expect(hasResult).toBeTruthy();
+      await test.step(`Step 2: Verify that search results are displayed`, async () => {
+        const hasResult = await searchPage.hasResults();
+        expect(hasResult, `Search for '${keyword}' should return results.`).toBeTruthy();
+        
+        const resultCount = await searchPage.getProductCount();
+        allure.parameter("Results Count", resultCount.toString());
+      });
 
-      const resultCount = await searchPage.getProductCount();
-      allure.parameter("Results Count", resultCount.toString());
-
-      await Reporter.logStep(`Step 2: Verify all results contain '${keyword}'`);
-      await searchPage.verifyAllResultsContainKeyword(keyword);
+      await test.step(`Step 3: Verify all displayed results contain the keyword '${keyword}'`, async () => {
+        await searchPage.verifyAllResultsContainKeyword(keyword);
+      });
     });
   });
 
+  // --- Test case 2: Verify 'Load More' functionality ---
   test("TID:SEARCH-LOADMORE Verify 'Xem thêm' button loads additional products", async ({ page }) => {
     await allure.story("Search - Load More Feature");
     await allure.severity("normal");
@@ -39,16 +44,15 @@ test.describe("Search Functionality", () => {
     const searchPage = new SearchPage(page);
     const keyword = "laptop";
 
-    await Reporter.logStep(`Step 1: Search for keyword '${keyword}'`);
-    await page.goto('');
-    await homePage.searchProduct(keyword);
+    await test.step(`Step 1: Search for keyword '${keyword}' and ensure results are shown`, async () => {
+      await page.goto('');
+      await homePage.searchProduct(keyword);
+      await expect(searchPage.productResults.first(), "Search should display at least one product.").toBeVisible();
+    });
 
-    expect(await searchPage.hasResults()).toBeTruthy();
-
-    await Reporter.logStep("Step 2: Verify 'Xem thêm' button loads more products");
-    const loadMoreWorks = await searchPage.verifyLoadMoreWorks();
-
-    expect(loadMoreWorks).toBeTruthy();
-    await Reporter.logStep(`'Xem thêm' hoạt động đúng cho từ khóa '${keyword}'`);
+    await test.step("Step 2: Verify 'Xem thêm' button loads more products", async () => {
+      const loadMoreWorks = await searchPage.verifyLoadMoreWorks();
+      expect(loadMoreWorks, "'Xem thêm' button should load more products correctly.").toBeTruthy();
+    });
   });
 });
