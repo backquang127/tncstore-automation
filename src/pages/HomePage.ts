@@ -1,59 +1,63 @@
 import { Page, Locator, expect } from "@playwright/test";
-import { Reporter } from "../utils/reporter";
 
 export class HomePage {
   readonly page: Page;
   readonly searchBox: Locator;
   readonly searchButton: Locator;
-  readonly productTitleLinks: Locator;
+  readonly header: Locator; // Thêm locator cho header cố định
+  readonly productListContainer: Locator;
+  readonly productLinks: Locator;
   readonly firstProductLink: Locator;
-  readonly loadingSpinner: Locator;
-  readonly resultTitle: Locator;
 
   constructor(page: Page) {
     this.page = page;
 
+    // --- Định nghĩa các locators một cách rõ ràng ---
     this.searchBox = page.locator("#js-global-seach");
     this.searchButton = page.locator("button.submit-search");
-    this.productTitleLinks = page.locator("#js-product-list a.product-name");
-    this.firstProductLink = page.locator(
-      "(//div[@id='js-product-list']//a[contains(@class,'product-name')])[1]"
-    );
-    this.loadingSpinner = page.locator("//div[contains(@class,'success-form')]");
-    this.resultTitle = page.locator("h1:has-text('Kết quả tìm kiếm')");
+    this.header = page.locator(".header-fixed");
+    this.productListContainer = page.locator('#js-product-list');
+    
+    // Định nghĩa locator chung cho tất cả các link sản phẩm
+    this.productLinks = this.productListContainer.locator("a.product-name");
+    
+    // Lấy sản phẩm đầu tiên từ locator chung ở trên
+    this.firstProductLink = this.productLinks.first(); 
   }
 
-  async searchProduct(productName: string) {
-
-    await this.searchBox.waitFor({ state: "visible" });
-    await this.searchBox.fill(productName);
-
-    if (await this.loadingSpinner.isVisible().catch(() => false)) {
-      await this.loadingSpinner.waitFor({ state: "hidden" });
+  /**
+   * Tạm thời ẩn header cố định để tránh lỗi bị che khuất khi click.
+   */
+  async hideStickyHeader() {
+    if (await this.header.isVisible()) {
+      await this.header.evaluate(element => element.style.display = 'none');
     }
+  }
 
+  /**
+   * Hàm search được tối ưu hóa để chờ đợi một cách đáng tin cậy.
+   * Nó chỉ hoàn thành sau khi danh sách sản phẩm đã được tải.
+   */
+  async searchProduct(productName: string) {
+    await this.searchBox.fill(productName);
     await this.searchButton.click();
-    await this.page.waitForSelector("h1:has-text('Kết quả tìm kiếm')");
+
+    // Chờ cho container chứa danh sách sản phẩm xuất hiện.
+    // Đây là điểm chờ (checkpoint) quan trọng nhất và đáng tin cậy nhất.
+    await this.productListContainer.waitFor({ state: 'visible', timeout: 20000 });
   }
   
-  async typeSearch(productName: string) {
-    await Reporter.logStep(` Type product name: ${productName}`);
-    await this.searchBox.waitFor({ state: "visible" });
-    await this.searchBox.fill(productName);
-  }
-
+  /**
+   * Hàm click vào sản phẩm đầu tiên, đã được tối ưu hóa và đơn giản hóa.
+   */
   async clickFirstProduct() {
+    // 1. Đảm bảo có ít nhất một sản phẩm hiển thị.
+    await expect(this.firstProductLink).toBeVisible({ timeout: 10000 });
 
-    // await this.productTitleLinks.first().waitFor({ state: "visible" });
-    // const count = await this.productTitleLinks.count();
-    // //push lên lát sửa lại
-    // const productListContainer = this.page.locator('#js-product-list');
-    // await productListContainer.waitFor({ state: 'visible', timeout: 15000 }); 
-    // if (count === 0) {
-    //   await Reporter.logStep(" No products found on homepage");
-    //   throw new Error("No products found on homepage");
-    // }
-    // await this.firstProductLink.scrollIntoViewIfNeeded();
+    // 2. Ẩn header để tránh lỗi bị che.
+    await this.hideStickyHeader();
+
+    // 3. Click vào sản phẩm. Playwright sẽ tự động cuộn đến phần tử.
     await this.firstProductLink.click();
   }
 
