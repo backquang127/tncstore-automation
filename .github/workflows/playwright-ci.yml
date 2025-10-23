@@ -1,70 +1,57 @@
-# Đặt tên cho quy trình CI/CD, sẽ hiển thị trong tab "Actions" trên GitHub
 name: Playwright Tests CI
 
-# Cấu hình các sự kiện sẽ kích hoạt quy trình này
 on:
-  # Chạy khi có code được push lên nhánh `main`
   push:
     branches: [ main ]
-  # Chạy khi có một Pull Request được mở hoặc cập nhật nhắm vào nhánh `main`
+
   pull_request:
     branches: [ main ]
-  # Cho phép chạy thủ công từ tab Actions trên GitHub
+
   workflow_dispatch:
 
-# Định nghĩa các công việc (jobs) sẽ được thực thi
+  schedule:
+    - cron: '0 12 * * *'
+
 jobs:
-  # Đặt tên cho job, ví dụ: 'test'
   test:
-    # Thời gian tối đa cho mỗi job (ví dụ: 60 phút)
     timeout-minutes: 60
-    # Môi trường để chạy job. 'ubuntu-latest' là lựa chọn phổ biến và ổn định
+
     runs-on: ubuntu-latest
-
-    # Các bước (steps) tuần tự sẽ được thực hiện trong job
     steps:
-    # Step 1: Checkout mã nguồn từ repository của bạn
-    - name: Checkout repository
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    # Step 2: Cài đặt môi trường Node.js
-    - name: Set up Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: 18 # Chỉ định phiên bản Node.js bạn đang dùng
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
 
-    # Step 3: Cài đặt các dependencies từ package-lock.json (nhanh và an toàn hơn 'npm install')
-    - name: Install dependencies
-      run: npm ci
+      - name: Install dependencies
+        run: npm ci
 
-    # Step 4: Cài đặt các trình duyệt mà Playwright cần (rất quan trọng cho môi trường CI)
-    - name: Install Playwright Browsers
-      run: npx playwright install --with-deps
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
 
-    # Step 5: Chạy các kịch bản kiểm thử Playwright
-    - name: Run Playwright tests
-      run: npx playwright test
+      - name: Run Playwright tests
+        run: npx playwright test
 
-    # Step 6: Tạo báo cáo Allure từ kết quả đã thu thập
-    - name: Generate Allure Report
-      run: npm run allure:generate
-      # 'always()' đảm bảo bước này luôn chạy, ngay cả khi các test case bị lỗi, để bạn luôn có báo cáo
-      if: always()
+      - name: Generate Allure Report
+        run: npm run allure:generate
 
-    # Step 7: Tải lên báo cáo HTML của Playwright dưới dạng một 'artifact'
-    - name: Upload Playwright Report
-      uses: actions/upload-artifact@v4
-      if: always()
-      with:
-        name: playwright-report # Tên của artifact
-        path: reports/playwright-report/ # Đường dẫn đến thư mục báo cáo
-        retention-days: 7 # Thời gian lưu trữ artifact (ví dụ: 7 ngày)
+        if: always()
 
-    # Step 8: Tải lên báo cáo Allure dưới dạng một 'artifact'
-    - name: Upload Allure Report
-      uses: actions/upload-artifact@v4
-      if: always()
-      with:
-        name: allure-report # Tên của artifact
-        path: reports/allure-report/ # Đường dẫn đến thư mục báo cáo Allure
-        retention-days: 7
+      - name: Upload Playwright Report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: playwright-report 
+          path: reports/playwright-report/ 
+          retention-days: 7 
+
+      - name: Upload Allure Report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: allure-report 
+          path: reports/allure-report/ 
+          retention-days: 7
