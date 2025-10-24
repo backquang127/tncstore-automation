@@ -1,21 +1,17 @@
-name: Playwright Tests CI
+name: Playwright Tests CI/CD
 
 on:
   push:
     branches: [ main ]
-
   pull_request:
     branches: [ main ]
-
   workflow_dispatch:
-
   schedule:
-    - cron: '0 12 * * *'
+    - cron: '0 0 * * *'
 
 jobs:
   test:
     timeout-minutes: 60
-
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -35,23 +31,43 @@ jobs:
       - name: Run Playwright tests
         run: npx playwright test
 
-      - name: Generate Allure Report
-        run: npm run allure:generate
-
-        if: always()
-
-      - name: Upload Playwright Report
+      - name: Upload Allure results
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: playwright-report 
-          path: reports/playwright-report/ 
-          retention-days: 7 
+          name: allure-results
+          path: reports/allure-results/
+          retention-days: 1
 
-      - name: Upload Allure Report
-        uses: actions/upload-artifact@v4
-        if: always()
+  deploy:
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    needs: test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main' && success()
+
+    steps:
+      - name: Download Allure results artifact
+        uses: actions/download-artifact@v4
         with:
-          name: allure-report 
-          path: reports/allure-report/ 
-          retention-days: 7
+          name: allure-results
+          path: allure-results
+
+      - name: Generate Allure Report with History
+        uses: simple-elf/allure-report-action@v1.7
+        id: allure-report
+        with:
+          allure_results: allure-results
+          gh_pages: gh-pages 
+          allure_history: allure-history
+
+      - name: Deploy report to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ${{ steps.allure-report.outputs.allure_report_path }}
+          
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
