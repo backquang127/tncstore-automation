@@ -1,21 +1,17 @@
-name: Playwright Tests CI
+name: Playwright Tests CI/CD
 
 on:
   push:
     branches: [ main ]
-
   pull_request:
     branches: [ main ]
-
   workflow_dispatch:
-
   schedule:
     - cron: '0 12 * * *'
 
 jobs:
   test:
     timeout-minutes: 60
-
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -37,21 +33,38 @@ jobs:
 
       - name: Generate Allure Report
         run: npm run allure:generate
-
         if: always()
-
-      - name: Upload Playwright Report
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: playwright-report 
-          path: reports/playwright-report/ 
-          retention-days: 7 
 
       - name: Upload Allure Report
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: allure-report 
-          path: reports/allure-report/ 
+          name: allure-report
+          path: reports/allure-report/
           retention-days: 7
+
+  deploy:
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    needs: test
+    runs-on: ubuntu-latest
+
+    if: github.ref == 'refs/heads/main' && success()
+
+    steps:
+      - name: Download Allure Report artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: allure-report
+          path: allure-report 
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./allure-report
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
