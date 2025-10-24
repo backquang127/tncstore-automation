@@ -116,12 +116,14 @@ export class CartPage {
   }
 
   async verifyTotalPriceChanged(totalBefore: number) {
+    await this.page.waitForSelector(this.totalCartPrice, { state: 'visible' });
+    await this.page.waitForTimeout(1000);
     const totalPriceLocator = this.page.locator(this.totalCartPrice);
     await totalPriceLocator.scrollIntoViewIfNeeded();
     await totalPriceLocator.waitFor({ state: "visible" });
 
     const totalAfter = await this.getTotalCartPrice();
-    expect(totalAfter).toBeLessThan(totalBefore);
+    await expect(totalAfter).toBeLessThan(totalBefore);
     await Reporter.logStep(
       ` Total price decreased (Before: ${totalBefore} → After: ${totalAfter})`
     );
