@@ -1,0 +1,669 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - link [ref=e3] [cursor=pointer]:
+    - /url: /ad.php?id=308
+  - generic [ref=e4]:
+    - generic [ref=e7]:
+      - link "Tất cả sản phẩm" [ref=e8] [cursor=pointer]:
+        - /url: /sitemap
+        - generic [ref=e10]: Tất cả sản phẩm
+      - link "(086) 830.2123" [ref=e11] [cursor=pointer]:
+        - /url: tel:0868302123
+        - generic [ref=e13]: (086) 830.2123
+      - link "cskh@tncstore.vn" [ref=e14] [cursor=pointer]:
+        - /url: mailto:cskh@tncstore.vn
+        - generic [ref=e16]: cskh@tncstore.vn
+    - generic [ref=e20]:
+      - link "logo" [ref=e21] [cursor=pointer]:
+        - /url: /
+        - img "logo" [ref=e22]
+      - generic [ref=e25]:
+        - link " Tất cả danh mục" [ref=e27] [cursor=pointer]:
+          - /url: javascript:void(0)
+        - textbox "Nhập sản phẩm cần tìm..." [ref=e28]
+        - button "Tìm kiếm" [ref=e29]:
+          - generic [ref=e30]: Tìm kiếm
+      - generic [ref=e32]:
+        - link "Tài khoản" [ref=e33] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e35]: Tài khoản
+        - link "..." [ref=e36] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e38]: ...
+      - text: 
+    - generic [ref=e41]:
+      - generic [ref=e43]:
+        - generic [ref=e44]: 
+        - generic [ref=e45]: Danh mục sản phẩm
+        - generic [ref=e46]: 
+      - generic [ref=e47]:
+        - link "Build PC" [ref=e48] [cursor=pointer]:
+          - /url: /buildpc
+          - generic [ref=e49]: Build PC
+        - link "PC gaming" [ref=e50] [cursor=pointer]:
+          - /url: /gaming-pc.html
+          - generic [ref=e51]: PC gaming
+        - link "PC Đồ họa - Editor" [ref=e52] [cursor=pointer]:
+          - /url: /pc-do-hoa.html
+          - generic [ref=e53]: PC Đồ họa - Editor
+        - link "Màn hình gaming" [ref=e54] [cursor=pointer]:
+          - /url: /man-hinh-gaming.html
+          - generic [ref=e55]: Màn hình gaming
+        - link "Laptop Gaming" [ref=e56] [cursor=pointer]:
+          - /url: /gaming-laptop.html
+          - generic [ref=e57]: Laptop Gaming
+        - link "PS5 Slim" [ref=e58] [cursor=pointer]:
+          - /url: /may-choi-game-sony-ps5-slim-chinh-hang-cfi-2018a-01.html
+          - generic [ref=e59]: PS5 Slim
+        - link "RTX 5060" [ref=e60] [cursor=pointer]:
+          - /url: /vga-rtx-5060.html
+          - generic [ref=e61]:
+            - text: RTX 5060
+            - img [ref=e62]
+        - link "RTX 5070" [ref=e63] [cursor=pointer]:
+          - /url: /vga-nvidia-rtx-5070.html
+          - generic [ref=e64]: RTX 5070
+        - link "RX 9060" [ref=e65] [cursor=pointer]:
+          - /url: /vga-amd-rx-9060.html
+          - generic [ref=e66]:
+            - text: RX 9060
+            - img [ref=e67]
+        - link "RX 9070" [ref=e68] [cursor=pointer]:
+          - /url: /vga-amd-rx-9070.html
+          - generic [ref=e69]: RX 9070
+        - link "Máy in" [ref=e70] [cursor=pointer]:
+          - /url: /may-in-laser.html
+          - generic [ref=e71]: Máy in
+  - generic [ref=e72]:
+    - generic [ref=e73]:
+      - list [ref=e74]:
+        - listitem [ref=e75]:
+          - link " Trang chủ":
+            - /url: /
+            - generic [ref=e76] [cursor=pointer]:
+              - generic [ref=e77]: 
+              - text: Trang chủ
+          - generic [ref=e78]: 
+        - listitem [ref=e79]:
+          - link "Linh kiện máy tính ":
+            - /url: /linh-kien-pc.html
+            - generic [ref=e80] [cursor=pointer]: Linh kiện máy tính
+            - generic [ref=e81] [cursor=pointer]: 
+        - listitem [ref=e82]:
+          - link "RAM - Bộ nhớ trong":
+            - /url: /ram.html
+            - generic [ref=e83] [cursor=pointer]: RAM - Bộ nhớ trong
+            - text: 
+      - generic [ref=e86]:
+        - generic [ref=e87]:
+          - link "RAM Laptop Kingston 16GB DDR4 Bus 3200 ( KVR32S22S8/16 )" [ref=e89] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - img "RAM Laptop Kingston 16GB DDR4 Bus 3200 ( KVR32S22S8/16 )" [ref=e90]
+          - link "RAM Laptop Kingston 16GB DDR4 Bus 3200 ( KVR32S22S8/16 )" [ref=e92] [cursor=pointer]:
+            - /url: /media/product/3521-ram-kingston-kvr-ddr4-kvr32s22s8-16-01.png
+            - img "RAM Laptop Kingston 16GB DDR4 Bus 3200 ( KVR32S22S8/16 )" [ref=e93]
+        - generic [ref=e94]:
+          - link "Kingston" [ref=e96] [cursor=pointer]:
+            - /url: /brand/kingston
+            - img "Kingston" [ref=e97]
+          - heading "RAM Laptop Kingston 16GB DDR4 Bus 3200 ( KVR32S22S8/16 )" [level=1] [ref=e98]
+          - generic [ref=e99]:
+            - generic [ref=e100]: "MSP: RAMKT024"
+            - generic [ref=e101]: "Đánh giá:"
+            - generic [ref=e103]: "Lượt xem: 18236"
+          - link "Build PC với sản phẩm này " [ref=e104] [cursor=pointer]:
+            - /url: /buildpc?id_product=3521&category_id=63
+            - text: Build PC với sản phẩm này
+            - generic [ref=e105]: 
+          - generic [ref=e106]:
+            - list [ref=e107]:
+              - listitem [ref=e108]:
+                - paragraph [ref=e109]: "- Dung lượng: 16GB (1*16GB)"
+              - listitem [ref=e110]:
+                - paragraph [ref=e111]: "- Kiểu ram: DDR4"
+              - listitem [ref=e112]:
+                - paragraph [ref=e113]: "- Bus ram: 3200 MHz"
+              - listitem [ref=e114]:
+                - paragraph [ref=e115]: "- Độ trễ: CL22"
+            - link "Thu gọn" [ref=e116] [cursor=pointer]:
+              - /url: javascript:void(0)
+        - generic [ref=e117]:
+          - generic [ref=e118]:
+            - generic [ref=e119]:
+              - generic [ref=e120]: 
+              - text: Khuyến mãi khi mua sản phẩm
+            - generic [ref=e121]:
+              - paragraph
+              - paragraph [ref=e122]:
+                - generic [ref=e123]:
+                  - text: "- Tặng 01 lượt xé"
+                  - strong [ref=e125]:
+                    - link "túi mù Laptop Dell" [ref=e126] [cursor=pointer]:
+                      - /url: https://www.tncstore.vn/khuyen-mai-xe-tui-mu-laptop-dell.html
+                  - text: đến hết
+                  - strong [ref=e127]: 31/10/2025
+                  - text: (Số lượng quà có hạn)
+              - paragraph
+          - generic [ref=e128]:
+            - generic [ref=e129]:
+              - generic [ref=e130]: 2.199.000đ
+              - deletion [ref=e131]: 2.990.000đ
+              - generic [ref=e132]: "-27%"
+            - generic [ref=e134]: Bảo hành 36 Tháng
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - generic [ref=e137]: Số lượng
+              - generic [ref=e138]:
+                - link "" [ref=e139] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e140]: 
+                - textbox [ref=e141]: "1"
+                - link "+" [ref=e142] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e143]: +
+            - generic [ref=e144]:
+              - link "Thêm vào giỏ hàng" [active] [ref=e146] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Mua Ngay" [ref=e148] [cursor=pointer]:
+                - /url: javascript:void(0)
+          - generic [ref=e149]:
+            - link "Mua PC Gaming giá rẻ tại TNC Store" [ref=e151] [cursor=pointer]:
+              - /url: https://www.tncstore.vn/gaming-pc.html
+            - generic [ref=e152]:
+              - generic [ref=e153]: 
+              - generic [ref=e154]: Hỗ trợ trả góp 0%, trả trước 0 đ
+            - generic [ref=e155]:
+              - generic [ref=e156]: 
+              - generic [ref=e157]: Hoàn tiền 200% nếu có hàng giả
+            - generic [ref=e158]:
+              - generic [ref=e159]: 
+              - generic [ref=e160]: Giao hàng nhanh trên toàn quốc
+            - generic [ref=e161]:
+              - generic [ref=e162]: 
+              - generic [ref=e163]: Hỗ trợ kĩ thuật online 24/7
+            - generic [ref=e164]:
+              - generic [ref=e165]: 
+              - generic [ref=e166]: Vệ sinh miễn phí PC, Laptop trọn đời
+      - generic [ref=e167]:
+        - generic [ref=e168]:
+          - generic [ref=e169]:
+            - heading "Mô tả sản phẩm" [level=2] [ref=e170]
+            - generic [ref=e171]:
+              - heading [level=2] [ref=e172]
+              - paragraph
+              - paragraph [ref=e173]
+          - generic [ref=e174]:
+            - heading "Đánh giá của khách hàng" [level=2] [ref=e175]
+            - generic [ref=e177]:
+              - generic [ref=e179]:
+                - generic [ref=e180]: "5"
+                - generic [ref=e181]: 
+              - generic [ref=e182]:
+                - generic [ref=e183]:
+                  - generic [ref=e184]:
+                    - text: "5"
+                    - generic [ref=e185]: 
+                  - generic "Xem các đánh giá này" [ref=e187]: 0%
+                - generic [ref=e188]:
+                  - generic [ref=e189]:
+                    - text: "4"
+                    - generic [ref=e190]: 
+                  - generic "Xem các đánh giá này" [ref=e192]: 0%
+                - generic [ref=e193]:
+                  - generic [ref=e194]:
+                    - text: "3"
+                    - generic [ref=e195]: 
+                  - generic "Xem các đánh giá này" [ref=e197]: 0%
+                - generic [ref=e198]:
+                  - generic [ref=e199]:
+                    - text: "2"
+                    - generic [ref=e200]: 
+                  - generic "Xem các đánh giá này" [ref=e202]: 0%
+                - generic [ref=e203]:
+                  - generic [ref=e204]:
+                    - text: "1"
+                    - generic [ref=e205]: 
+                  - generic "Xem các đánh giá này" [ref=e207]: 0%
+              - link "Viết đánh giá" [ref=e209] [cursor=pointer]:
+                - /url: javascript:;
+            - text:  Rất Tốt Ổn Tạm ổn Tệ Rất tệ
+        - generic [ref=e210]:
+          - generic [ref=e211]:
+            - heading "Thông số kỹ thuật" [level=2] [ref=e212]
+            - table [ref=e214]:
+              - rowgroup [ref=e215]:
+                - row "Thương Hiệu Kingston" [ref=e216]:
+                  - cell "Thương Hiệu" [ref=e217]
+                  - cell "Kingston" [ref=e218]:
+                    - paragraph [ref=e219]: Kingston
+                - row "Loại Ram DDR4" [ref=e220]:
+                  - cell "Loại Ram" [ref=e221]
+                  - cell "DDR4" [ref=e222]:
+                    - paragraph [ref=e223]: DDR4
+                - row "Model RAM Laptop Kingston" [ref=e224]:
+                  - cell "Model" [ref=e225]
+                  - cell "RAM Laptop Kingston" [ref=e226]:
+                    - paragraph [ref=e227]: RAM Laptop Kingston
+                - row "Dung Lượng 16GB" [ref=e228]:
+                  - cell "Dung Lượng" [ref=e229]
+                  - cell "16GB" [ref=e230]:
+                    - paragraph [ref=e231]: 16GB
+                - row "Dòng Ram Laptop" [ref=e232]:
+                  - cell "Dòng Ram" [ref=e233]
+                  - cell "Laptop" [ref=e234]:
+                    - paragraph [ref=e235]: Laptop
+                - row "Tốc Độ 3200MHz" [ref=e236]:
+                  - cell "Tốc Độ" [ref=e237]
+                  - cell "3200MHz" [ref=e238]:
+                    - paragraph [ref=e239]: 3200MHz
+                - row "Độ Trễ CL22" [ref=e240]:
+                  - cell "Độ Trễ" [ref=e241]
+                  - cell "CL22" [ref=e242]:
+                    - paragraph [ref=e243]: CL22
+                - row "Hiệu điện thế 1.2V" [ref=e244]:
+                  - cell "Hiệu điện thế" [ref=e245]
+                  - cell "1.2V" [ref=e246]:
+                    - paragraph [ref=e247]: 1.2V
+                - row "ECC Không hỗ trợ" [ref=e248]:
+                  - cell "ECC" [ref=e249]
+                  - cell "Không hỗ trợ" [ref=e250]:
+                    - paragraph [ref=e251]: Không hỗ trợ
+                - row "Đóng gói 1 thanh lẻ" [ref=e252]:
+                  - cell "Đóng gói" [ref=e253]
+                  - cell "1 thanh lẻ" [ref=e254]:
+                    - paragraph [ref=e255]: 1 thanh lẻ
+                - row "Màu Sắc Xanh" [ref=e256]:
+                  - cell "Màu Sắc" [ref=e257]
+                  - cell "Xanh" [ref=e258]:
+                    - paragraph [ref=e259]: Xanh
+                - row "Tản Nhiệt Không có" [ref=e260]:
+                  - cell "Tản Nhiệt" [ref=e261]
+                  - cell "Không có" [ref=e262]:
+                    - paragraph [ref=e263]: Không có
+                - row "Màu LED Không có" [ref=e264]:
+                  - cell "Màu LED" [ref=e265]
+                  - cell "Không có" [ref=e266]:
+                    - paragraph [ref=e267]: Không có
+            - link "Xem thêm " [ref=e268] [cursor=pointer]:
+              - /url: "#full-spec"
+              - text: Xem thêm
+              - generic [ref=e269]: 
+          - generic [ref=e270]:
+            - heading "Tin tức liên quan" [level=2] [ref=e272]
+            - generic [ref=e273]:
+              - generic [ref=e274]:
+                - link "Ryzen 9 9950X3D & 9900X3D Sẽ Ra Mắt Vào Cuối Tháng 1-2025" [ref=e275] [cursor=pointer]:
+                  - /url: /ryzen-9-9950x3d-9900x3d-sap-ra-mat.html
+                  - img "Ryzen 9 9950X3D & 9900X3D Sẽ Ra Mắt Vào Cuối Tháng 1-2025" [ref=e276]
+                - generic [ref=e277]:
+                  - heading "Ryzen 9 9950X3D & 9900X3D Sẽ Ra Mắt Vào Cuối Tháng 1-2025" [level=3] [ref=e278]:
+                    - link "Ryzen 9 9950X3D & 9900X3D Sẽ Ra Mắt Vào Cuối Tháng 1-2025" [ref=e279] [cursor=pointer]:
+                      - /url: /ryzen-9-9950x3d-9900x3d-sap-ra-mat.html
+                  - generic [ref=e280]: Dự kiến 9950X3D sẽ nhanh hơn 7950X3D tới 64%!
+                  - generic [ref=e281]:
+                    - generic [ref=e282]:
+                      - generic [ref=e283]: 
+                      - text: 28-11-2024, 3:15 pm
+                    - generic [ref=e284]:
+                      - generic [ref=e285]: 
+                      - text: "301"
+              - generic [ref=e286]:
+                - link "CPU Ryzen 7 9800X3D Bị Làm Giả" [ref=e287] [cursor=pointer]:
+                  - /url: /cpu-ryzen-7-9800x3d-bi-lam-gia.html
+                  - img "CPU Ryzen 7 9800X3D Bị Làm Giả" [ref=e288]
+                - generic [ref=e289]:
+                  - heading "CPU Ryzen 7 9800X3D Bị Làm Giả" [level=3] [ref=e290]:
+                    - link "CPU Ryzen 7 9800X3D Bị Làm Giả" [ref=e291] [cursor=pointer]:
+                      - /url: /cpu-ryzen-7-9800x3d-bi-lam-gia.html
+                  - generic [ref=e292]: Chỉ sau hơn một tuần ra mắt, CPU Ryzen 7 9800X3D hàng giả đã xuất hiện trên thị trường.
+                  - generic [ref=e293]:
+                    - generic [ref=e294]:
+                      - generic [ref=e295]: 
+                      - text: 18-11-2024, 2:31 pm
+                    - generic [ref=e296]:
+                      - generic [ref=e297]: 
+                      - text: "162"
+              - generic [ref=e298]:
+                - 'link "Intel Bại Trận: CPU AMD Ryzen 7 9800X3D Cháy Hàng Toàn Cầu" [ref=e299] [cursor=pointer]':
+                  - /url: /cpu-amd-ryzen-7-9800x3d-chay-hang.html
+                  - 'img "Intel Bại Trận: CPU AMD Ryzen 7 9800X3D Cháy Hàng Toàn Cầu" [ref=e300]'
+                - generic [ref=e301]:
+                  - 'heading "Intel Bại Trận: CPU AMD Ryzen 7 9800X3D Cháy Hàng Toàn Cầu" [level=3] [ref=e302]':
+                    - 'link "Intel Bại Trận: CPU AMD Ryzen 7 9800X3D Cháy Hàng Toàn Cầu" [ref=e303] [cursor=pointer]':
+                      - /url: /cpu-amd-ryzen-7-9800x3d-chay-hang.html
+                  - generic [ref=e304]: CPU AMD Ryzen 7 9800X3D vừa mới ra mắt đã gây sốt vì hiệu năng quá ấn tượng khiến dân tình đổ xô đi mua.
+                  - generic [ref=e305]:
+                    - generic [ref=e306]:
+                      - generic [ref=e307]: 
+                      - text: 16-11-2024, 1:51 pm
+                    - generic [ref=e308]:
+                      - generic [ref=e309]: 
+                      - text: "313"
+              - generic [ref=e310]:
+                - link "AMD Ryzen 7 9800X3D - CPU Nhanh Nhất Dành Cho Game Thủ" [ref=e311] [cursor=pointer]:
+                  - /url: /amd-ryzen-7-9800x3d-cpu-nhanh-nhat-danh-cho-game-thu.html
+                  - img "AMD Ryzen 7 9800X3D - CPU Nhanh Nhất Dành Cho Game Thủ" [ref=e312]
+                - generic [ref=e313]:
+                  - heading "AMD Ryzen 7 9800X3D - CPU Nhanh Nhất Dành Cho Game Thủ" [level=3] [ref=e314]:
+                    - link "AMD Ryzen 7 9800X3D - CPU Nhanh Nhất Dành Cho Game Thủ" [ref=e315] [cursor=pointer]:
+                      - /url: /amd-ryzen-7-9800x3d-cpu-nhanh-nhat-danh-cho-game-thu.html
+                  - generic [ref=e316]: AMD Ryzen 7 9800X3D, CPU chơi game nhanh nhất thế giới được tăng cường bởi 3D V-Cache.
+                  - generic [ref=e317]:
+                    - generic [ref=e318]:
+                      - generic [ref=e319]: 
+                      - text: 08-11-2024, 1:52 pm
+                    - generic [ref=e320]:
+                      - generic [ref=e321]: 
+                      - text: "286"
+              - generic [ref=e322]:
+                - link "Kỷ Nguyên Hoàng Kim Của Intel Đã Kết Thúc, NVIDIA Chính Thức “Soán Ngôi Vương” trong Chỉ Số Dow Jones" [ref=e323] [cursor=pointer]:
+                  - /url: /ky-nguyen-hoang-kim-cua-intel-da-ket-thuc-nvidia-chinh-thuc-soan-ngoi-vuong-trong-chi-so-dow-jones.html
+                  - img "Kỷ Nguyên Hoàng Kim Của Intel Đã Kết Thúc, NVIDIA Chính Thức “Soán Ngôi Vương” trong Chỉ Số Dow Jones" [ref=e324]
+                - generic [ref=e325]:
+                  - heading "Kỷ Nguyên Hoàng Kim Của Intel Đã Kết Thúc, NVIDIA Chính Thức “Soán Ngôi Vương” trong Chỉ Số Dow Jones" [level=3] [ref=e326]:
+                    - link "Kỷ Nguyên Hoàng Kim Của Intel Đã Kết Thúc, NVIDIA Chính Thức “Soán Ngôi Vương” trong Chỉ Số Dow Jones" [ref=e327] [cursor=pointer]:
+                      - /url: /ky-nguyen-hoang-kim-cua-intel-da-ket-thuc-nvidia-chinh-thuc-soan-ngoi-vuong-trong-chi-so-dow-jones.html
+                  - generic [ref=e328]: NVIDIA chính thức thay thế Intel trong chỉ số Dow Jones, đánh dấu sự chuyển giao quyền lực trong ngành công nghệ.
+                  - generic [ref=e329]:
+                    - generic [ref=e330]:
+                      - generic [ref=e331]: 
+                      - text: 05-11-2024, 10:28 am
+                    - generic [ref=e332]:
+                      - generic [ref=e333]: 
+                      - text: "225"
+      - generic [ref=e334]:
+        - heading "Sản phẩm tương tự" [level=2] [ref=e335]
+        - generic [ref=e337]:
+          - generic [ref=e339]:
+            - generic [ref=e341]:
+              - link "Ổ cứng SSD Lexar NM100 128GB M.2 2280" [ref=e342] [cursor=pointer]:
+                - /url: /o-cung-ssd-lexar-nm100-128gb.html
+                - img "Ổ cứng SSD Lexar NM100 128GB M.2 2280" [ref=e343]
+              - generic [ref=e344]:
+                - link "Ổ cứng SSD Lexar NM100 128GB M.2 2280" [ref=e345] [cursor=pointer]:
+                  - /url: /o-cung-ssd-lexar-nm100-128gb.html
+                - generic [ref=e348]: 0 đánh giá
+                - generic [ref=e349]:
+                  - deletion [ref=e350]: 699.000 đ
+                  - generic [ref=e351]:
+                    - generic [ref=e352]: 479.000đ
+                    - generic [ref=e353]: "-32%"
+            - generic [ref=e355]:
+              - link "Bo Mạch Chủ ASUS PRIME Z790M-PLUS D4-CSM" [ref=e356] [cursor=pointer]:
+                - /url: /bo-mach-chu-asus-prime-z790m-plus-d4-csm.html
+                - img "Bo Mạch Chủ ASUS PRIME Z790M-PLUS D4-CSM" [ref=e357]
+              - generic [ref=e358]:
+                - link "Bo Mạch Chủ ASUS PRIME Z790M-PLUS D4-CSM" [ref=e359] [cursor=pointer]:
+                  - /url: /bo-mach-chu-asus-prime-z790m-plus-d4-csm.html
+                - generic [ref=e362]: 0 đánh giá
+                - generic [ref=e363]:
+                  - deletion [ref=e364]: 7.250.000 đ
+                  - generic [ref=e365]:
+                    - generic [ref=e366]: 6.790.000đ
+                    - generic [ref=e367]: "-7%"
+            - generic [ref=e369]:
+              - link "Bo Mạch Chủ Asus ROG MAXIMUS Z790 Apex" [ref=e370] [cursor=pointer]:
+                - /url: /bo-mach-chu-asus-rog-maximus-z790-apex.html
+                - img "Bo Mạch Chủ Asus ROG MAXIMUS Z790 Apex" [ref=e371]
+              - generic [ref=e372]:
+                - link "Bo Mạch Chủ Asus ROG MAXIMUS Z790 Apex" [ref=e373] [cursor=pointer]:
+                  - /url: /bo-mach-chu-asus-rog-maximus-z790-apex.html
+                - generic [ref=e376]: 0 đánh giá
+                - generic [ref=e377]:
+                  - deletion [ref=e378]: 19.880.000 đ
+                  - generic [ref=e379]:
+                    - generic [ref=e380]: 16.790.000đ
+                    - generic [ref=e381]: "-16%"
+            - generic [ref=e383]:
+              - link "Bo Mạch Chủ Asus ROG MAXIMUS Z790 HERO" [ref=e384] [cursor=pointer]:
+                - /url: /bo-mach-chu-asus-rog-maximus-z790-hero.html
+                - img "Bo Mạch Chủ Asus ROG MAXIMUS Z790 HERO" [ref=e385]
+              - generic [ref=e386]:
+                - link "Bo Mạch Chủ Asus ROG MAXIMUS Z790 HERO" [ref=e387] [cursor=pointer]:
+                  - /url: /bo-mach-chu-asus-rog-maximus-z790-hero.html
+                - generic [ref=e390]: 0 đánh giá
+                - generic [ref=e391]:
+                  - deletion [ref=e392]: 19.880.000 đ
+                  - generic [ref=e393]:
+                    - generic [ref=e394]: 16.290.000đ
+                    - generic [ref=e395]: "-19%"
+            - generic [ref=e397]:
+              - link "CPU Intel Core Ultra 9 285KF Up 5.7 GHz/ 24 Nhân 24 Luồng/ Arrow Lake-S" [ref=e398] [cursor=pointer]:
+                - /url: /cpu-intel-core-ultra-9-285kf.html
+                - img "CPU Intel Core Ultra 9 285KF Up 5.7 GHz/ 24 Nhân 24 Luồng/ Arrow Lake-S" [ref=e399]
+              - generic [ref=e400]:
+                - link "CPU Intel Core Ultra 9 285KF Up 5.7 GHz/ 24 Nhân 24 Luồng/ Arrow Lake-S" [ref=e401] [cursor=pointer]:
+                  - /url: /cpu-intel-core-ultra-9-285kf.html
+                - generic [ref=e404]: 2 đánh giá
+                - generic [ref=e405]:
+                  - deletion [ref=e406]: 16.490.000 đ
+                  - generic [ref=e407]:
+                    - generic [ref=e408]: 15.490.000đ
+                    - generic [ref=e409]: "-7%"
+            - generic [ref=e411]:
+              - link "Bo Mạch Chủ Asus Prime B760M-K D4" [ref=e412] [cursor=pointer]:
+                - /url: /bo-mach-chu-asus-prime-b760m-k-d4.html
+                - img "Bo Mạch Chủ Asus Prime B760M-K D4" [ref=e413]
+              - generic [ref=e414]:
+                - link "Bo Mạch Chủ Asus Prime B760M-K D4" [ref=e415] [cursor=pointer]:
+                  - /url: /bo-mach-chu-asus-prime-b760m-k-d4.html
+                - generic [ref=e418]: 0 đánh giá
+                - generic [ref=e419]:
+                  - deletion [ref=e420]: 4.110.000 đ
+                  - generic [ref=e421]:
+                    - generic [ref=e422]: 2.379.000đ
+                    - generic [ref=e423]: "-43%"
+            - generic [ref=e425]:
+              - link "Bo Mạch Chủ Asus Prime B760M-A D4" [ref=e426] [cursor=pointer]:
+                - /url: /bo-mach-chu-asus-prime-b760m-a-d4.html
+                - img "Bo Mạch Chủ Asus Prime B760M-A D4" [ref=e427]
+              - generic [ref=e428]:
+                - link "Bo Mạch Chủ Asus Prime B760M-A D4" [ref=e429] [cursor=pointer]:
+                  - /url: /bo-mach-chu-asus-prime-b760m-a-d4.html
+                - generic [ref=e432]: 0 đánh giá
+                - generic [ref=e433]:
+                  - deletion [ref=e434]: 4.680.000 đ
+                  - generic [ref=e435]:
+                    - generic [ref=e436]: 2.790.000đ
+                    - generic [ref=e437]: "-41%"
+            - generic [ref=e439]:
+              - link "Bo Mạch Chủ ASUS ROG CROSSHAIR X670E EXTREME" [ref=e440] [cursor=pointer]:
+                - /url: /bo-mach-chu-asus-rog-crosshair-x670e-extreme.html
+                - img "Bo Mạch Chủ ASUS ROG CROSSHAIR X670E EXTREME" [ref=e441]
+              - generic [ref=e442]:
+                - link "Bo Mạch Chủ ASUS ROG CROSSHAIR X670E EXTREME" [ref=e443] [cursor=pointer]:
+                  - /url: /bo-mach-chu-asus-rog-crosshair-x670e-extreme.html
+                - generic [ref=e446]: 0 đánh giá
+                - generic [ref=e447]:
+                  - deletion [ref=e448]: 26.640.000 đ
+                  - generic [ref=e449]:
+                    - generic [ref=e450]: 25.990.000đ
+                    - generic [ref=e451]: "-3%"
+            - generic [ref=e453]:
+              - link "Bo Mạch Chủ ASUS PROART X670E-CREATOR WIFI" [ref=e454] [cursor=pointer]:
+                - /url: /bo-mach-chu-asus-proart-x670e-creator-wifi.html
+                - img "Bo Mạch Chủ ASUS PROART X670E-CREATOR WIFI" [ref=e455]
+              - generic [ref=e456]:
+                - link "Bo Mạch Chủ ASUS PROART X670E-CREATOR WIFI" [ref=e457] [cursor=pointer]:
+                  - /url: /bo-mach-chu-asus-proart-x670e-creator-wifi.html
+                - generic [ref=e460]: 0 đánh giá
+                - generic [ref=e461]:
+                  - deletion [ref=e462]: 12.990.000 đ
+                  - generic [ref=e463]:
+                    - generic [ref=e464]: 12.690.000đ
+                    - generic [ref=e465]: "-3%"
+            - generic [ref=e467]:
+              - link "Bo Mạch Chủ Asus TUF Gaming B550M-Plus" [ref=e468] [cursor=pointer]:
+                - /url: /bo-mach-chu-asus-tuf-gaming-b550m-plus.html
+                - img "Bo Mạch Chủ Asus TUF Gaming B550M-Plus" [ref=e469]
+              - generic [ref=e470]:
+                - link "Bo Mạch Chủ Asus TUF Gaming B550M-Plus" [ref=e471] [cursor=pointer]:
+                  - /url: /bo-mach-chu-asus-tuf-gaming-b550m-plus.html
+                - generic [ref=e474]: 0 đánh giá
+                - generic [ref=e475]:
+                  - deletion [ref=e476]: 4.090.000 đ
+                  - generic [ref=e477]:
+                    - generic [ref=e478]: 3.090.000đ
+                    - generic [ref=e479]: "-25%"
+          - generic:
+            - button [ref=e480]:
+              - generic [ref=e481]: 
+            - button [ref=e482] [cursor=pointer]:
+              - generic [ref=e483]: 
+    - text:   
+  - generic [ref=e486]:
+    - paragraph [ref=e487]: Sản phẩm đã xem
+    - generic [ref=e489]:
+      - generic [ref=e493]:
+        - link "RAM Laptop Kingston 16GB DDR4 Bus 3200 ( KVR32S22S8/16 )" [ref=e494] [cursor=pointer]:
+          - /url: /ram-laptop-kingston-16gb-ddr4-bus-3200.html
+          - img "RAM Laptop Kingston 16GB DDR4 Bus 3200 ( KVR32S22S8/16 )" [ref=e495]
+        - generic [ref=e496]:
+          - link "RAM Laptop Kingston 16GB DDR4 Bus 3200 ( KVR32S22S8/16 )" [ref=e497] [cursor=pointer]:
+            - /url: /ram-laptop-kingston-16gb-ddr4-bus-3200.html
+          - generic [ref=e500]: 0 đánh giá
+          - generic [ref=e501]:
+            - deletion [ref=e502]: 2.990.000 đ
+            - generic [ref=e503]:
+              - generic [ref=e504]: 2.199.000đ
+              - generic [ref=e505]: "-27%"
+      - text:  
+  - generic [ref=e506]:
+    - generic [ref=e509]:
+      - generic [ref=e510]:
+        - heading "Theo dõi chúng tôi tại" [level=3] [ref=e511]
+        - generic [ref=e512]:
+          - link [ref=e513] [cursor=pointer]:
+            - /url: https://www.facebook.com/tncstore/
+          - link [ref=e515] [cursor=pointer]:
+            - /url: https://www.instagram.com/tncstore_vn/
+          - link [ref=e517] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCvLGkK-wBBaoXwV71Tgx08Q
+          - link [ref=e519] [cursor=pointer]:
+            - /url: https://shopee.vn/tncofficialstore
+      - generic [ref=e521]:
+        - heading "Đăng ký email để nhận tin khuyến mãi" [level=3] [ref=e522]
+        - generic [ref=e523]:
+          - textbox "Nhập email của bạn" [ref=e524]
+          - link "Đăng ký" [ref=e525] [cursor=pointer]:
+            - /url: javascript:;
+    - generic [ref=e527]:
+      - generic [ref=e528]:
+        - generic [ref=e529]:
+          - heading "Danh Mục Sản Phẩm" [level=3] [ref=e530]
+          - generic [ref=e531]:
+            - link "PC Gaming" [ref=e532] [cursor=pointer]:
+              - /url: /gaming-pc.html
+            - link "Laptop Gaming" [ref=e533] [cursor=pointer]:
+              - /url: /gaming-laptop.html
+            - link "VGA NVidia Rtx 5070" [ref=e534] [cursor=pointer]:
+              - /url: /vga-nvidia-rtx-5070.html
+            - link "Ps5 Rẻ nhất Việt Nam" [ref=e535] [cursor=pointer]:
+              - /url: /may-play-station-5.html
+            - link "VGA NVidia Rtx 5060" [ref=e536] [cursor=pointer]:
+              - /url: /vga-rtx-5060.html
+        - generic [ref=e537]:
+          - heading "Thông Tin Chung" [level=3] [ref=e538]
+          - generic [ref=e539]:
+            - link "Giới Thiệu" [ref=e540] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Tuyển Dụng" [ref=e541] [cursor=pointer]:
+              - /url: "#"
+            - link "Tin Tức" [ref=e542] [cursor=pointer]:
+              - /url: /tin-tuc
+            - link "Ý Kiến Khách Hàng" [ref=e543] [cursor=pointer]:
+              - /url: "#"
+            - link "Liên Hệ Hợp Tác" [ref=e544] [cursor=pointer]:
+              - /url: /lien-he
+        - generic [ref=e545]:
+          - heading "Chính Sách" [level=3] [ref=e546]
+          - generic [ref=e547]:
+            - link "Quy Định Chung" [ref=e548] [cursor=pointer]:
+              - /url: "#"
+            - link "Chính Sách Vận Chuyển" [ref=e549] [cursor=pointer]:
+              - /url: /chinh-sach-van-chuyen-tnc-store
+            - link "Chính Sách Bảo Hành" [ref=e550] [cursor=pointer]:
+              - /url: /chinh-sach-va-quy-dinh-bao-hanh-tai-tnc-store
+            - link "Chính Sách Đổi, Trả Hàng" [ref=e551] [cursor=pointer]:
+              - /url: /chinh-sach-doi-tra-lai-hang
+            - link "Chính Sách Cho Doanh Nghiệp" [ref=e552] [cursor=pointer]:
+              - /url: /chinh-sach-cho-doanh-nghiep
+        - generic [ref=e553]:
+          - heading "Thông Tin Hữu Ích" [level=3] [ref=e554]
+          - generic [ref=e555]:
+            - link "Build PC là TNC" [ref=e556] [cursor=pointer]:
+              - /url: https://www.tncstore.vn/buildpc
+            - link "Hướng dẫn Build PC TNC" [ref=e557] [cursor=pointer]:
+              - /url: huong-dan-build-pc-tnc.html
+            - link "Tips Build PC TNC nhiều Khuyến Mại" [ref=e558] [cursor=pointer]:
+              - /url: tips-build-pc-tnc-nhieu-khuyen-mai.html
+            - link "Cách sửa cấu hình mẫu của Build PC TNC" [ref=e559] [cursor=pointer]:
+              - /url: /cach-sua-cau-hinh-mau-cua-build-pc-tnc.html
+            - link "Chính Sách Build PC TNC Cho Doanh Nghiệp" [ref=e560] [cursor=pointer]:
+              - /url: chinh-sach-build-pc-tnc-cho-doanh-nghiep.html
+      - generic [ref=e561]:
+        - iframe [ref=e563]:
+          
+        - generic [ref=e564]:
+          - heading "Công ty TNHH Thương mại & Tin học Tú Nguyệt" [level=3] [ref=e565]
+          - generic [ref=e566]:
+            - paragraph [ref=e567]: "Showroom: 172 Lê Thanh Nghị, Phường Bạch Mai, Hà Nội"
+            - paragraph [ref=e568]:
+              - text: "Tel:"
+              - link "(024) 36288790" [ref=e569] [cursor=pointer]:
+                - /url: tel:02436288790
+              - text: /
+              - link "(086) 830.2123" [ref=e570] [cursor=pointer]:
+                - /url: tel:0868302123
+          - generic [ref=e571]:
+            - paragraph [ref=e572]: "Trung tâm bảo hành: 172 Lê Thanh Nghị, Phường Bạch Mai, Hà Nội"
+            - paragraph [ref=e573]:
+              - text: "Tel:"
+              - link "(098) 978 1468" [ref=e574] [cursor=pointer]:
+                - /url: tel:0989781468
+          - generic [ref=e575]:
+            - paragraph [ref=e576]: "Trụ sở (Không bán hàng): 11 Vũ Thạnh, Phường Ô Chợ Dừa, Hà Nội"
+            - paragraph [ref=e577]:
+              - text: "Tel:"
+              - link "(086) 8302123" [ref=e578] [cursor=pointer]:
+                - /url: tel:0868302123
+            - paragraph [ref=e579]:
+              - text: "Fax:"
+              - link "(024) 36288790" [ref=e580] [cursor=pointer]:
+                - /url: tel:02436288790
+      - generic [ref=e581]:
+        - heading "Hình thức thanh toán" [level=3] [ref=e582]
+        - link [ref=e583] [cursor=pointer]:
+          - /url: "#"
+    - generic [ref=e587]:
+      - paragraph [ref=e588]: © 2020 - Bản quyền của Công ty TNHH Thương mại & Tin học Tú Nguyệt
+      - generic [ref=e589]:
+        - link [ref=e590] [cursor=pointer]:
+          - /url: http://online.gov.vn/Home/WebDetails/63325
+        - link [ref=e592] [cursor=pointer]:
+          - /url: http://online.gov.vn/Home/WebDetails/63325
+  - generic [ref=e602]: Thêm sản phẩm vào giỏ hàng thành công !
+  - link "icon-zalo" [ref=e604] [cursor=pointer]:
+    - /url: https://zalo.me/2645761204946529607
+    - img "icon-zalo" [ref=e605]
+  - generic:
+    - generic [ref=e606]:
+      - link:
+        - /url: ""
+        - img
+    - generic [ref=e607]:
+      - link:
+        - /url: ""
+        - img
+  - iframe [ref=e609]:
+    
+  - generic [ref=e610]:
+    - generic [ref=e612] [cursor=pointer]:
+      - generic [ref=e613]:
+        - img "widget avatar" [ref=e614]
+        - generic [ref=e616]: TNC Store
+      - generic [ref=e617]: Chào mừng Quý khách đến với website của chúng tôi!
+    - img "chat button" [ref=e621] [cursor=pointer]
+```
