@@ -1,0 +1,1080 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link [ref=e3] [cursor=pointer]:
+    - /url: /ad.php?id=308
+  - generic [ref=e4]:
+    - generic [ref=e7]:
+      - link "Tất cả sản phẩm" [ref=e8] [cursor=pointer]:
+        - /url: /sitemap
+        - generic [ref=e10]: Tất cả sản phẩm
+      - link "(086) 830.2123" [ref=e11] [cursor=pointer]:
+        - /url: tel:0868302123
+        - generic [ref=e13]: (086) 830.2123
+      - link "cskh@tncstore.vn" [ref=e14] [cursor=pointer]:
+        - /url: mailto:cskh@tncstore.vn
+        - generic [ref=e16]: cskh@tncstore.vn
+    - generic [ref=e20]:
+      - link "logo" [ref=e21] [cursor=pointer]:
+        - /url: /
+        - img "logo" [ref=e22]
+      - generic [ref=e25]:
+        - link " Tất cả danh mục" [ref=e27] [cursor=pointer]:
+          - /url: javascript:void(0)
+        - textbox "Nhập sản phẩm cần tìm..." [ref=e28]
+        - button "Tìm kiếm" [ref=e29]:
+          - generic [ref=e30]: Tìm kiếm
+      - generic [ref=e32]:
+        - link "Tài khoản" [ref=e33] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e35]: Tài khoản
+        - link "0" [ref=e36] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e38]: "0"
+      - text: 
+    - generic [ref=e41]:
+      - generic [ref=e43]:
+        - generic [ref=e44]: 
+        - generic [ref=e45]: Danh mục sản phẩm
+        - generic [ref=e46]: 
+      - generic [ref=e47]:
+        - link "Build PC" [ref=e48] [cursor=pointer]:
+          - /url: /buildpc
+          - generic [ref=e49]: Build PC
+        - link "PC gaming" [ref=e50] [cursor=pointer]:
+          - /url: /gaming-pc.html
+          - generic [ref=e51]: PC gaming
+        - link "PC Đồ họa - Editor" [ref=e52] [cursor=pointer]:
+          - /url: /pc-do-hoa.html
+          - generic [ref=e53]: PC Đồ họa - Editor
+        - link "Màn hình gaming" [ref=e54] [cursor=pointer]:
+          - /url: /man-hinh-gaming.html
+          - generic [ref=e55]: Màn hình gaming
+        - link "Laptop Gaming" [ref=e56] [cursor=pointer]:
+          - /url: /gaming-laptop.html
+          - generic [ref=e57]: Laptop Gaming
+        - link "PS5 Slim" [ref=e58] [cursor=pointer]:
+          - /url: /may-choi-game-sony-ps5-slim-chinh-hang-cfi-2018a-01.html
+          - generic [ref=e59]: PS5 Slim
+        - link "RTX 5060" [ref=e60] [cursor=pointer]:
+          - /url: /vga-rtx-5060.html
+          - generic [ref=e61]:
+            - text: RTX 5060
+            - img [ref=e62]
+        - link "RTX 5070" [ref=e63] [cursor=pointer]:
+          - /url: /vga-nvidia-rtx-5070.html
+          - generic [ref=e64]: RTX 5070
+        - link "RX 9060" [ref=e65] [cursor=pointer]:
+          - /url: /vga-amd-rx-9060.html
+          - generic [ref=e66]:
+            - text: RX 9060
+            - img [ref=e67]
+        - link "RX 9070" [ref=e68] [cursor=pointer]:
+          - /url: /vga-amd-rx-9070.html
+          - generic [ref=e69]: RX 9070
+        - link "Máy in" [ref=e70] [cursor=pointer]:
+          - /url: /may-in-laser.html
+          - generic [ref=e71]: Máy in
+  - heading "TNC Store - Pc gaming, ps5, ps5 slim, rtx 5060, rtx 5070, laptop gaming, ghế gaming. Giá rẻ, hàng CHẤT trên từng cảm nhận" [level=1]
+  - generic [ref=e72]:
+    - generic [ref=e73]:
+      - generic [ref=e74]:
+        - generic [ref=e76]:
+          - link "Banner CS2" [ref=e78] [cursor=pointer]:
+            - /url: /ad.php?id=442
+            - img "Banner CS2" [ref=e79]
+          - link [ref=e81] [cursor=pointer]:
+            - /url: /ad.php?id=436
+          - link "Build PC hoàn tiền 4%" [ref=e83] [cursor=pointer]:
+            - /url: /ad.php?id=426
+            - img "Build PC hoàn tiền 4%" [ref=e84]
+          - link "Mua Màn Hình Tặng Tiền Mặt" [ref=e86] [cursor=pointer]:
+            - /url: /ad.php?id=432
+            - img "Mua Màn Hình Tặng Tiền Mặt" [ref=e87]
+          - link [ref=e89] [cursor=pointer]:
+            - /url: /ad.php?id=411
+          - link "Mua PC tặng màn hình" [ref=e91] [cursor=pointer]:
+            - /url: /ad.php?id=424
+            - img "Mua PC tặng màn hình" [ref=e92]
+          - link "Bảo Hành" [ref=e94] [cursor=pointer]:
+            - /url: /ad.php?id=428
+            - img "Bảo Hành" [ref=e95]
+          - link [ref=e97] [cursor=pointer]:
+            - /url: /ad.php?id=438
+          - link "Banner CS2" [ref=e99] [cursor=pointer]:
+            - /url: /ad.php?id=442
+            - img "Banner CS2" [ref=e100]
+          - link [ref=e102] [cursor=pointer]:
+            - /url: /ad.php?id=436
+          - link "Build PC hoàn tiền 4%" [ref=e104] [cursor=pointer]:
+            - /url: /ad.php?id=426
+            - img "Build PC hoàn tiền 4%" [ref=e105]
+          - link "Mua Màn Hình Tặng Tiền Mặt" [ref=e107] [cursor=pointer]:
+            - /url: /ad.php?id=432
+            - img "Mua Màn Hình Tặng Tiền Mặt" [ref=e108]
+          - link [ref=e110] [cursor=pointer]:
+            - /url: /ad.php?id=411
+          - link "Mua PC tặng màn hình" [ref=e112] [cursor=pointer]:
+            - /url: /ad.php?id=424
+            - img "Mua PC tặng màn hình" [ref=e113]
+          - link "Bảo Hành" [ref=e115] [cursor=pointer]:
+            - /url: /ad.php?id=428
+            - img "Bảo Hành" [ref=e116]
+          - link [ref=e118] [cursor=pointer]:
+            - /url: /ad.php?id=438
+        - text:  
+      - generic [ref=e123]:
+        - link [ref=e125] [cursor=pointer]:
+          - /url: /media/banner/banner-black-friday-pc-3.jpg
+        - link "Mua PC tặng màn hình" [ref=e127] [cursor=pointer]:
+          - /url: /media/banner/banner-black-friday-pc-3.jpg
+          - img "Mua PC tặng màn hình" [ref=e128]
+        - link "Bảo Hành" [ref=e130] [cursor=pointer]:
+          - /url: /media/banner/banner-black-friday-pc-3.jpg
+          - img "Bảo Hành" [ref=e131]
+        - link [ref=e133] [cursor=pointer]:
+          - /url: /media/banner/banner-black-friday-pc-3.jpg
+        - link "Banner CS2" [ref=e135] [cursor=pointer]:
+          - /url: /media/banner/banner-black-friday-pc-3.jpg
+          - img "Banner CS2" [ref=e136]
+        - link [ref=e138] [cursor=pointer]:
+          - /url: /media/banner/banner-black-friday-pc-3.jpg
+        - link "Build PC hoàn tiền 4%" [ref=e140] [cursor=pointer]:
+          - /url: /media/banner/banner-black-friday-pc-3.jpg
+          - img "Build PC hoàn tiền 4%" [ref=e141]
+        - link "Mua Màn Hình Tặng Tiền Mặt" [ref=e143] [cursor=pointer]:
+          - /url: /media/banner/banner-black-friday-pc-3.jpg
+          - img "Mua Màn Hình Tặng Tiền Mặt" [ref=e144]
+    - generic [ref=e146]:
+      - generic [ref=e147]:
+        - generic [ref=e148]:
+          - heading "Deal giờ vàng" [level=2] [ref=e149]
+          - generic [ref=e151]:
+            - generic [ref=e152]:
+              - generic [ref=e153]: "11"
+              - text: ":"
+            - generic [ref=e154]:
+              - generic [ref=e155]: "31"
+              - text: ":"
+            - generic [ref=e157]: "14"
+        - link "Xem tất cả " [ref=e159] [cursor=pointer]:
+          - /url: /deal
+          - text: Xem tất cả
+          - generic [ref=e160]: 
+      - generic [ref=e162]:
+        - generic [ref=e164]:
+          - generic [ref=e166]:
+            - link "Ghế Gaming Razer Iskur V2 X - Counter-Strike 2 Edition (RZ02-0504CS20-R3M1) Best choice" [ref=e167] [cursor=pointer]:
+              - /url: /ghe-gaming-razer-iskur-v2-x-counter-strike-2-edition.html
+              - img "Ghế Gaming Razer Iskur V2 X - Counter-Strike 2 Edition (RZ02-0504CS20-R3M1)" [ref=e168]
+              - generic [ref=e169]: Best choice
+            - generic [ref=e170]:
+              - link "Ghế Gaming Razer Iskur V2 X - Counter-Strike 2 Edition (RZ02-0504CS20-R3M1)" [ref=e171] [cursor=pointer]:
+                - /url: /ghe-gaming-razer-iskur-v2-x-counter-strike-2-edition.html
+              - generic [ref=e174]: 0 đánh giá
+              - generic [ref=e175]:
+                - deletion [ref=e176]: 14.289.000đ
+                - generic [ref=e177]:
+                  - generic [ref=e178]: 12.990.000đ
+                  - generic [ref=e179]: "-10%"
+              - generic [ref=e181]: "Còn lại: 2"
+          - generic [ref=e183]:
+            - link "Tai Nghe Gaming Razer Blackshark V3 Pro - Counter Strike 2 Edition (RZ04-05400800-R3M1) Best choice" [ref=e184] [cursor=pointer]:
+              - /url: /tai-nghe-gaming-razer-blackshark-v3-pro-counter-strike-2-edition.html
+              - img "Tai Nghe Gaming Razer Blackshark V3 Pro - Counter Strike 2 Edition (RZ04-05400800-R3M1)" [ref=e185]
+              - generic [ref=e186]: Best choice
+            - generic [ref=e187]:
+              - link "Tai Nghe Gaming Razer Blackshark V3 Pro - Counter Strike 2 Edition (RZ04-05400800-R3M1)" [ref=e188] [cursor=pointer]:
+                - /url: /tai-nghe-gaming-razer-blackshark-v3-pro-counter-strike-2-edition.html
+              - generic [ref=e191]: 0 đánh giá
+              - generic [ref=e192]:
+                - deletion [ref=e193]: 9.119.000đ
+                - generic [ref=e194]:
+                  - generic [ref=e195]: 8.290.000đ
+                  - generic [ref=e196]: "-10%"
+              - generic [ref=e198]: "Còn lại: 10"
+          - generic [ref=e200]:
+            - link "Bàn Phím Cơ Razer Huntsman V3 Pro Tenkeyless - Counter-Strike 2 Edition (RZ03-04982100-R3M1) Best choice" [ref=e201] [cursor=pointer]:
+              - /url: /ban-phim-co-razer-huntsman-v3-pro-tenkeyless-counter-strike-2-edition.html
+              - img "Bàn Phím Cơ Razer Huntsman V3 Pro Tenkeyless - Counter-Strike 2 Edition (RZ03-04982100-R3M1)" [ref=e202]
+              - generic [ref=e203]: Best choice
+            - generic [ref=e204]:
+              - link "Bàn Phím Cơ Razer Huntsman V3 Pro Tenkeyless - Counter-Strike 2 Edition (RZ03-04982100-R3M1)" [ref=e205] [cursor=pointer]:
+                - /url: /ban-phim-co-razer-huntsman-v3-pro-tenkeyless-counter-strike-2-edition.html
+              - generic [ref=e208]: 0 đánh giá
+              - generic [ref=e209]:
+                - deletion [ref=e210]: 7.139.000đ
+                - generic [ref=e211]:
+                  - generic [ref=e212]: 6.490.000đ
+                  - generic [ref=e213]: "-10%"
+              - generic [ref=e215]: "Còn lại: 3"
+          - generic [ref=e217]:
+            - link "Bàn Di Chuột Razer Gigantus V2 Lagre - Counter-Strike 2 Edition (RZ02-03333300-R3M1) Best choice" [ref=e218] [cursor=pointer]:
+              - /url: /ban-di-chuot-razer-gigantus-v2-lagre-counter-strike-2-edition.html
+              - img "Bàn Di Chuột Razer Gigantus V2 Lagre - Counter-Strike 2 Edition (RZ02-03333300-R3M1)" [ref=e219]
+              - generic [ref=e220]: Best choice
+            - generic [ref=e221]:
+              - link "Bàn Di Chuột Razer Gigantus V2 Lagre - Counter-Strike 2 Edition (RZ02-03333300-R3M1)" [ref=e222] [cursor=pointer]:
+                - /url: /ban-di-chuot-razer-gigantus-v2-lagre-counter-strike-2-edition.html
+              - generic [ref=e225]: 0 đánh giá
+              - generic [ref=e226]:
+                - deletion [ref=e227]: 1.309.000đ
+                - generic [ref=e228]:
+                  - generic [ref=e229]: 1.190.000đ
+                  - generic [ref=e230]: "-10%"
+              - generic [ref=e232]: "Còn lại: 3"
+          - generic [ref=e234]:
+            - link "Chuột Gaming Razer Viper V3 Pro - Counter-Strike 2 Edition (RZ01-05120800-R3M1) Best choice" [ref=e235] [cursor=pointer]:
+              - /url: /chuot-gaming-razer-viper-v3-pro-counter-strike-2-edition.html
+              - img "Chuột Gaming Razer Viper V3 Pro - Counter-Strike 2 Edition (RZ01-05120800-R3M1)" [ref=e236]
+              - generic [ref=e237]: Best choice
+            - generic [ref=e238]:
+              - link "Chuột Gaming Razer Viper V3 Pro - Counter-Strike 2 Edition (RZ01-05120800-R3M1)" [ref=e239] [cursor=pointer]:
+                - /url: /chuot-gaming-razer-viper-v3-pro-counter-strike-2-edition.html
+              - generic [ref=e242]: 0 đánh giá
+              - generic [ref=e243]:
+                - deletion [ref=e244]: 5.489.000đ
+                - generic [ref=e245]:
+                  - generic [ref=e246]: 4.990.000đ
+                  - generic [ref=e247]: "-10%"
+              - generic [ref=e249]: "Còn lại: 3"
+          - generic [ref=e251]:
+            - link "Màn Hình Gaming Asus XG27ACS 27 Inch/ WQHD/ IPS/ 180Hz/ 1ms Best choice" [ref=e252] [cursor=pointer]:
+              - /url: /man-hinh-gaming-asus-rog-strix-xg27acs.html
+              - img "Màn Hình Gaming Asus XG27ACS 27 Inch/ WQHD/ IPS/ 180Hz/ 1ms" [ref=e253]
+              - generic [ref=e254]: Best choice
+            - generic [ref=e255]:
+              - link "Màn Hình Gaming Asus XG27ACS 27 Inch/ WQHD/ IPS/ 180Hz/ 1ms" [ref=e256] [cursor=pointer]:
+                - /url: /man-hinh-gaming-asus-rog-strix-xg27acs.html
+              - generic [ref=e259]: 50 đánh giá
+              - generic [ref=e260]:
+                - deletion [ref=e261]: 8.290.000đ
+                - generic [ref=e262]:
+                  - generic [ref=e263]: 6.799.000đ
+                  - generic [ref=e264]: "-18%"
+              - generic [ref=e266]: "Còn lại: 2"
+          - generic [ref=e268]:
+            - link "Màn Hình Gaming Samsung Odyssey G4 LS25BG400EEXXV 25 Inch/ FHD/ IPS/ 240Hz/ 1ms Best choice" [ref=e269] [cursor=pointer]:
+              - /url: /man-hinh-samsung-odyssey-g4-ls25bg400eexxv.html
+              - img "Màn Hình Gaming Samsung Odyssey G4 LS25BG400EEXXV 25 Inch/ FHD/ IPS/ 240Hz/ 1ms" [ref=e270]
+              - generic [ref=e271]: Best choice
+            - generic [ref=e272]:
+              - link "Màn Hình Gaming Samsung Odyssey G4 LS25BG400EEXXV 25 Inch/ FHD/ IPS/ 240Hz/ 1ms" [ref=e273] [cursor=pointer]:
+                - /url: /man-hinh-samsung-odyssey-g4-ls25bg400eexxv.html
+              - generic [ref=e276]: 61 đánh giá
+              - generic [ref=e277]:
+                - deletion [ref=e278]: 9.189.000đ
+                - generic [ref=e279]:
+                  - generic [ref=e280]: 4.739.000đ
+                  - generic [ref=e281]: "-49%"
+              - generic [ref=e283]: "Còn lại: 1"
+          - generic [ref=e285]:
+            - link "Màn Hình Asus TUF Gaming VG34WQML5A 34 Inch/ WQHD/ VA/ 250Hz/ 0.5ms Best choice" [ref=e286] [cursor=pointer]:
+              - /url: /man-hinh-asus-tuf-gaming-vg34wqml5a.html
+              - img "Màn Hình Asus TUF Gaming VG34WQML5A 34 Inch/ WQHD/ VA/ 250Hz/ 0.5ms" [ref=e287]
+              - generic [ref=e288]: Best choice
+            - generic [ref=e289]:
+              - link "Màn Hình Asus TUF Gaming VG34WQML5A 34 Inch/ WQHD/ VA/ 250Hz/ 0.5ms" [ref=e290] [cursor=pointer]:
+                - /url: /man-hinh-asus-tuf-gaming-vg34wqml5a.html
+              - generic [ref=e293]: 0 đánh giá
+              - generic [ref=e294]:
+                - deletion [ref=e295]: 10.469.000đ
+                - generic [ref=e296]:
+                  - generic [ref=e297]: 8.939.000đ
+                  - generic [ref=e298]: "-15%"
+              - generic [ref=e300]: "Còn lại: 1"
+          - generic [ref=e302]:
+            - link "Màn Hình MSI MPG 274URDFW E16M 27 inch/ IPS/ 4K/ 160Hz/ 0.5ms Best choice" [ref=e303] [cursor=pointer]:
+              - /url: /man-hinh-msi-mpg-274urdfw-e16m.html
+              - img "Màn Hình MSI MPG 274URDFW E16M 27 inch/ IPS/ 4K/ 160Hz/ 0.5ms" [ref=e304]
+              - generic [ref=e305]: Best choice
+            - generic [ref=e306]:
+              - link "Màn Hình MSI MPG 274URDFW E16M 27 inch/ IPS/ 4K/ 160Hz/ 0.5ms" [ref=e307] [cursor=pointer]:
+                - /url: /man-hinh-msi-mpg-274urdfw-e16m.html
+              - generic [ref=e310]: 0 đánh giá
+              - generic [ref=e311]:
+                - deletion [ref=e312]: 13.590.000đ
+                - generic [ref=e313]:
+                  - generic [ref=e314]: 12.739.000đ
+                  - generic [ref=e315]: "-7%"
+              - generic [ref=e317]: "Còn lại: 2"
+          - generic [ref=e319]:
+            - link "Màn Hình Edra EGM24F100H 24 Inch/ FHD/ IPS/ 100Hz/ 1ms Best choice" [ref=e320] [cursor=pointer]:
+              - /url: /man-hinh-edra-egm24f100h.html
+              - img "Màn Hình Edra EGM24F100H 24 Inch/ FHD/ IPS/ 100Hz/ 1ms" [ref=e321]
+              - generic [ref=e322]: Best choice
+            - generic [ref=e323]:
+              - link "Màn Hình Edra EGM24F100H 24 Inch/ FHD/ IPS/ 100Hz/ 1ms" [ref=e324] [cursor=pointer]:
+                - /url: /man-hinh-edra-egm24f100h.html
+              - generic [ref=e327]: 0 đánh giá
+              - generic [ref=e328]:
+                - deletion [ref=e329]: 1.990.000đ
+                - generic [ref=e330]:
+                  - generic [ref=e331]: 1.589.000đ
+                  - generic [ref=e332]: "-21%"
+              - generic [ref=e334]: "Còn lại: 2"
+        - generic:
+          - button [ref=e335]:
+            - generic [ref=e336]: 
+          - button [ref=e337] [cursor=pointer]:
+            - generic [ref=e338]: 
+    - generic [ref=e342]:
+      - generic [ref=e344]:
+        - link [ref=e346] [cursor=pointer]:
+          - /url: /ad.php?id=59
+        - link [ref=e348] [cursor=pointer]:
+          - /url: /ad.php?id=60
+        - link [ref=e350] [cursor=pointer]:
+          - /url: /ad.php?id=61
+        - link [ref=e352] [cursor=pointer]:
+          - /url: /ad.php?id=62
+        - link [ref=e354] [cursor=pointer]:
+          - /url: /ad.php?id=6
+        - link [ref=e356] [cursor=pointer]:
+          - /url: /ad.php?id=7
+        - link [ref=e358] [cursor=pointer]:
+          - /url: /ad.php?id=8
+        - link [ref=e360] [cursor=pointer]:
+          - /url: /ad.php?id=9
+        - link [ref=e362] [cursor=pointer]:
+          - /url: /ad.php?id=59
+        - link [ref=e364] [cursor=pointer]:
+          - /url: /ad.php?id=60
+        - link [ref=e366] [cursor=pointer]:
+          - /url: /ad.php?id=61
+        - link [ref=e368] [cursor=pointer]:
+          - /url: /ad.php?id=62
+        - link [ref=e370] [cursor=pointer]:
+          - /url: /ad.php?id=6
+        - link [ref=e372] [cursor=pointer]:
+          - /url: /ad.php?id=7
+        - link [ref=e374] [cursor=pointer]:
+          - /url: /ad.php?id=8
+        - link [ref=e376] [cursor=pointer]:
+          - /url: /ad.php?id=9
+      - generic:
+        - button [ref=e377] [cursor=pointer]:
+          - generic [ref=e378]: 
+        - button [ref=e379] [cursor=pointer]:
+          - generic [ref=e380]: 
+    - generic [ref=e382]:
+      - heading "Danh mục nổi bật" [level=2] [ref=e383]
+      - generic [ref=e384]:
+        - link "PC GAMING Rẻ nhất Hà Nội PC gaming" [ref=e385] [cursor=pointer]:
+          - /url: /gaming-pc.html
+          - generic [ref=e386]:
+            - generic [ref=e387]: PC GAMING
+            - paragraph [ref=e389]: Rẻ nhất Hà Nội
+          - img "PC gaming" [ref=e391]
+        - link "PC ĐỒ HỌA - VĂN PHÒNG Tối ưu công việc - Tối thiểu giá thành PC đồ họa" [ref=e392] [cursor=pointer]:
+          - /url: /pc-do-hoa.html
+          - generic [ref=e393]:
+            - generic [ref=e394]: PC ĐỒ HỌA - VĂN PHÒNG
+            - paragraph [ref=e396]: Tối ưu công việc - Tối thiểu giá thành
+          - img "PC đồ họa" [ref=e398]
+        - link "MÀN HÌNH MÁY TÍNH Thế giới màn hình giá rẻ màn hình máy tính" [ref=e399] [cursor=pointer]:
+          - /url: /monitor.html
+          - generic [ref=e400]:
+            - generic [ref=e401]: MÀN HÌNH MÁY TÍNH
+            - paragraph [ref=e403]: Thế giới màn hình giá rẻ
+          - img "màn hình máy tính" [ref=e405]
+        - link "VGA - CARD MÀN HÌNH Tổng kho VGA rẻ nhất Hà Nội Bàn phím cơ" [ref=e406] [cursor=pointer]:
+          - /url: /vga-card-man-hinh.html
+          - generic [ref=e407]:
+            - generic [ref=e408]: VGA - CARD MÀN HÌNH
+            - paragraph [ref=e410]: Tổng kho VGA rẻ nhất Hà Nội
+          - img "Bàn phím cơ" [ref=e412]
+        - link "LAPTOP GAMING Giá rẻ - Cấu hình khủng Gaming Laptop" [ref=e413] [cursor=pointer]:
+          - /url: /gaming-laptop.html
+          - generic [ref=e414]:
+            - generic [ref=e415]: LAPTOP GAMING
+            - paragraph [ref=e417]: Giá rẻ - Cấu hình khủng
+          - img "Gaming Laptop" [ref=e419]
+        - link "LAPTOP NHẬP KHẨU Chính hãng - Giá rẻ - Bảo hành 1 đổi 1 Laptop văn phòng" [ref=e420] [cursor=pointer]:
+          - /url: /laptop-nhap-khau.html
+          - generic [ref=e421]:
+            - generic [ref=e422]: LAPTOP NHẬP KHẨU
+            - paragraph [ref=e424]: Chính hãng - Giá rẻ - Bảo hành 1 đổi 1
+          - img "Laptop văn phòng" [ref=e426]
+        - link "NINTENDO SWITCH Giá rẻ - Chơi game tuyệt đỉnh PC Handheld" [ref=e427] [cursor=pointer]:
+          - /url: /may-choi-game-nintendo.html
+          - generic [ref=e428]:
+            - generic [ref=e429]: NINTENDO SWITCH
+            - paragraph [ref=e431]: Giá rẻ - Chơi game tuyệt đỉnh
+          - img "PC Handheld" [ref=e433]
+        - link "GHẾ GAMING Rẻ, hiện đại, tối ưu công năng Ghế công thái học" [ref=e434] [cursor=pointer]:
+          - /url: /ghe-gaming.html
+          - generic [ref=e435]:
+            - generic [ref=e436]: GHẾ GAMING
+            - paragraph [ref=e438]: Rẻ, hiện đại, tối ưu công năng
+          - img "Ghế công thái học" [ref=e440]
+    - generic [ref=e442]:
+      - generic [ref=e443]:
+        - generic [ref=e444]:
+          - heading "PC Gaming nổi bật" [level=2] [ref=e445]
+          - link "Xem tất cả " [ref=e446] [cursor=pointer]:
+            - /url: /gaming-pc.html
+            - text: Xem tất cả
+            - generic [ref=e447]: 
+        - link "PC Gaming" [ref=e449] [cursor=pointer]:
+          - /url: /gaming-pc.html
+          - img "PC Gaming" [ref=e450]
+      - generic [ref=e452]:
+        - generic [ref=e453]:
+          - heading "PC Đồ Họa - Thiết Kế - Edit video nổi bật" [level=2] [ref=e454]
+          - link "Xem tất cả " [ref=e455] [cursor=pointer]:
+            - /url: /pc-do-hoa.html
+            - text: Xem tất cả
+            - generic [ref=e456]: 
+        - link "PC Đồ Họa - Thiết Kế - Edit video" [ref=e458] [cursor=pointer]:
+          - /url: /pc-do-hoa.html
+          - img "PC Đồ Họa - Thiết Kế - Edit video" [ref=e459]
+      - generic [ref=e461]:
+        - generic [ref=e462]:
+          - heading "Laptop - Máy Tính Xách Tay nổi bật" [level=2] [ref=e463]
+          - link "Xem tất cả " [ref=e464] [cursor=pointer]:
+            - /url: /lap-top.html
+            - text: Xem tất cả
+            - generic [ref=e465]: 
+        - link "Laptop - Máy Tính Xách Tay" [ref=e467] [cursor=pointer]:
+          - /url: /lap-top.html
+          - img "Laptop - Máy Tính Xách Tay" [ref=e468]
+      - generic [ref=e470]:
+        - generic [ref=e471]:
+          - heading "Màn Hình Máy Tính nổi bật" [level=2] [ref=e472]
+          - link "Xem tất cả " [ref=e473] [cursor=pointer]:
+            - /url: /monitor.html
+            - text: Xem tất cả
+            - generic [ref=e474]: 
+        - link "Màn Hình Máy Tính" [ref=e476] [cursor=pointer]:
+          - /url: /monitor.html
+          - img "Màn Hình Máy Tính" [ref=e477]
+      - generic [ref=e479]:
+        - generic [ref=e480]:
+          - heading "Máy chơi game - Console nổi bật" [level=2] [ref=e481]
+          - link "Xem tất cả " [ref=e482] [cursor=pointer]:
+            - /url: /may-choi-game.html
+            - text: Xem tất cả
+            - generic [ref=e483]: 
+        - link "Máy chơi game - Console" [ref=e485] [cursor=pointer]:
+          - /url: /may-choi-game.html
+          - img "Máy chơi game - Console" [ref=e486]
+      - generic [ref=e488]:
+        - generic [ref=e489]:
+          - heading "Gaming Gears nổi bật" [level=2] [ref=e490]
+          - link "Xem tất cả " [ref=e491] [cursor=pointer]:
+            - /url: /gaming-gear.html
+            - text: Xem tất cả
+            - generic [ref=e492]: 
+        - link "Gaming Gears" [ref=e494] [cursor=pointer]:
+          - /url: /gaming-gear.html
+          - img "Gaming Gears" [ref=e495]
+    - heading "Chuyên trang khuyến mãi" [level=2] [ref=e499]
+    - generic [ref=e503]:
+      - generic [ref=e506]:
+        - heading "TNC channel" [level=2] [ref=e507]
+        - link "Xem tất cả " [ref=e508] [cursor=pointer]:
+          - /url: /tin-tuc-video
+          - text: Xem tất cả
+          - generic [ref=e509]: 
+      - generic [ref=e512]:
+        - heading "Tin tức" [level=2] [ref=e513]
+        - link "Xem tất cả " [ref=e514] [cursor=pointer]:
+          - /url: /tin-tuc
+          - text: Xem tất cả
+          - generic [ref=e515]: 
+    - generic [ref=e518]:
+      - generic [ref=e519]:
+        - text: Cảm ơn 1.000.000+ KHÁCH HÀNG ĐÃ VÀ ĐANG CHỌN
+        - generic [ref=e520]:
+          - generic [ref=e521]: 
+          - generic [ref=e522]: 
+          - generic [ref=e523]: 
+          - generic [ref=e524]: 
+          - generic [ref=e525]: 
+        - img "logo" [ref=e526]
+      - generic [ref=e528]:
+        - generic [ref=e530]:
+          - link [ref=e532] [cursor=pointer]:
+            - /url: /ad.php?id=94
+          - generic [ref=e533]:
+            - link:
+              - /url: /ad.php?id=95
+          - generic [ref=e534]:
+            - link:
+              - /url: /ad.php?id=96
+          - link [ref=e536] [cursor=pointer]:
+            - /url: /ad.php?id=67
+          - link "Khách hàng tncstore" [ref=e538] [cursor=pointer]:
+            - /url: /ad.php?id=68
+            - img "Khách hàng tncstore" [ref=e539]
+          - link [ref=e541] [cursor=pointer]:
+            - /url: /ad.php?id=94
+          - generic [ref=e542]:
+            - link:
+              - /url: /ad.php?id=95
+          - generic [ref=e543]:
+            - link:
+              - /url: /ad.php?id=96
+          - link [ref=e545] [cursor=pointer]:
+            - /url: /ad.php?id=67
+          - link "Khách hàng tncstore" [ref=e547] [cursor=pointer]:
+            - /url: /ad.php?id=68
+            - img "Khách hàng tncstore" [ref=e548]
+          - link [ref=e550] [cursor=pointer]:
+            - /url: /ad.php?id=94
+        - generic:
+          - button [ref=e551] [cursor=pointer]:
+            - generic [ref=e552]: 
+          - button [ref=e553] [cursor=pointer]:
+            - generic [ref=e554]: 
+    - generic [ref=e556]:
+      - heading "Thương hiệu đồng hành" [level=2] [ref=e557]
+      - generic [ref=e559]:
+        - generic [ref=e561]:
+          - link "Asus" [ref=e563] [cursor=pointer]:
+            - /url: /brand/asus
+            - img "Asus" [ref=e564]
+          - link "Intel" [ref=e566] [cursor=pointer]:
+            - /url: /brand/intel
+            - img "Intel" [ref=e567]
+          - link "AMD" [ref=e569] [cursor=pointer]:
+            - /url: /brand/amd
+            - img "AMD" [ref=e570]
+          - link "Acer" [ref=e572] [cursor=pointer]:
+            - /url: /brand/acer
+            - img "Acer" [ref=e573]
+          - link "Sony" [ref=e575] [cursor=pointer]:
+            - /url: /brand/sony
+            - img "Sony" [ref=e576]
+          - link "LG" [ref=e578] [cursor=pointer]:
+            - /url: /brand/lg
+            - img "LG" [ref=e579]
+          - link "MSI" [ref=e581] [cursor=pointer]:
+            - /url: /brand/msi
+            - img "MSI" [ref=e582]
+          - link "Gigabyte" [ref=e584] [cursor=pointer]:
+            - /url: /brand/gigabyte
+            - img "Gigabyte" [ref=e585]
+          - link "Razer" [ref=e587] [cursor=pointer]:
+            - /url: /brand/razer
+            - img "Razer" [ref=e588]
+          - link "logitech" [ref=e590] [cursor=pointer]:
+            - /url: /brand/logitech
+            - img "logitech" [ref=e591]
+          - link "Lian li" [ref=e593] [cursor=pointer]:
+            - /url: /brand/lianli
+            - img "Lian li" [ref=e594]
+          - link "afox" [ref=e596] [cursor=pointer]:
+            - /url: /brand/afox
+            - img "afox" [ref=e597]
+          - link "apple" [ref=e599] [cursor=pointer]:
+            - /url: /brand/apple
+            - img "apple" [ref=e600]
+          - link "akko" [ref=e602] [cursor=pointer]:
+            - /url: /brand/akko
+            - img "akko" [ref=e603]
+          - link "apacer" [ref=e605] [cursor=pointer]:
+            - /url: /brand/apacer
+            - img "apacer" [ref=e606]
+          - link "aoc" [ref=e608] [cursor=pointer]:
+            - /url: /brand/aoc
+            - img "aoc" [ref=e609]
+          - link "antec" [ref=e611] [cursor=pointer]:
+            - /url: /brand/antec
+            - img "antec" [ref=e612]
+          - link "asrock" [ref=e614] [cursor=pointer]:
+            - /url: /brand/asrock
+            - img "asrock" [ref=e615]
+          - link "aerocool" [ref=e617] [cursor=pointer]:
+            - /url: /brand/aerocool
+            - img "aerocool" [ref=e618]
+          - link "Adata" [ref=e620] [cursor=pointer]:
+            - /url: /brand/adata
+            - img "Adata" [ref=e621]
+          - link "bykski" [ref=e623] [cursor=pointer]:
+            - /url: /brand/bykski
+            - img "bykski" [ref=e624]
+          - link "boxlight" [ref=e626] [cursor=pointer]:
+            - /url: /brand/boxlight
+            - img "boxlight" [ref=e627]
+          - link "brother" [ref=e629] [cursor=pointer]:
+            - /url: /brand/brother
+            - img "brother" [ref=e630]
+          - link "biostar" [ref=e632] [cursor=pointer]:
+            - /url: /brand/biostar
+            - img "biostar" [ref=e633]
+          - link "belkin" [ref=e635] [cursor=pointer]:
+            - /url: /brand/belkin
+            - img "belkin" [ref=e636]
+          - link "bjx" [ref=e638] [cursor=pointer]:
+            - /url: /brand/bjx
+            - img "bjx" [ref=e639]
+          - link "benq" [ref=e641] [cursor=pointer]:
+            - /url: /brand/benq
+            - img "benq" [ref=e642]
+          - link "creative" [ref=e644] [cursor=pointer]:
+            - /url: /brand/creative
+            - img "creative" [ref=e645]
+          - link "cougar" [ref=e647] [cursor=pointer]:
+            - /url: /brand/cougar
+            - img "cougar" [ref=e648]
+          - link "Colorful" [ref=e650] [cursor=pointer]:
+            - /url: /brand/colorful
+            - img "Colorful" [ref=e651]
+          - link "corsair" [ref=e653] [cursor=pointer]:
+            - /url: /brand/corsair
+            - img "corsair" [ref=e654]
+          - link "coolermaster" [ref=e656] [cursor=pointer]:
+            - /url: /brand/coolermaster
+            - img "coolermaster" [ref=e657]
+          - link "canon" [ref=e659] [cursor=pointer]:
+            - /url: /brand/canon
+            - img "canon" [ref=e660]
+          - link "deepcool" [ref=e662] [cursor=pointer]:
+            - /url: /brand/deepcool
+            - img "deepcool" [ref=e663]
+          - link "Dark Flash" [ref=e665] [cursor=pointer]:
+            - /url: /brand/darkflash
+            - img "Dark Flash" [ref=e666]
+          - link "dare u" [ref=e668] [cursor=pointer]:
+            - /url: /brand/dareu
+            - img "dare u" [ref=e669]
+          - link "dxracer" [ref=e671] [cursor=pointer]:
+            - /url: /brand/dxracer
+            - img "dxracer" [ref=e672]
+          - link "d-link" [ref=e674] [cursor=pointer]:
+            - /url: /brand/d-link
+            - img "d-link" [ref=e675]
+          - link "dell" [ref=e677] [cursor=pointer]:
+            - /url: /brand/dell
+            - img "dell" [ref=e678]
+          - link "epson" [ref=e680] [cursor=pointer]:
+            - /url: /brand/epson
+            - img "epson" [ref=e681]
+          - link "epione" [ref=e683] [cursor=pointer]:
+            - /url: /brand/epione
+            - img "epione" [ref=e684]
+          - link "Elgato" [ref=e686] [cursor=pointer]:
+            - /url: /brand/elgato
+            - img "Elgato" [ref=e687]
+          - link "E Dra" [ref=e689] [cursor=pointer]:
+            - /url: /brand/e-dra
+            - img "E Dra" [ref=e690]
+          - link "Edifier" [ref=e692] [cursor=pointer]:
+            - /url: /brand/edifier
+            - img "Edifier" [ref=e693]
+          - link "E Blue" [ref=e695] [cursor=pointer]:
+            - /url: /brand/eblue
+            - img "E Blue" [ref=e696]
+          - link "Fractal Design" [ref=e698] [cursor=pointer]:
+            - /url: /brand/fractaldesign
+            - img "Fractal Design" [ref=e699]
+          - link "FL Esports" [ref=e701] [cursor=pointer]:
+            - /url: /brand/fl-esports
+            - img "FL Esports" [ref=e702]
+          - link "Forgame" [ref=e704] [cursor=pointer]:
+            - /url: /brand/forgame
+            - img "Forgame" [ref=e705]
+          - link "Fuhlen" [ref=e707] [cursor=pointer]:
+            - /url: /brand/fuhlen
+            - img "Fuhlen" [ref=e708]
+          - link "Filco" [ref=e710] [cursor=pointer]:
+            - /url: /brand/filco
+            - img "Filco" [ref=e711]
+          - link "gamemax" [ref=e713] [cursor=pointer]:
+            - /url: /brand/gamemax
+            - img "gamemax" [ref=e714]
+          - link "galax" [ref=e716] [cursor=pointer]:
+            - /url: /brand/galax
+            - img "galax" [ref=e717]
+          - link "geezer" [ref=e719] [cursor=pointer]:
+            - /url: /brand/geezer
+            - img "geezer" [ref=e720]
+          - link "g.skill" [ref=e722] [cursor=pointer]:
+            - /url: /brand/g.skill
+            - img "g.skill" [ref=e723]
+          - link "hyte" [ref=e725] [cursor=pointer]:
+            - /url: /brand/hyte
+            - img "hyte" [ref=e726]
+          - link "hyperwork" [ref=e728] [cursor=pointer]:
+            - /url: /brand/hyperwork
+            - img "hyperwork" [ref=e729]
+          - link "hbada" [ref=e731] [cursor=pointer]:
+            - /url: /brand/hbada
+            - img "hbada" [ref=e732]
+          - link "humanmotion" [ref=e734] [cursor=pointer]:
+            - /url: /brand/humanmotion
+            - img "humanmotion" [ref=e735]
+          - link "hkc" [ref=e737] [cursor=pointer]:
+            - /url: /brand/hkc
+            - img "hkc" [ref=e738]
+          - link "hyperx" [ref=e740] [cursor=pointer]:
+            - /url: /brand/hyperx
+            - img "hyperx" [ref=e741]
+          - link "hynix" [ref=e743] [cursor=pointer]:
+            - /url: /brand/hynix
+            - img "hynix" [ref=e744]
+          - link "hp" [ref=e746] [cursor=pointer]:
+            - /url: /brand/hp
+            - img "hp" [ref=e747]
+          - link "inno3d" [ref=e749] [cursor=pointer]:
+            - /url: /brand/inno3d
+            - img "inno3d" [ref=e750]
+          - link "idcooling" [ref=e752] [cursor=pointer]:
+            - /url: /brand/idcooling
+            - img "idcooling" [ref=e753]
+          - link "jabar" [ref=e755] [cursor=pointer]:
+            - /url: /brand/jabar
+            - img "jabar" [ref=e756]
+          - link "kimtigo" [ref=e758] [cursor=pointer]:
+            - /url: /brand/kimtigo
+            - img "kimtigo" [ref=e759]
+          - link "kenoo" [ref=e761] [cursor=pointer]:
+            - /url: /brand/kenoo
+            - img "kenoo" [ref=e762]
+          - link "klevv" [ref=e764] [cursor=pointer]:
+            - /url: /brand/klevv
+            - img "klevv" [ref=e765]
+          - link "keychron" [ref=e767] [cursor=pointer]:
+            - /url: /brand/keychron
+            - img "keychron" [ref=e768]
+          - link "kaspersky" [ref=e770] [cursor=pointer]:
+            - /url: /brand/kaspersky
+            - img "kaspersky" [ref=e771]
+          - link "kingston" [ref=e773] [cursor=pointer]:
+            - /url: /brand/kingston
+            - img "kingston" [ref=e774]
+          - link "legion" [ref=e776] [cursor=pointer]:
+            - /url: /brand/legion
+            - img "legion" [ref=e777]
+          - link "lexar" [ref=e779] [cursor=pointer]:
+            - /url: /brand/lexar
+            - img "lexar" [ref=e780]
+          - link "linksys" [ref=e782] [cursor=pointer]:
+            - /url: /brand/linksys
+            - img "linksys" [ref=e783]
+          - link "leadtek" [ref=e785] [cursor=pointer]:
+            - /url: /brand/leadtek
+            - img "leadtek" [ref=e786]
+          - link "lenovo" [ref=e788] [cursor=pointer]:
+            - /url: /brand/lenovo
+            - img "lenovo" [ref=e789]
+          - link "liteon" [ref=e791] [cursor=pointer]:
+            - /url: /brand/liteon
+            - img "liteon" [ref=e792]
+          - link "leopold" [ref=e794] [cursor=pointer]:
+            - /url: /brand/leopold
+            - img "leopold" [ref=e795]
+          - link "LG" [ref=e797] [cursor=pointer]:
+            - /url: /brand/lg
+            - img "LG" [ref=e798]
+          - link "lofree" [ref=e800] [cursor=pointer]:
+            - /url: /brand/lofree
+            - img "lofree" [ref=e801]
+          - link "montech" [ref=e803] [cursor=pointer]:
+            - /url: /brand/montech
+            - img "montech" [ref=e804]
+          - link "mik" [ref=e806] [cursor=pointer]:
+            - /url: /brand/mik
+            - img "mik" [ref=e807]
+          - link "manli" [ref=e809] [cursor=pointer]:
+            - /url: /brand/manli
+            - img "manli" [ref=e810]
+          - link "mionix" [ref=e812] [cursor=pointer]:
+            - /url: /brand/mionix
+            - img "mionix" [ref=e813]
+          - link "microsoft" [ref=e815] [cursor=pointer]:
+            - /url: /brand/microsoft
+            - img "microsoft" [ref=e816]
+          - link "microlab" [ref=e818] [cursor=pointer]:
+            - /url: /brand/microlab
+            - img "microlab" [ref=e819]
+          - link "madcatz" [ref=e821] [cursor=pointer]:
+            - /url: /brand/madcatz
+            - img "madcatz" [ref=e822]
+          - link "newmen" [ref=e824] [cursor=pointer]:
+            - /url: /brand/newmen
+            - img "newmen" [ref=e825]
+          - link "noctua" [ref=e827] [cursor=pointer]:
+            - /url: /brand/noctua
+            - img "noctua" [ref=e828]
+          - link "nzxt" [ref=e830] [cursor=pointer]:
+            - /url: /brand/nzxt
+            - img "nzxt" [ref=e831]
+          - link "ocpc" [ref=e833] [cursor=pointer]:
+            - /url: /brand/ocpc
+            - img "ocpc" [ref=e834]
+          - link "orico" [ref=e836] [cursor=pointer]:
+            - /url: /brand/orico
+            - img "orico" [ref=e837]
+          - link "panasonic" [ref=e839] [cursor=pointer]:
+            - /url: /brand/panasonic
+            - img "panasonic" [ref=e840]
+          - link "palit" [ref=e842] [cursor=pointer]:
+            - /url: /brand/palit
+            - img "palit" [ref=e843]
+          - link "pioneer" [ref=e845] [cursor=pointer]:
+            - /url: /brand/pioneer
+            - img "pioneer" [ref=e846]
+          - link "philips" [ref=e848] [cursor=pointer]:
+            - /url: /brand/philips
+            - img "philips" [ref=e849]
+          - link "plextor" [ref=e851] [cursor=pointer]:
+            - /url: /brand/plextor
+            - img "plextor" [ref=e852]
+          - link "quadro" [ref=e854] [cursor=pointer]:
+            - /url: /brand/quadro
+            - img "quadro" [ref=e855]
+          - link "ruijie" [ref=e857] [cursor=pointer]:
+            - /url: /brand/ruijie
+            - img "ruijie" [ref=e858]
+          - link "rapoo" [ref=e860] [cursor=pointer]:
+            - /url: /brand/rapoo
+            - img "rapoo" [ref=e861]
+          - link "roccat" [ref=e863] [cursor=pointer]:
+            - /url: /brand/roccat
+            - img "roccat" [ref=e864]
+          - link "raidmax" [ref=e866] [cursor=pointer]:
+            - /url: /brand/raidmax
+            - img "raidmax" [ref=e867]
+          - link "santak" [ref=e869] [cursor=pointer]:
+            - /url: /brand/santak
+            - img "santak" [ref=e870]
+          - link "sihoo" [ref=e872] [cursor=pointer]:
+            - /url: /brand/sihoo
+            - img "sihoo" [ref=e873]
+          - link "sapphire" [ref=e875] [cursor=pointer]:
+            - /url: /brand/sapphire
+            - img "sapphire" [ref=e876]
+          - link "silverstone" [ref=e878] [cursor=pointer]:
+            - /url: /brand/silverstone
+            - img "silverstone" [ref=e879]
+          - link "siliconpower" [ref=e881] [cursor=pointer]:
+            - /url: /brand/siliconpower
+            - img "siliconpower" [ref=e882]
+          - link "sharkoon" [ref=e884] [cursor=pointer]:
+            - /url: /brand/sharkoon
+            - img "sharkoon" [ref=e885]
+          - link "sades" [ref=e887] [cursor=pointer]:
+            - /url: /brand/sades
+            - img "sades" [ref=e888]
+          - link "sennheiser" [ref=e890] [cursor=pointer]:
+            - /url: /brand/sennheiser
+            - img "sennheiser" [ref=e891]
+          - link "sandisk" [ref=e893] [cursor=pointer]:
+            - /url: /brand/sandisk
+            - img "sandisk" [ref=e894]
+          - link "samsung" [ref=e896] [cursor=pointer]:
+            - /url: /brand/samsung
+            - img "samsung" [ref=e897]
+          - link "seagate" [ref=e899] [cursor=pointer]:
+            - /url: /seagate
+            - img "seagate" [ref=e900]
+          - link "steelseries" [ref=e902] [cursor=pointer]:
+            - /url: /brand/steelseries
+            - img "steelseries" [ref=e903]
+          - link "thronmax" [ref=e905] [cursor=pointer]:
+            - /url: /brand/thronmax
+            - img "thronmax" [ref=e906]
+          - link "teamgroup" [ref=e908] [cursor=pointer]:
+            - /url: /brand/teamgroup
+            - img "teamgroup" [ref=e909]
+          - link "toshiba" [ref=e911] [cursor=pointer]:
+            - /url: /brand/toshiba
+            - img "toshiba" [ref=e912]
+          - link "tecware" [ref=e914] [cursor=pointer]:
+            - /url: /brand/tecware
+            - img "tecware" [ref=e915]
+          - link "thermaltake" [ref=e917] [cursor=pointer]:
+            - /url: /brand/thermaltake
+            - img "thermaltake" [ref=e918]
+          - link "thermalright" [ref=e920] [cursor=pointer]:
+            - /url: /brand/thermalright
+            - img "thermalright" [ref=e921]
+          - link "tp-link" [ref=e923] [cursor=pointer]:
+            - /url: /brand/tp-link
+            - img "tp-link" [ref=e924]
+          - link "tnc business" [ref=e926] [cursor=pointer]:
+            - /url: /brand/tnc-business
+            - img "tnc business" [ref=e927]
+          - link "tnc gaming" [ref=e929] [cursor=pointer]:
+            - /url: /brand/tnc-gaming
+            - img "tnc gaming" [ref=e930]
+          - link "ugreen" [ref=e932] [cursor=pointer]:
+            - /url: /brand/ugreen
+            - img "ugreen" [ref=e933]
+          - link "vsp" [ref=e935] [cursor=pointer]:
+            - /url: /brand/vsp
+            - img "vsp" [ref=e936]
+          - link "v-color" [ref=e938] [cursor=pointer]:
+            - /url: /brand/v-color
+            - img "v-color" [ref=e939]
+          - link "vive" [ref=e941] [cursor=pointer]:
+            - /url: /brand/vive
+            - img "vive" [ref=e942]
+          - link "varmilo" [ref=e944] [cursor=pointer]:
+            - /url: /brand/varmilo
+            - img "varmilo" [ref=e945]
+          - link "vitra" [ref=e947] [cursor=pointer]:
+            - /url: /brand/vitra
+            - img "vitra" [ref=e948]
+          - link "viewsonic" [ref=e950] [cursor=pointer]:
+            - /url: /brand/viewsonic
+            - img "viewsonic" [ref=e951]
+          - link "western-digital" [ref=e953] [cursor=pointer]:
+            - /url: /brand/westen-digital
+            - img "western-digital" [ref=e954]
+          - link "xiaomi" [ref=e956] [cursor=pointer]:
+            - /url: /brand/xiaomi
+            - img "xiaomi" [ref=e957]
+          - link "xigmatek" [ref=e959] [cursor=pointer]:
+            - /url: /brand/xigmatek
+            - img "xigmatek" [ref=e960]
+          - link "zidli" [ref=e962] [cursor=pointer]:
+            - /url: /brand/zidli
+            - img "zidli" [ref=e963]
+          - link "zadez" [ref=e965] [cursor=pointer]:
+            - /url: /brand/zadez
+            - img "zadez" [ref=e966]
+          - link "zotac" [ref=e968] [cursor=pointer]:
+            - /url: /brand/zotac
+            - img "zotac" [ref=e969]
+        - text:  
+  - generic [ref=e970]:
+    - generic [ref=e973]:
+      - generic [ref=e974]:
+        - heading "Theo dõi chúng tôi tại" [level=3] [ref=e975]
+        - generic [ref=e976]:
+          - link [ref=e977] [cursor=pointer]:
+            - /url: https://www.facebook.com/tncstore/
+          - link [ref=e979] [cursor=pointer]:
+            - /url: https://www.instagram.com/tncstore_vn/
+          - link [ref=e981] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCvLGkK-wBBaoXwV71Tgx08Q
+          - link [ref=e983] [cursor=pointer]:
+            - /url: https://shopee.vn/tncofficialstore
+      - generic [ref=e985]:
+        - heading "Đăng ký email để nhận tin khuyến mãi" [level=3] [ref=e986]
+        - generic [ref=e987]:
+          - textbox "Nhập email của bạn" [ref=e988]
+          - link "Đăng ký" [ref=e989] [cursor=pointer]:
+            - /url: javascript:;
+    - generic [ref=e991]:
+      - generic [ref=e992]:
+        - generic [ref=e993]:
+          - heading "Danh Mục Sản Phẩm" [level=3] [ref=e994]
+          - generic [ref=e995]:
+            - link "PC Gaming" [ref=e996] [cursor=pointer]:
+              - /url: /gaming-pc.html
+            - link "Laptop Gaming" [ref=e997] [cursor=pointer]:
+              - /url: /gaming-laptop.html
+            - link "VGA NVidia Rtx 5070" [ref=e998] [cursor=pointer]:
+              - /url: /vga-nvidia-rtx-5070.html
+            - link "Ps5 Rẻ nhất Việt Nam" [ref=e999] [cursor=pointer]:
+              - /url: /may-play-station-5.html
+            - link "VGA NVidia Rtx 5060" [ref=e1000] [cursor=pointer]:
+              - /url: /vga-rtx-5060.html
+        - generic [ref=e1001]:
+          - heading "Thông Tin Chung" [level=3] [ref=e1002]
+          - generic [ref=e1003]:
+            - link "Giới Thiệu" [ref=e1004] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Tuyển Dụng" [ref=e1005] [cursor=pointer]:
+              - /url: "#"
+            - link "Tin Tức" [ref=e1006] [cursor=pointer]:
+              - /url: /tin-tuc
+            - link "Ý Kiến Khách Hàng" [ref=e1007] [cursor=pointer]:
+              - /url: "#"
+            - link "Liên Hệ Hợp Tác" [ref=e1008] [cursor=pointer]:
+              - /url: /lien-he
+        - generic [ref=e1009]:
+          - heading "Chính Sách" [level=3] [ref=e1010]
+          - generic [ref=e1011]:
+            - link "Quy Định Chung" [ref=e1012] [cursor=pointer]:
+              - /url: "#"
+            - link "Chính Sách Vận Chuyển" [ref=e1013] [cursor=pointer]:
+              - /url: /chinh-sach-van-chuyen-tnc-store
+            - link "Chính Sách Bảo Hành" [ref=e1014] [cursor=pointer]:
+              - /url: /chinh-sach-va-quy-dinh-bao-hanh-tai-tnc-store
+            - link "Chính Sách Đổi, Trả Hàng" [ref=e1015] [cursor=pointer]:
+              - /url: /chinh-sach-doi-tra-lai-hang
+            - link "Chính Sách Cho Doanh Nghiệp" [ref=e1016] [cursor=pointer]:
+              - /url: /chinh-sach-cho-doanh-nghiep
+        - generic [ref=e1017]:
+          - heading "Thông Tin Hữu Ích" [level=3] [ref=e1018]
+          - generic [ref=e1019]:
+            - link "Build PC là TNC" [ref=e1020] [cursor=pointer]:
+              - /url: https://www.tncstore.vn/buildpc
+            - link "Hướng dẫn Build PC TNC" [ref=e1021] [cursor=pointer]:
+              - /url: huong-dan-build-pc-tnc.html
+            - link "Tips Build PC TNC nhiều Khuyến Mại" [ref=e1022] [cursor=pointer]:
+              - /url: tips-build-pc-tnc-nhieu-khuyen-mai.html
+            - link "Cách sửa cấu hình mẫu của Build PC TNC" [ref=e1023] [cursor=pointer]:
+              - /url: /cach-sua-cau-hinh-mau-cua-build-pc-tnc.html
+            - link "Chính Sách Build PC TNC Cho Doanh Nghiệp" [ref=e1024] [cursor=pointer]:
+              - /url: chinh-sach-build-pc-tnc-cho-doanh-nghiep.html
+      - generic [ref=e1025]:
+        - iframe [ref=e1027]:
+          
+        - generic [ref=e1028]:
+          - heading "Công ty TNHH Thương mại & Tin học Tú Nguyệt" [level=3] [ref=e1029]
+          - generic [ref=e1030]:
+            - paragraph [ref=e1031]: "Showroom: 172 Lê Thanh Nghị, Phường Bạch Mai, Hà Nội"
+            - paragraph [ref=e1032]:
+              - text: "Tel:"
+              - link "(024) 36288790" [ref=e1033] [cursor=pointer]:
+                - /url: tel:02436288790
+              - text: /
+              - link "(086) 830.2123" [ref=e1034] [cursor=pointer]:
+                - /url: tel:0868302123
+          - generic [ref=e1035]:
+            - paragraph [ref=e1036]: "Trung tâm bảo hành: 172 Lê Thanh Nghị, Phường Bạch Mai, Hà Nội"
+            - paragraph [ref=e1037]:
+              - text: "Tel:"
+              - link "(098) 978 1468" [ref=e1038] [cursor=pointer]:
+                - /url: tel:0989781468
+          - generic [ref=e1039]:
+            - paragraph [ref=e1040]: "Trụ sở (Không bán hàng): 11 Vũ Thạnh, Phường Ô Chợ Dừa, Hà Nội"
+            - paragraph [ref=e1041]:
+              - text: "Tel:"
+              - link "(086) 8302123" [ref=e1042] [cursor=pointer]:
+                - /url: tel:0868302123
+            - paragraph [ref=e1043]:
+              - text: "Fax:"
+              - link "(024) 36288790" [ref=e1044] [cursor=pointer]:
+                - /url: tel:02436288790
+      - generic [ref=e1045]:
+        - heading "Hình thức thanh toán" [level=3] [ref=e1046]
+        - link [ref=e1047] [cursor=pointer]:
+          - /url: "#"
+    - generic [ref=e1051]:
+      - paragraph [ref=e1052]: © 2020 - Bản quyền của Công ty TNHH Thương mại & Tin học Tú Nguyệt
+      - generic [ref=e1053]:
+        - link [ref=e1054] [cursor=pointer]:
+          - /url: http://online.gov.vn/Home/WebDetails/63325
+        - link [ref=e1056] [cursor=pointer]:
+          - /url: http://online.gov.vn/Home/WebDetails/63325
+  - link "icon-zalo" [ref=e1059] [cursor=pointer]:
+    - /url: https://zalo.me/2645761204946529607
+    - img "icon-zalo" [ref=e1060]
+  - generic:
+    - generic [ref=e1061]:
+      - link:
+        - /url: ""
+        - img
+    - generic [ref=e1062]:
+      - link:
+        - /url: ""
+        - img
+  - generic [ref=e1063]:
+    - generic [ref=e1065] [cursor=pointer]:
+      - generic [ref=e1066]:
+        - img "widget avatar" [ref=e1067]
+        - generic [ref=e1069]: TNC Store
+      - generic [ref=e1071]: Gửi 1 đính kèm
+    - generic [ref=e1072] [cursor=pointer]:
+      - img "chat button" [ref=e1075]
+      - generic [ref=e1076]: "1"
+```
