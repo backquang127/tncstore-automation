@@ -1,0 +1,668 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - link [ref=e3] [cursor=pointer]:
+    - /url: /ad.php?id=308
+  - generic [ref=e4]:
+    - generic [ref=e7]:
+      - link "Tất cả sản phẩm" [ref=e8] [cursor=pointer]:
+        - /url: /sitemap
+        - generic [ref=e10]: Tất cả sản phẩm
+      - link "(086) 830.2123" [ref=e11] [cursor=pointer]:
+        - /url: tel:0868302123
+        - generic [ref=e13]: (086) 830.2123
+      - link "cskh@tncstore.vn" [ref=e14] [cursor=pointer]:
+        - /url: mailto:cskh@tncstore.vn
+        - generic [ref=e16]: cskh@tncstore.vn
+    - generic [ref=e20]:
+      - link "logo" [ref=e21] [cursor=pointer]:
+        - /url: /
+        - img "logo" [ref=e22]
+      - generic [ref=e25]:
+        - link " Tất cả danh mục" [ref=e27] [cursor=pointer]:
+          - /url: javascript:void(0)
+        - textbox "Nhập sản phẩm cần tìm..." [ref=e28]
+        - button "Tìm kiếm" [ref=e29]:
+          - generic [ref=e30]: Tìm kiếm
+      - generic [ref=e32]:
+        - link "Tài khoản" [ref=e33] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e35]: Tài khoản
+        - link "1" [ref=e36] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e38]: "1"
+      - text: 
+    - generic [ref=e41]:
+      - generic [ref=e43]:
+        - generic [ref=e44]: 
+        - generic [ref=e45]: Danh mục sản phẩm
+        - generic [ref=e46]: 
+      - generic [ref=e47]:
+        - link "Build PC" [ref=e48] [cursor=pointer]:
+          - /url: /buildpc
+          - generic [ref=e49]: Build PC
+        - link "PC gaming" [ref=e50] [cursor=pointer]:
+          - /url: /gaming-pc.html
+          - generic [ref=e51]: PC gaming
+        - link "PC Đồ họa - Editor" [ref=e52] [cursor=pointer]:
+          - /url: /pc-do-hoa.html
+          - generic [ref=e53]: PC Đồ họa - Editor
+        - link "Màn hình gaming" [ref=e54] [cursor=pointer]:
+          - /url: /man-hinh-gaming.html
+          - generic [ref=e55]: Màn hình gaming
+        - link "Laptop Gaming" [ref=e56] [cursor=pointer]:
+          - /url: /gaming-laptop.html
+          - generic [ref=e57]: Laptop Gaming
+        - link "PS5 Slim" [ref=e58] [cursor=pointer]:
+          - /url: /may-choi-game-sony-ps5-slim-chinh-hang-cfi-2018a-01.html
+          - generic [ref=e59]: PS5 Slim
+        - link "RTX 5060" [ref=e60] [cursor=pointer]:
+          - /url: /vga-rtx-5060.html
+          - generic [ref=e61]:
+            - text: RTX 5060
+            - img [ref=e62]
+        - link "RTX 5070" [ref=e63] [cursor=pointer]:
+          - /url: /vga-nvidia-rtx-5070.html
+          - generic [ref=e64]: RTX 5070
+        - link "RX 9060" [ref=e65] [cursor=pointer]:
+          - /url: /vga-amd-rx-9060.html
+          - generic [ref=e66]:
+            - text: RX 9060
+            - img [ref=e67]
+        - link "RX 9070" [ref=e68] [cursor=pointer]:
+          - /url: /vga-amd-rx-9070.html
+          - generic [ref=e69]: RX 9070
+        - link "Máy in" [ref=e70] [cursor=pointer]:
+          - /url: /may-in-laser.html
+          - generic [ref=e71]: Máy in
+  - generic [ref=e72]:
+    - generic [ref=e73]:
+      - list [ref=e74]:
+        - listitem [ref=e75]:
+          - link " Trang chủ":
+            - /url: /
+            - generic [ref=e76] [cursor=pointer]:
+              - generic [ref=e77]: 
+              - text: Trang chủ
+          - generic [ref=e78]: 
+        - listitem [ref=e79]:
+          - link "Gaming Gears ":
+            - /url: /gaming-gear.html
+            - generic [ref=e80] [cursor=pointer]: Gaming Gears
+            - generic [ref=e81] [cursor=pointer]: 
+        - listitem [ref=e82]:
+          - link "Bàn di chuột":
+            - /url: /ban-di-chuot.html
+            - generic [ref=e83] [cursor=pointer]: Bàn di chuột
+            - text: 
+      - generic [ref=e86]:
+        - generic [ref=e87]:
+          - link "Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed)" [ref=e89] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - img "Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed)" [ref=e90]
+          - generic [ref=e91]:
+            - link "Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed)" [ref=e92] [cursor=pointer]:
+              - /url: /media/product/12556-ban-di-chuot-pulsar-paraglide-mouse-pad-xl-orange-medium-speed.jpg
+              - img "Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed)" [ref=e93]
+            - link "Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed)" [ref=e94] [cursor=pointer]:
+              - /url: /media/product/12556-ban-di-chuot-pulsar-paraglide-mouse-pad-xl-orange-medium-speed-1.jpg
+              - img "Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed)" [ref=e95]
+            - link "Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed)" [ref=e96] [cursor=pointer]:
+              - /url: /media/product/12556-ban-di-chuot-pulsar-paraglide-mouse-pad-xl-orange-medium-speed-2.jpg
+              - img "Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed)" [ref=e97]
+            - link "Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed)" [ref=e98] [cursor=pointer]:
+              - /url: /media/product/12556-ban-di-chuot-pulsar-paraglide-mouse-pad-xl-orange-medium-speed-3.jpg
+              - img "Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed)" [ref=e99]
+            - link "Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed)" [ref=e100] [cursor=pointer]:
+              - /url: /media/product/12556-ban-di-chuot-pulsar-paraglide-mouse-pad-xl-orange-medium-speed-4.jpg
+              - img "Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed)" [ref=e101]
+            - link "Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed)" [ref=e102] [cursor=pointer]:
+              - /url: /media/product/12556-ban-di-chuot-pulsar-paraglide-mouse-pad-xl-orange-medium-speed-5.jpg
+              - img "Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed)" [ref=e103]
+        - generic [ref=e104]:
+          - link "Pulsar" [ref=e106] [cursor=pointer]:
+            - /url: /brand/pulsar
+            - img "Pulsar" [ref=e107]
+          - heading "Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed)" [level=1] [ref=e108]
+          - generic [ref=e109]:
+            - generic [ref=e110]: "MSP: PMP14XLO"
+            - generic [ref=e111]: "Đánh giá:"
+            - generic [ref=e113]: "Lượt xem: 2217"
+          - generic [ref=e114]:
+            - list [ref=e115]:
+              - listitem [ref=e116]:
+                - paragraph [ref=e117]: "Bề mặt: vải dệt kim."
+              - listitem [ref=e118]:
+                - paragraph [ref=e119]: "Đế: cao su thiên nhiên 4mm chống trượt."
+              - listitem [ref=e120]:
+                - paragraph [ref=e121]: "Viền: may chống sờn 360 độ."
+              - listitem [ref=e122]:
+                - paragraph [ref=e123]: "Màu: đen, cam."
+              - listitem [ref=e124]:
+                - paragraph [ref=e125]: "Tốc độ: ▶︎▶︎▶︎▷▷▷ Medium."
+              - listitem [ref=e126]:
+                - paragraph [ref=e127]: "Stopping: ▶︎▶︎▶︎▶︎▷▷ Good."
+            - link "Xem thêm" [ref=e128] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - generic [ref=e129]:
+            - generic [ref=e130]: Tùy chọn sản phẩm
+            - generic [ref=e131]:
+              - link "Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed) 619.000 đ" [ref=e132] [cursor=pointer]:
+                - /url: /ban-di-chuot-pulsar-paraglide-mouse-pad-xl-orange-medium-speed.html
+                - generic [ref=e133]: Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed)
+                - generic [ref=e135]: 619.000 đ
+              - link "Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Black (Medium Speed) 619.000 đ" [ref=e136] [cursor=pointer]:
+                - /url: /ban-di-chuot-pulsar-paraglide-mouse-pad-xl-black-medium-speed.html
+                - generic [ref=e137]: Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Black (Medium Speed)
+                - generic [ref=e139]: 619.000 đ
+        - generic [ref=e140]:
+          - generic [ref=e142]:
+            - generic [ref=e143]: 619.000đ
+            - deletion [ref=e144]: 649.000đ
+            - generic [ref=e145]: "-5%"
+          - generic [ref=e146]:
+            - generic [ref=e147]:
+              - generic [ref=e148]: Số lượng
+              - generic [ref=e149]:
+                - link "" [ref=e150] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e151]: 
+                - textbox [ref=e152]: "1"
+                - link "+" [ref=e153] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e154]: +
+            - generic [ref=e155]:
+              - link "Thêm vào giỏ hàng" [active] [ref=e157] [cursor=pointer]:
+                - /url: javascript:void(0)
+              - link "Mua Ngay" [ref=e159] [cursor=pointer]:
+                - /url: javascript:void(0)
+          - generic [ref=e160]:
+            - link "Mua PC Gaming giá rẻ tại TNC Store" [ref=e162] [cursor=pointer]:
+              - /url: https://www.tncstore.vn/gaming-pc.html
+            - generic [ref=e163]:
+              - generic [ref=e164]: 
+              - generic [ref=e165]: Hỗ trợ trả góp 0%, trả trước 0 đ
+            - generic [ref=e166]:
+              - generic [ref=e167]: 
+              - generic [ref=e168]: Hoàn tiền 200% nếu có hàng giả
+            - generic [ref=e169]:
+              - generic [ref=e170]: 
+              - generic [ref=e171]: Giao hàng nhanh trên toàn quốc
+            - generic [ref=e172]:
+              - generic [ref=e173]: 
+              - generic [ref=e174]: Hỗ trợ kĩ thuật online 24/7
+            - generic [ref=e175]:
+              - generic [ref=e176]: 
+              - generic [ref=e177]: Vệ sinh miễn phí PC, Laptop trọn đời
+      - generic [ref=e178]:
+        - generic [ref=e179]:
+          - generic [ref=e180]:
+            - heading "Mô tả sản phẩm" [level=2] [ref=e181]
+            - generic [ref=e182]:
+              - heading "Đánh Giá Chi Tiết Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed)" [level=2] [ref=e183]:
+                - generic [ref=e184]:
+                  - strong [ref=e185]: Đánh Giá Chi Tiết
+                  - link "Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed)" [ref=e186] [cursor=pointer]:
+                    - /url: https://www.tncstore.vn/ban-di-chuot-pulsar-paraglide-mouse-pad-xl-orange-medium-speed.html
+                    - strong [ref=e187]: Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed)
+              - paragraph [ref=e188]
+              - paragraph [ref=e189]:
+                - generic [ref=e190]:
+                  - text: Trong thế giới của Valorant và CS2, mỗi pha lia chuột, mỗi cú flick đều có thể quyết định cục diện trận đấu. Đó cũng là lý do
+                  - link "Gaming Gears" [ref=e191] [cursor=pointer]:
+                    - /url: https://www.tncstore.vn/gaming-gear.html
+                    - strong [ref=e192]: Gaming Gears
+                  - text: Pulsar ParaGlide Mouse Pad XL Orange ra đời – một sản phẩm được tạo ra để lấp đầy khoảng trống giữa ParaControl và ParaBrake, mang đến sự cân bằng tối ưu giữa tốc độ và kiểm soát dành cho game thủ FPS hiện đại.
+              - paragraph [ref=e193]
+              - paragraph [ref=e194]:
+                - iframe [ref=e195]:
+                  - generic "YouTube Video Player" [ref=f1e3]:
+                    - generic [ref=f1e5]:
+                      - link "Photo image of Olicheck Gaming Tech" [ref=f1e8] [cursor=pointer]:
+                        - /url: https://www.youtube.com/channel/UCgVQyKFfgFZKYSkwZvvW2Tw?embeds_referring_euri=https%3A%2F%2Fwww.tncstore.vn%2F
+                      - link "Best Budget Mousepad of 2024! Pulsar Paraglide Review" [ref=f1e11] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=topLhdV1oX4
+                      - button "Share" [ref=f1e13] [cursor=pointer]:
+                        - generic [ref=f1e14]:
+                          - img
+                        - generic [ref=f1e15]: Share
+                    - button "Play" [ref=f1e18] [cursor=pointer]:
+                      - img
+                    - link "Watch on YouTube" [ref=f1e19] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=topLhdV1oX4&embeds_referring_euri=https%3A%2F%2Fwww.tncstore.vn%2F
+                      - generic [ref=f1e20]: Watch on
+                      - generic [ref=f1e21]:
+                        - img
+              - paragraph [ref=e196]
+              - heading "Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed) kiểm soát chính xác với bề mặt lướt mượt mà" [level=3] [ref=e197]:
+                - strong [ref=e199]: Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed) kiểm soát chính xác với bề mặt lướt mượt mà
+              - paragraph [ref=e200]
+              - paragraph [ref=e201]: Pulsar ParaGlide sở hữu bề mặt được tinh chỉnh cho tốc độ trung bình, lý tưởng cho các thao tác tracking, spray control và flick-shot với độ ổn định cao.
+              - paragraph [ref=e202]: Độ lướt mượt mà, không quá trơn như speed pad nhưng cũng không quá gắt như control pad, giúp bạn cảm nhận được sự tự nhiên trong từng chuyển động.
+              - paragraph [ref=e203]
+              - paragraph [ref=e204]:
+                - img "TNC Store Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed)" [ref=e205]
+              - paragraph [ref=e206]
+              - paragraph [ref=e207]: Game thủ có thể di chuyển linh hoạt nhưng vẫn giữ được độ dừng chuẩn xác, đặc biệt phù hợp với các tình huống clutch hoặc bắn tỉa nhanh trong các tựa game chiến thuật.
+              - paragraph [ref=e208]
+              - heading "Thiết kế viền may siêu mịn" [level=3] [ref=e209]:
+                - strong [ref=e211]: Thiết kế viền may siêu mịn
+              - paragraph [ref=e212]
+              - paragraph [ref=e213]:
+                - generic [ref=e214]:
+                  - text: ParaGlide
+                  - link "Mouse Pad" [ref=e215] [cursor=pointer]:
+                    - /url: https://www.tncstore.vn/ban-di-chuot.html
+                    - strong [ref=e216]: Mouse Pad
+                  - text: "sử dụng công nghệ viền may siêu mịn:"
+              - paragraph [ref=e217]
+              - list [ref=e218]:
+                - listitem [ref=e219]: Không cao hơn bề mặt chính, không gây cấn cổ tay kể cả khi thực hiện những cú swipe ngang tầm rộng.
+                - listitem [ref=e220]: Công nghệ chống sờn 360 độ giúp bàn di luôn giữ form như mới, sẵn sàng đồng hành cùng bạn qua hàng trăm giờ chơi game cường độ cao.
+              - paragraph [ref=e221]
+              - paragraph [ref=e222]:
+                - img "TNC Store Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed)" [ref=e223]
+              - paragraph [ref=e224]
+              - paragraph [ref=e225]: Đây là chi tiết nhỏ nhưng mang lại sự thoải mái lâu dài và giúp người chơi tập trung 100% vào trận đấu.
+              - paragraph [ref=e226]
+              - heading "Đế cao su thiên nhiên chống trượt" [level=3] [ref=e227]:
+                - strong [ref=e229]: Đế cao su thiên nhiên chống trượt
+              - paragraph [ref=e230]
+              - paragraph [ref=e231]: "Dù là trên mặt bàn gỗ, nhựa hay kim loại, đế cao su thiên nhiên bám cực chắc, giữ bàn di cố định tuyệt đối:"
+              - paragraph [ref=e232]
+              - list [ref=e233]:
+                - listitem [ref=e234]: Không trượt, không xô lệch, không làm gián đoạn trải nghiệm.
+                - listitem [ref=e235]: Một yếu tố quan trọng cho sự nhất quán khi ngắm bắn và tracking mục tiêu.
+              - paragraph [ref=e236]
+              - paragraph [ref=e237]:
+                - img "TNC Store Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed)" [ref=e238]
+              - paragraph [ref=e239]
+              - heading "Tổng Kết" [level=2] [ref=e240]:
+                - strong [ref=e242]: Tổng Kết
+              - paragraph [ref=e243]
+              - paragraph [ref=e244]:
+                - generic [ref=e245]:
+                  - text: Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed) đang có mặt tại
+                  - link "TNC Store" [ref=e246] [cursor=pointer]:
+                    - /url: https://www.tncstore.vn/
+                    - strong [ref=e247]: TNC Store
+                  - text: "- nơi hội tụ những thiết bị gaming được game thủ tin tưởng. Đặt hàng ngay hôm nay để nhận mức giá tốt nhất và sẵn sàng thi đấu như một tuyển thủ chuyên nghiệp."
+            - link "Xem thêm " [ref=e248] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - text: Xem thêm
+              - generic [ref=e249]: 
+          - generic [ref=e250]:
+            - heading "Đánh giá của khách hàng" [level=2] [ref=e251]
+            - generic [ref=e252]:
+              - generic [ref=e253]:
+                - generic [ref=e255]:
+                  - generic [ref=e256]: "5"
+                  - generic [ref=e257]: 
+                - generic [ref=e258]:
+                  - generic [ref=e259]:
+                    - generic [ref=e260]:
+                      - text: "5"
+                      - generic [ref=e261]: 
+                    - generic "Xem các đánh giá này" [ref=e263]: 0%
+                  - generic [ref=e264]:
+                    - generic [ref=e265]:
+                      - text: "4"
+                      - generic [ref=e266]: 
+                    - generic "Xem các đánh giá này" [ref=e268]: 0%
+                  - generic [ref=e269]:
+                    - generic [ref=e270]:
+                      - text: "3"
+                      - generic [ref=e271]: 
+                    - generic "Xem các đánh giá này" [ref=e273]: 0%
+                  - generic [ref=e274]:
+                    - generic [ref=e275]:
+                      - text: "2"
+                      - generic [ref=e276]: 
+                    - generic "Xem các đánh giá này" [ref=e278]: 0%
+                  - generic [ref=e279]:
+                    - generic [ref=e280]:
+                      - text: "1"
+                      - generic [ref=e281]: 
+                    - generic "Xem các đánh giá này" [ref=e283]: 0%
+                - link "Viết đánh giá" [ref=e285] [cursor=pointer]:
+                  - /url: javascript:;
+              - text: 
+            - text:  Rất Tốt Ổn Tạm ổn Tệ Rất tệ
+        - generic [ref=e286]:
+          - generic [ref=e287]:
+            - heading "Thông số kỹ thuật" [level=2] [ref=e288]
+            - table [ref=e290]:
+              - rowgroup [ref=e291]:
+                - row "Chất liệu bề mặt Vải dệt kim (Knitted fabric)" [ref=e292]:
+                  - cell "Chất liệu bề mặt" [ref=e293]
+                  - cell "Vải dệt kim (Knitted fabric)" [ref=e294]
+                - row "Chất liệu đế Cao su thiên nhiên dày 4mm chống trượt" [ref=e295]:
+                  - cell "Chất liệu đế" [ref=e296]
+                  - cell "Cao su thiên nhiên dày 4mm chống trượt" [ref=e297]
+                - row "Kích thước 490mm (19.3in) x 420mm(16.5in) x 4mm (0.16in)" [ref=e298]:
+                  - cell "Kích thước" [ref=e299]
+                  - cell "490mm (19.3in) x 420mm(16.5in) x 4mm (0.16in)" [ref=e300]
+                - row "Tương thích feet Feet mềm (PTFE) Feet cứng (thủy tinh, sapphire)" [ref=e301]:
+                  - cell "Tương thích feet" [ref=e302]
+                  - cell "Feet mềm (PTFE) Feet cứng (thủy tinh, sapphire)" [ref=e303]:
+                    - text: Feet mềm (PTFE)
+                    - text: Feet cứng (thủy tinh, sapphire)
+                - row "Thương hiệu Pulsar, Designed in Korea" [ref=e304]:
+                  - cell "Thương hiệu" [ref=e305]
+                  - cell "Pulsar, Designed in Korea" [ref=e306]
+            - link "Xem thêm " [ref=e307] [cursor=pointer]:
+              - /url: "#full-spec"
+              - text: Xem thêm
+              - generic [ref=e308]: 
+          - generic [ref=e310]:
+            - heading "Tin tức liên quan" [level=2] [ref=e311]
+            - link "Xem tất cả " [ref=e312] [cursor=pointer]:
+              - /url: /tin-tuc
+              - text: Xem tất cả
+              - generic [ref=e313]: 
+      - generic [ref=e314]:
+        - heading "Sản phẩm tương tự" [level=2] [ref=e315]
+        - generic [ref=e317]:
+          - generic [ref=e319]:
+            - generic [ref=e321]:
+              - link "Chuột Gaming ASUS ROG Gladius II Core Best Choice" [ref=e322] [cursor=pointer]:
+                - /url: /chuot-gaming-asus-rog-gladius-ii-core.html
+                - img "Chuột Gaming ASUS ROG Gladius II Core" [ref=e323]
+                - generic [ref=e324]: Best Choice
+              - generic [ref=e325]:
+                - link "Chuột Gaming ASUS ROG Gladius II Core" [ref=e326] [cursor=pointer]:
+                  - /url: /chuot-gaming-asus-rog-gladius-ii-core.html
+                - generic [ref=e329]: 0 đánh giá
+                - generic [ref=e330]:
+                  - deletion [ref=e331]: 899.000 đ
+                  - generic [ref=e332]:
+                    - generic [ref=e333]: 699.000đ
+                    - generic [ref=e334]: "-23%"
+            - generic [ref=e336]:
+              - link "Chuột Gaming Razer Viper V3 Pro - Counter-Strike 2 Edition (RZ01-05120800-R3M1) Best Choice" [ref=e337] [cursor=pointer]:
+                - /url: /chuot-gaming-razer-viper-v3-pro-counter-strike-2-edition.html
+                - img "Chuột Gaming Razer Viper V3 Pro - Counter-Strike 2 Edition (RZ01-05120800-R3M1)" [ref=e338]
+                - generic [ref=e339]: Best Choice
+              - generic [ref=e340]:
+                - link "Chuột Gaming Razer Viper V3 Pro - Counter-Strike 2 Edition (RZ01-05120800-R3M1)" [ref=e341] [cursor=pointer]:
+                  - /url: /chuot-gaming-razer-viper-v3-pro-counter-strike-2-edition.html
+                - generic [ref=e344]: 1 đánh giá
+                - generic [ref=e345]:
+                  - deletion [ref=e346]: 5.489.000 đ
+                  - generic [ref=e347]:
+                    - generic [ref=e348]: 4.349.000đ
+                    - generic [ref=e349]: "-21%"
+            - generic [ref=e351]:
+              - link "Bàn Phím Cơ Razer Huntsman V3 Pro Tenkeyless - Counter-Strike 2 Edition (RZ03-04982100-R3M1) Best Choice" [ref=e352] [cursor=pointer]:
+                - /url: /ban-phim-co-razer-huntsman-v3-pro-tenkeyless-counter-strike-2-edition.html
+                - img "Bàn Phím Cơ Razer Huntsman V3 Pro Tenkeyless - Counter-Strike 2 Edition (RZ03-04982100-R3M1)" [ref=e353]
+                - generic [ref=e354]: Best Choice
+              - generic [ref=e355]:
+                - link "Bàn Phím Cơ Razer Huntsman V3 Pro Tenkeyless - Counter-Strike 2 Edition (RZ03-04982100-R3M1)" [ref=e356] [cursor=pointer]:
+                  - /url: /ban-phim-co-razer-huntsman-v3-pro-tenkeyless-counter-strike-2-edition.html
+                - generic [ref=e359]: 0 đánh giá
+                - generic [ref=e360]:
+                  - deletion [ref=e361]: 7.139.000 đ
+                  - generic [ref=e362]:
+                    - generic [ref=e363]: 5.649.000đ
+                    - generic [ref=e364]: "-21%"
+            - generic [ref=e366]:
+              - link "Bàn Phím Cơ Gaming DAREU EK810X Black-Grey (Waterproof, Optical switch, Multi LED)" [ref=e367] [cursor=pointer]:
+                - /url: /ban-phim-co-gaming-dareu-ek810x-black-grey-optical-switch.html
+                - img "Bàn Phím Cơ Gaming DAREU EK810X Black-Grey (Waterproof, Optical switch, Multi LED)" [ref=e368]
+              - generic [ref=e369]:
+                - link "Bàn Phím Cơ Gaming DAREU EK810X Black-Grey (Waterproof, Optical switch, Multi LED)" [ref=e370] [cursor=pointer]:
+                  - /url: /ban-phim-co-gaming-dareu-ek810x-black-grey-optical-switch.html
+                - generic [ref=e373]: 0 đánh giá
+                - generic [ref=e374]:
+                  - deletion [ref=e375]: 799.000 đ
+                  - generic [ref=e376]:
+                    - generic [ref=e377]: 679.000đ
+                    - generic [ref=e378]: "-16%"
+            - generic [ref=e380]:
+              - link "Bàn Di Chuột Razer Gigantus V2 Lagre - Counter-Strike 2 Edition (RZ02-03333300-R3M1) Best Choice" [ref=e381] [cursor=pointer]:
+                - /url: /ban-di-chuot-razer-gigantus-v2-lagre-counter-strike-2-edition.html
+                - img "Bàn Di Chuột Razer Gigantus V2 Lagre - Counter-Strike 2 Edition (RZ02-03333300-R3M1)" [ref=e382]
+                - generic [ref=e383]: Best Choice
+              - generic [ref=e384]:
+                - link "Bàn Di Chuột Razer Gigantus V2 Lagre - Counter-Strike 2 Edition (RZ02-03333300-R3M1)" [ref=e385] [cursor=pointer]:
+                  - /url: /ban-di-chuot-razer-gigantus-v2-lagre-counter-strike-2-edition.html
+                - generic [ref=e388]: 0 đánh giá
+                - generic [ref=e389]:
+                  - deletion [ref=e390]: 1.309.000 đ
+                  - generic [ref=e391]:
+                    - generic [ref=e392]: 1.039.000đ
+                    - generic [ref=e393]: "-21%"
+            - generic [ref=e395]:
+              - link "Bàn Phím Cơ Gaming DAREU EK810 - Black (Multi-LED, Brown switch)" [ref=e396] [cursor=pointer]:
+                - /url: /ban-phim-co-gaming-dareu-ek810-black-red-d-switch.html
+                - img "Bàn Phím Cơ Gaming DAREU EK810 - Black (Multi-LED, Brown switch)" [ref=e397]
+              - generic [ref=e398]:
+                - link "Bàn Phím Cơ Gaming DAREU EK810 - Black (Multi-LED, Brown switch)" [ref=e399] [cursor=pointer]:
+                  - /url: /ban-phim-co-gaming-dareu-ek810-black-red-d-switch.html
+                - generic [ref=e402]: 0 đánh giá
+                - generic [ref=e403]:
+                  - deletion [ref=e404]: 699.000 đ
+                  - generic [ref=e405]:
+                    - generic [ref=e406]: 539.000đ
+                    - generic [ref=e407]: "-23%"
+            - generic [ref=e409]:
+              - link "Tai Nghe Gaming Razer Blackshark V3 Pro - Counter Strike 2 Edition (RZ04-05400800-R3M1) Best Choice" [ref=e410] [cursor=pointer]:
+                - /url: /tai-nghe-gaming-razer-blackshark-v3-pro-counter-strike-2-edition.html
+                - img "Tai Nghe Gaming Razer Blackshark V3 Pro - Counter Strike 2 Edition (RZ04-05400800-R3M1)" [ref=e411]
+                - generic [ref=e412]: Best Choice
+              - generic [ref=e413]:
+                - link "Tai Nghe Gaming Razer Blackshark V3 Pro - Counter Strike 2 Edition (RZ04-05400800-R3M1)" [ref=e414] [cursor=pointer]:
+                  - /url: /tai-nghe-gaming-razer-blackshark-v3-pro-counter-strike-2-edition.html
+                - generic [ref=e417]: 0 đánh giá
+                - generic [ref=e418]:
+                  - deletion [ref=e419]: 9.119.000 đ
+                  - generic [ref=e420]:
+                    - generic [ref=e421]: 7.239.000đ
+                    - generic [ref=e422]: "-21%"
+            - generic [ref=e424]:
+              - link "Chuột Gaming Razer Basilisk V3 - RZ01-04000100-R3M1 Best Seller" [ref=e425] [cursor=pointer]:
+                - /url: /chuot-gaming-razer-basilisk-v3.html
+                - img "Chuột Gaming Razer Basilisk V3 - RZ01-04000100-R3M1" [ref=e426]
+                - generic [ref=e427]: Best Seller
+              - generic [ref=e428]:
+                - link "Chuột Gaming Razer Basilisk V3 - RZ01-04000100-R3M1" [ref=e429] [cursor=pointer]:
+                  - /url: /chuot-gaming-razer-basilisk-v3.html
+                - generic [ref=e432]: 17 đánh giá
+                - generic [ref=e433]:
+                  - deletion [ref=e434]: 1.309.000 đ
+                  - generic [ref=e435]:
+                    - generic [ref=e436]: 979.000đ
+                    - generic [ref=e437]: "-26%"
+            - generic [ref=e439]:
+              - link "Ghế Gaming Asus ROG Chariot X Core Màu Đen Best Choice" [ref=e440] [cursor=pointer]:
+                - /url: /ghe-gaming-asus-rog-chariot-x-core-black.html
+                - img "Ghế Gaming Asus ROG Chariot X Core Màu Đen" [ref=e441]
+                - generic [ref=e442]: Best Choice
+              - generic [ref=e443]:
+                - link "Ghế Gaming Asus ROG Chariot X Core Màu Đen" [ref=e444] [cursor=pointer]:
+                  - /url: /ghe-gaming-asus-rog-chariot-x-core-black.html
+                - generic [ref=e447]: 3 đánh giá
+                - generic [ref=e448]:
+                  - deletion [ref=e449]: 13.990.000 đ
+                  - generic [ref=e450]:
+                    - generic [ref=e451]: 9.990.000đ
+                    - generic [ref=e452]: "-29%"
+            - generic [ref=e454]:
+              - link "Tai Nghe HP HyperX Cloud Jet Wireless Black (AJ0T1AA)" [ref=e455] [cursor=pointer]:
+                - /url: /tai-nghe-hp-hyperx-cloud-jet-wireless-black-aj0t1aa.html
+                - img "Tai Nghe HP HyperX Cloud Jet Wireless Black (AJ0T1AA)" [ref=e456]
+              - generic [ref=e457]:
+                - link "Tai Nghe HP HyperX Cloud Jet Wireless Black (AJ0T1AA)" [ref=e458] [cursor=pointer]:
+                  - /url: /tai-nghe-hp-hyperx-cloud-jet-wireless-black-aj0t1aa.html
+                - generic [ref=e461]: 0 đánh giá
+                - generic [ref=e462]:
+                  - deletion [ref=e463]: 1.899.000 đ
+                  - generic [ref=e464]:
+                    - generic [ref=e465]: 1.679.000đ
+                    - generic [ref=e466]: "-12%"
+          - generic:
+            - button [ref=e467]:
+              - generic [ref=e468]: 
+            - button [ref=e469] [cursor=pointer]:
+              - generic [ref=e470]: 
+    - text:   
+  - generic [ref=e473]:
+    - paragraph [ref=e474]: Sản phẩm đã xem
+    - generic [ref=e476]:
+      - generic [ref=e478]:
+        - generic [ref=e480]:
+          - link "Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed)" [ref=e481] [cursor=pointer]:
+            - /url: /ban-di-chuot-pulsar-paraglide-mouse-pad-xl-orange-medium-speed.html
+            - img "Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed)" [ref=e482]
+          - generic [ref=e483]:
+            - link "Bàn Di Chuột Pulsar ParaGlide Mouse Pad XL Orange (Medium Speed)" [ref=e484] [cursor=pointer]:
+              - /url: /ban-di-chuot-pulsar-paraglide-mouse-pad-xl-orange-medium-speed.html
+            - generic [ref=e487]: 0 đánh giá
+            - generic [ref=e488]:
+              - deletion [ref=e489]: 649.000 đ
+              - generic [ref=e490]:
+                - generic [ref=e491]: 619.000đ
+                - generic [ref=e492]: "-5%"
+        - generic [ref=e494]:
+          - link "RAM Laptop Kingston 16GB DDR4 Bus 3200 ( KVR32S22S8/16 )" [ref=e495] [cursor=pointer]:
+            - /url: /ram-laptop-kingston-16gb-ddr4-bus-3200.html
+            - img "RAM Laptop Kingston 16GB DDR4 Bus 3200 ( KVR32S22S8/16 )" [ref=e496]
+          - generic [ref=e497]:
+            - link "RAM Laptop Kingston 16GB DDR4 Bus 3200 ( KVR32S22S8/16 )" [ref=e498] [cursor=pointer]:
+              - /url: /ram-laptop-kingston-16gb-ddr4-bus-3200.html
+            - generic [ref=e501]: 0 đánh giá
+            - generic [ref=e502]:
+              - deletion [ref=e503]: 2.990.000 đ
+              - generic [ref=e504]:
+                - generic [ref=e505]: 2.299.000đ
+                - generic [ref=e506]: "-24%"
+      - text:  
+  - generic [ref=e507]:
+    - generic [ref=e510]:
+      - generic [ref=e511]:
+        - heading "Theo dõi chúng tôi tại" [level=3] [ref=e512]
+        - generic [ref=e513]:
+          - link [ref=e514] [cursor=pointer]:
+            - /url: https://www.facebook.com/tncstore/
+          - link [ref=e516] [cursor=pointer]:
+            - /url: https://www.instagram.com/tncstore_vn/
+          - link [ref=e518] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCvLGkK-wBBaoXwV71Tgx08Q
+          - link [ref=e520] [cursor=pointer]:
+            - /url: https://shopee.vn/tncofficialstore
+      - generic [ref=e522]:
+        - heading "Đăng ký email để nhận tin khuyến mãi" [level=3] [ref=e523]
+        - generic [ref=e524]:
+          - textbox "Nhập email của bạn" [ref=e525]
+          - link "Đăng ký" [ref=e526] [cursor=pointer]:
+            - /url: javascript:;
+    - generic [ref=e528]:
+      - generic [ref=e529]:
+        - generic [ref=e530]:
+          - heading "Danh Mục Sản Phẩm" [level=3] [ref=e531]
+          - generic [ref=e532]:
+            - link "PC Gaming" [ref=e533] [cursor=pointer]:
+              - /url: /gaming-pc.html
+            - link "Laptop Gaming" [ref=e534] [cursor=pointer]:
+              - /url: /gaming-laptop.html
+            - link "VGA NVidia Rtx 5070" [ref=e535] [cursor=pointer]:
+              - /url: /vga-nvidia-rtx-5070.html
+            - link "Ps5 Rẻ nhất Việt Nam" [ref=e536] [cursor=pointer]:
+              - /url: /may-play-station-5.html
+            - link "VGA NVidia Rtx 5060" [ref=e537] [cursor=pointer]:
+              - /url: /vga-rtx-5060.html
+        - generic [ref=e538]:
+          - heading "Thông Tin Chung" [level=3] [ref=e539]
+          - generic [ref=e540]:
+            - link "Giới Thiệu" [ref=e541] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Tuyển Dụng" [ref=e542] [cursor=pointer]:
+              - /url: "#"
+            - link "Tin Tức" [ref=e543] [cursor=pointer]:
+              - /url: /tin-tuc
+            - link "Ý Kiến Khách Hàng" [ref=e544] [cursor=pointer]:
+              - /url: "#"
+            - link "Liên Hệ Hợp Tác" [ref=e545] [cursor=pointer]:
+              - /url: /lien-he
+        - generic [ref=e546]:
+          - heading "Chính Sách" [level=3] [ref=e547]
+          - generic [ref=e548]:
+            - link "Quy Định Chung" [ref=e549] [cursor=pointer]:
+              - /url: "#"
+            - link "Chính Sách Vận Chuyển" [ref=e550] [cursor=pointer]:
+              - /url: /chinh-sach-van-chuyen-tnc-store
+            - link "Chính Sách Bảo Hành" [ref=e551] [cursor=pointer]:
+              - /url: /chinh-sach-va-quy-dinh-bao-hanh-tai-tnc-store
+            - link "Chính Sách Đổi, Trả Hàng" [ref=e552] [cursor=pointer]:
+              - /url: /chinh-sach-doi-tra-lai-hang
+            - link "Chính Sách Cho Doanh Nghiệp" [ref=e553] [cursor=pointer]:
+              - /url: /chinh-sach-cho-doanh-nghiep
+        - generic [ref=e554]:
+          - heading "Thông Tin Hữu Ích" [level=3] [ref=e555]
+          - generic [ref=e556]:
+            - link "Build PC là TNC" [ref=e557] [cursor=pointer]:
+              - /url: https://www.tncstore.vn/buildpc
+            - link "Hướng dẫn Build PC TNC" [ref=e558] [cursor=pointer]:
+              - /url: huong-dan-build-pc-tnc.html
+            - link "Tips Build PC TNC nhiều Khuyến Mại" [ref=e559] [cursor=pointer]:
+              - /url: tips-build-pc-tnc-nhieu-khuyen-mai.html
+            - link "Cách sửa cấu hình mẫu của Build PC TNC" [ref=e560] [cursor=pointer]:
+              - /url: /cach-sua-cau-hinh-mau-cua-build-pc-tnc.html
+            - link "Chính Sách Build PC TNC Cho Doanh Nghiệp" [ref=e561] [cursor=pointer]:
+              - /url: chinh-sach-build-pc-tnc-cho-doanh-nghiep.html
+      - generic [ref=e562]:
+        - iframe [ref=e564]:
+          
+        - generic [ref=e565]:
+          - heading "Công ty TNHH Thương mại & Tin học Tú Nguyệt" [level=3] [ref=e566]
+          - generic [ref=e567]:
+            - paragraph [ref=e568]: "Showroom: 172 Lê Thanh Nghị, Phường Bạch Mai, Hà Nội"
+            - paragraph [ref=e569]:
+              - text: "Tel:"
+              - link "(024) 36288790" [ref=e570] [cursor=pointer]:
+                - /url: tel:02436288790
+              - text: /
+              - link "(086) 830.2123" [ref=e571] [cursor=pointer]:
+                - /url: tel:0868302123
+          - generic [ref=e572]:
+            - paragraph [ref=e573]: "Trung tâm bảo hành: 172 Lê Thanh Nghị, Phường Bạch Mai, Hà Nội"
+            - paragraph [ref=e574]:
+              - text: "Tel:"
+              - link "(098) 978 1468" [ref=e575] [cursor=pointer]:
+                - /url: tel:0989781468
+          - generic [ref=e576]:
+            - paragraph [ref=e577]: "Trụ sở (Không bán hàng): 11 Vũ Thạnh, Phường Ô Chợ Dừa, Hà Nội"
+            - paragraph [ref=e578]:
+              - text: "Tel:"
+              - link "(086) 8302123" [ref=e579] [cursor=pointer]:
+                - /url: tel:0868302123
+            - paragraph [ref=e580]:
+              - text: "Fax:"
+              - link "(024) 36288790" [ref=e581] [cursor=pointer]:
+                - /url: tel:02436288790
+      - generic [ref=e582]:
+        - heading "Hình thức thanh toán" [level=3] [ref=e583]
+        - link [ref=e584] [cursor=pointer]:
+          - /url: "#"
+    - generic [ref=e588]:
+      - paragraph [ref=e589]: © 2020 - Bản quyền của Công ty TNHH Thương mại & Tin học Tú Nguyệt
+      - generic [ref=e590]:
+        - link [ref=e591] [cursor=pointer]:
+          - /url: http://online.gov.vn/Home/WebDetails/63325
+        - link [ref=e593] [cursor=pointer]:
+          - /url: http://online.gov.vn/Home/WebDetails/63325
+  - link "icon-zalo" [ref=e596] [cursor=pointer]:
+    - /url: https://zalo.me/2645761204946529607
+    - img "icon-zalo" [ref=e597]
+  - generic:
+    - generic [ref=e598]:
+      - link:
+        - /url: ""
+        - img
+    - generic [ref=e599]:
+      - link:
+        - /url: ""
+        - img
+```
