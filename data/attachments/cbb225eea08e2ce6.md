@@ -1,0 +1,997 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - link [ref=e3] [cursor=pointer]:
+    - /url: /ad.php?id=308
+  - generic [ref=e4]:
+    - generic [ref=e7]:
+      - link "Tất cả sản phẩm" [ref=e8] [cursor=pointer]:
+        - /url: /sitemap
+        - generic [ref=e10]: Tất cả sản phẩm
+      - link "(086) 830.2123" [ref=e11] [cursor=pointer]:
+        - /url: tel:0868302123
+        - generic [ref=e13]: (086) 830.2123
+      - link "cskh@tncstore.vn" [ref=e14] [cursor=pointer]:
+        - /url: mailto:cskh@tncstore.vn
+        - generic [ref=e16]: cskh@tncstore.vn
+    - generic [ref=e20]:
+      - link "logo" [ref=e21] [cursor=pointer]:
+        - /url: /
+        - img "logo" [ref=e22]
+      - generic [ref=e25]:
+        - link " Tất cả danh mục" [ref=e27] [cursor=pointer]:
+          - /url: javascript:void(0)
+        - textbox "Nhập sản phẩm cần tìm..." [ref=e28]: laptop
+        - button "Tìm kiếm" [ref=e29]:
+          - generic [ref=e30]: Tìm kiếm
+      - generic [ref=e32]:
+        - link "Tài khoản" [ref=e33] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e35]: Tài khoản
+        - link "..." [ref=e36] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e38]: ...
+      - text: 
+    - generic [ref=e41]:
+      - generic [ref=e43]:
+        - generic [ref=e44]: 
+        - generic [ref=e45]: Danh mục sản phẩm
+        - generic [ref=e46]: 
+      - generic [ref=e47]:
+        - link "Build PC" [ref=e48] [cursor=pointer]:
+          - /url: /buildpc
+          - generic [ref=e49]: Build PC
+        - link "PC gaming" [ref=e50] [cursor=pointer]:
+          - /url: /gaming-pc.html
+          - generic [ref=e51]: PC gaming
+        - link "PC Đồ họa - Editor" [ref=e52] [cursor=pointer]:
+          - /url: /pc-do-hoa.html
+          - generic [ref=e53]: PC Đồ họa - Editor
+        - link "Màn hình gaming" [ref=e54] [cursor=pointer]:
+          - /url: /man-hinh-gaming.html
+          - generic [ref=e55]: Màn hình gaming
+        - link "Laptop Gaming" [ref=e56] [cursor=pointer]:
+          - /url: /gaming-laptop.html
+          - generic [ref=e57]: Laptop Gaming
+        - link "PS5 Slim" [ref=e58] [cursor=pointer]:
+          - /url: /may-choi-game-sony-ps5-slim-chinh-hang-cfi-2018a-01.html
+          - generic [ref=e59]: PS5 Slim
+        - link "RTX 5060" [ref=e60] [cursor=pointer]:
+          - /url: /vga-rtx-5060.html
+          - generic [ref=e61]:
+            - text: RTX 5060
+            - img [ref=e62]
+        - link "RTX 5070" [ref=e63] [cursor=pointer]:
+          - /url: /vga-nvidia-rtx-5070.html
+          - generic [ref=e64]: RTX 5070
+        - link "RX 9060" [ref=e65] [cursor=pointer]:
+          - /url: /vga-amd-rx-9060.html
+          - generic [ref=e66]:
+            - text: RX 9060
+            - img [ref=e67]
+        - link "RX 9070" [ref=e68] [cursor=pointer]:
+          - /url: /vga-amd-rx-9070.html
+          - generic [ref=e69]: RX 9070
+        - link "Máy in" [ref=e70] [cursor=pointer]:
+          - /url: /may-in-laser.html
+          - generic [ref=e71]: Máy in
+  - generic [ref=e73]:
+    - list [ref=e74]:
+      - listitem [ref=e75]:
+        - link "Trang chủ":
+          - /url: /
+          - generic [ref=e76] [cursor=pointer]: Trang chủ
+        - generic [ref=e77]: 
+      - listitem [ref=e78]:
+        - link "Tìm kiếm \"laptop\"":
+          - /url: https://www.tncstore.vn/tim?category=0&q=laptop
+          - generic [ref=e79] [cursor=pointer]: Tìm kiếm "laptop"
+    - generic [ref=e81]:
+      - generic [ref=e83]:
+        - heading "Bộ lọc sản phẩm" [level=2] [ref=e84]
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - paragraph [ref=e87]: Danh mục
+            - generic [ref=e88]:
+              - link " Linh kiện máy tính" [ref=e89] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=60&q=laptop
+                - generic [ref=e90]: 
+                - generic [ref=e91]: Linh kiện máy tính
+              - link " RAM - Bộ nhớ trong" [ref=e92] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=63&q=laptop
+                - generic [ref=e93]: 
+                - generic [ref=e94]: RAM - Bộ nhớ trong
+              - link " Ổ cứng HDD" [ref=e95] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=64&q=laptop
+                - generic [ref=e96]: 
+                - generic [ref=e97]: Ổ cứng HDD
+              - link " Gaming Gears" [ref=e98] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=78&q=laptop
+                - generic [ref=e99]: 
+                - generic [ref=e100]: Gaming Gears
+              - link " Laptop - Máy Tính Xách Tay" [ref=e101] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=79&q=laptop
+                - generic [ref=e102]: 
+                - generic [ref=e103]: Laptop - Máy Tính Xách Tay
+              - link " Laptop Văn Phòng" [ref=e104] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=86&q=laptop
+                - generic [ref=e105]: 
+                - generic [ref=e106]: Laptop Văn Phòng
+              - link " Laptop Gaming" [ref=e107] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=89&q=laptop
+                - generic [ref=e108]: 
+                - generic [ref=e109]: Laptop Gaming
+              - link " Phụ kiện, Balo laptop" [ref=e110] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=90&q=laptop
+                - generic [ref=e111]: 
+                - generic [ref=e112]: Phụ kiện, Balo laptop
+              - link " Phụ Kiện - Tản Nhiệt PC" [ref=e113] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=103&q=laptop
+                - generic [ref=e114]: 
+                - generic [ref=e115]: Phụ Kiện - Tản Nhiệt PC
+              - link " Bàn di chuột" [ref=e116] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=113&q=laptop
+                - generic [ref=e117]: 
+                - generic [ref=e118]: Bàn di chuột
+              - link " Ổ cứng HDD - Laptop" [ref=e119] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=141&q=laptop
+                - generic [ref=e120]: 
+                - generic [ref=e121]: Ổ cứng HDD - Laptop
+              - link " Laptop Asus" [ref=e122] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=167&q=laptop
+                - generic [ref=e123]: 
+                - generic [ref=e124]: Laptop Asus
+              - link " Laptop Acer" [ref=e125] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=168&q=laptop
+                - generic [ref=e126]: 
+                - generic [ref=e127]: Laptop Acer
+              - link " Laptop Dell" [ref=e128] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=173&q=laptop
+                - generic [ref=e129]: 
+                - generic [ref=e130]: Laptop Dell
+              - link " Laptop HP" [ref=e131] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=174&q=laptop
+                - generic [ref=e132]: 
+                - generic [ref=e133]: Laptop HP
+              - link " Laptop Gigabyte" [ref=e134] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=177&q=laptop
+                - generic [ref=e135]: 
+                - generic [ref=e136]: Laptop Gigabyte
+              - link " Laptop MSI" [ref=e137] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=181&q=laptop
+                - generic [ref=e138]: 
+                - generic [ref=e139]: Laptop MSI
+              - link " Laptop LG" [ref=e140] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=189&q=laptop
+                - generic [ref=e141]: 
+                - generic [ref=e142]: Laptop LG
+              - link " Laptop Lenovo" [ref=e143] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=190&q=laptop
+                - generic [ref=e144]: 
+                - generic [ref=e145]: Laptop Lenovo
+              - link " Laptop Acer Nitro" [ref=e146] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=207&q=laptop
+                - generic [ref=e147]: 
+                - generic [ref=e148]: Laptop Acer Nitro
+              - link " Phụ Kiện Set Up" [ref=e149] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=216&q=laptop
+                - generic [ref=e150]: 
+                - generic [ref=e151]: Phụ Kiện Set Up
+              - link " Laptop Acer 2024" [ref=e152] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=229&q=laptop
+                - generic [ref=e153]: 
+                - generic [ref=e154]: Laptop Acer 2024
+              - link " HDD Western Digital" [ref=e155] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=264&q=laptop
+                - generic [ref=e156]: 
+                - generic [ref=e157]: HDD Western Digital
+              - link " Laptop AI" [ref=e158] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=266&q=laptop
+                - generic [ref=e159]: 
+                - generic [ref=e160]: Laptop AI
+              - link " RAM Corsair" [ref=e161] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=297&q=laptop
+                - generic [ref=e162]: 
+                - generic [ref=e163]: RAM Corsair
+              - link " RAM Kingston" [ref=e164] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=300&q=laptop
+                - generic [ref=e165]: 
+                - generic [ref=e166]: RAM Kingston
+              - link " RAM G.Skill" [ref=e167] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=303&q=laptop
+                - generic [ref=e168]: 
+                - generic [ref=e169]: RAM G.Skill
+              - link " RAM Lexar" [ref=e170] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=305&q=laptop
+                - generic [ref=e171]: 
+                - generic [ref=e172]: RAM Lexar
+              - link " RAM Silicon Power" [ref=e173] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=306&q=laptop
+                - generic [ref=e174]: 
+                - generic [ref=e175]: RAM Silicon Power
+              - link " RAM Team Group" [ref=e176] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=307&q=laptop
+                - generic [ref=e177]: 
+                - generic [ref=e178]: RAM Team Group
+              - link " Laptop Nhập Khẩu" [ref=e179] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=310&q=laptop
+                - generic [ref=e180]: 
+                - generic [ref=e181]: Laptop Nhập Khẩu
+              - link " Laptop Sinh Viên" [ref=e182] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=324&q=laptop
+                - generic [ref=e183]: 
+                - generic [ref=e184]: Laptop Sinh Viên
+              - link " Core Ultra (CPU, PC và Laptop)" [ref=e185] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=331&q=laptop
+                - generic [ref=e186]: 
+                - generic [ref=e187]: Core Ultra (CPU, PC và Laptop)
+              - link " Khuyến Mãi" [ref=e188] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=334&q=laptop
+                - generic [ref=e189]: 
+                - generic [ref=e190]: Khuyến Mãi
+              - link " Laptop Dell Vostro" [ref=e191] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?category=338&q=laptop
+                - generic [ref=e192]: 
+                - generic [ref=e193]: Laptop Dell Vostro
+          - generic [ref=e194]:
+            - generic [ref=e195]:
+              - generic [ref=e196]: Hãng sản xuất
+              - generic [ref=e197]: 
+            - generic [ref=e198]:
+              - link "ASUS (282)" [ref=e201] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?brand=22&q=laptop
+                - generic [ref=e202]: ASUS
+                - generic [ref=e203]: (282)
+              - link "Corsair (10)" [ref=e206] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?brand=27&q=laptop
+                - generic [ref=e207]: Corsair
+                - generic [ref=e208]: (10)
+              - link "Western Digital (1)" [ref=e211] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?brand=34&q=laptop
+                - generic [ref=e212]: Western Digital
+                - generic [ref=e213]: (1)
+              - link "LG (13)" [ref=e216] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?brand=32&q=laptop
+                - generic [ref=e217]: LG
+                - generic [ref=e218]: (13)
+              - link "DELL (139)" [ref=e221] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?brand=25&q=laptop
+                - generic [ref=e222]: DELL
+                - generic [ref=e223]: (139)
+              - link "GIGABYTE (37)" [ref=e226] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?brand=28&q=laptop
+                - generic [ref=e227]: GIGABYTE
+                - generic [ref=e228]: (37)
+              - link "MSI (90)" [ref=e231] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?brand=11&q=laptop
+                - generic [ref=e232]: MSI
+                - generic [ref=e233]: (90)
+              - link "ACER (130)" [ref=e236] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?brand=13&q=laptop
+                - generic [ref=e237]: ACER
+                - generic [ref=e238]: (130)
+              - link "Apple (4)" [ref=e241] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?brand=145&q=laptop
+                - generic [ref=e242]: Apple
+                - generic [ref=e243]: (4)
+              - link "G.SKILL (7)" [ref=e246] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?brand=40&q=laptop
+                - generic [ref=e247]: G.SKILL
+                - generic [ref=e248]: (7)
+              - link "HP (143)" [ref=e251] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?brand=26&q=laptop
+                - generic [ref=e252]: HP
+                - generic [ref=e253]: (143)
+              - link "Kingston (18)" [ref=e256] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?brand=8&q=laptop
+                - generic [ref=e257]: Kingston
+                - generic [ref=e258]: (18)
+              - link "Lenovo (172)" [ref=e261] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?brand=90&q=laptop
+                - generic [ref=e262]: Lenovo
+                - generic [ref=e263]: (172)
+              - link "Lexar (1)" [ref=e266] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?brand=150&q=laptop
+                - generic [ref=e267]: Lexar
+                - generic [ref=e268]: (1)
+              - link "Microsoft (1)" [ref=e271] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?brand=67&q=laptop
+                - generic [ref=e272]: Microsoft
+                - generic [ref=e273]: (1)
+              - link "RAZER (2)" [ref=e276] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?brand=17&q=laptop
+                - generic [ref=e277]: RAZER
+                - generic [ref=e278]: (2)
+              - link "Silicon Power (1)" [ref=e281] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?brand=140&q=laptop
+                - generic [ref=e282]: Silicon Power
+                - generic [ref=e283]: (1)
+              - link "TeamGroup (1)" [ref=e286] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?brand=142&q=laptop
+                - generic [ref=e287]: TeamGroup
+                - generic [ref=e288]: (1)
+              - link "TNC Business (1)" [ref=e291] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?brand=188&q=laptop
+                - generic [ref=e292]: TNC Business
+                - generic [ref=e293]: (1)
+              - link "TNC Gaming (4)" [ref=e296] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?brand=36&q=laptop
+                - generic [ref=e297]: TNC Gaming
+                - generic [ref=e298]: (4)
+          - generic [ref=e299]:
+            - generic [ref=e300]:
+              - generic [ref=e301]: Khoảng giá (VNĐ)
+              - generic [ref=e302]: 
+            - generic [ref=e303]:
+              - link "Dưới 1 triệu (16)" [ref=e306] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?max=1000000&q=laptop
+                - generic [ref=e307]: Dưới 1 triệu
+                - generic [ref=e308]: (16)
+              - link "1 triệu - 5 triệu (33)" [ref=e311] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?max=5000000&min=1000000&q=laptop
+                - generic [ref=e312]: 1 triệu - 5 triệu
+                - generic [ref=e313]: (33)
+              - link "5 triệu - 10 triệu (28)" [ref=e316] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?max=10000000&min=5000000&q=laptop
+                - generic [ref=e317]: 5 triệu - 10 triệu
+                - generic [ref=e318]: (28)
+              - link "10 triệu - 20 triệu (412)" [ref=e321] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?max=20000000&min=10000000&q=laptop
+                - generic [ref=e322]: 10 triệu - 20 triệu
+                - generic [ref=e323]: (412)
+              - link "20 triệu - 40 triệu (430)" [ref=e326] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?max=40000000&min=20000000&q=laptop
+                - generic [ref=e327]: 20 triệu - 40 triệu
+                - generic [ref=e328]: (430)
+              - link "Trên 40 triệu (139)" [ref=e331] [cursor=pointer]:
+                - /url: https://www.tncstore.vn/tim?min=40000000&q=laptop
+                - generic [ref=e332]: Trên 40 triệu
+                - generic [ref=e333]: (139)
+            - generic [ref=e335]:
+              - generic [ref=e336]:
+                - textbox [ref=e337]: "0"
+                - generic [ref=e338]: đ
+              - generic [ref=e339]: "-"
+              - generic [ref=e340]:
+                - textbox [ref=e341]: 40.000.000
+                - generic [ref=e342]: đ
+      - generic [ref=e348]:
+        - generic [ref=e349]:
+          - 'heading "KẾT QUẢ TÌM KIẾM: \"laptop\"" [level=1] [ref=e350]'
+          - generic [ref=e351]:
+            - generic [ref=e352]: 1057 sản phẩm
+            - generic [ref=e353]:
+              - paragraph [ref=e354]: "Hiển thị theo:"
+              - combobox [ref=e355]:
+                - option "Sắp xếp sản phẩm" [selected]
+                - option "Mới nhất"
+                - option "Giá tăng dần"
+                - option "Giá giảm dần"
+                - option "Đánh giá"
+                - option "Tên A->Z"
+                - text: "}"
+        - generic [ref=e356]:
+          - generic [ref=e357]:
+            - link "RAM Laptop Kingston 16GB DDR4 Bus 3200 ( KVR32S22S8/16 )" [ref=e358] [cursor=pointer]:
+              - /url: /ram-laptop-kingston-16gb-ddr4-bus-3200.html
+              - img "RAM Laptop Kingston 16GB DDR4 Bus 3200 ( KVR32S22S8/16 )" [ref=e359]
+            - generic [ref=e360]:
+              - link "RAM Laptop Kingston 16GB DDR4 Bus 3200 ( KVR32S22S8/16 )" [ref=e361] [cursor=pointer]:
+                - /url: /ram-laptop-kingston-16gb-ddr4-bus-3200.html
+              - generic [ref=e364]: 0 đánh giá
+              - generic [ref=e365]:
+                - deletion [ref=e366]: 2.990.000đ
+                - generic [ref=e367]:
+                  - generic [ref=e368]: 2.299.000đ
+                  - generic [ref=e369]: "-24%"
+          - generic [ref=e370]:
+            - link "Laptop Gaming ASUS TUF A15 FA506II-AL012T R5 4600H/ 8GB/ 512GB SSD/ GTX 1650Ti 4GB/ 15.6\" / Win10/" [ref=e371] [cursor=pointer]:
+              - /url: /laptop-gaming-asus-tuf-a15-fa506ll-al012t.html
+              - img "Laptop Gaming ASUS TUF A15 FA506II-AL012T R5 4600H/ 8GB/ 512GB SSD/ GTX 1650Ti 4GB/ 15.6\" / Win10/" [ref=e372]
+            - generic [ref=e373]:
+              - link "Laptop Gaming ASUS TUF A15 FA506II-AL012T R5 4600H/ 8GB/ 512GB SSD/ GTX 1650Ti 4GB/ 15.6\" / Win10/" [ref=e374] [cursor=pointer]:
+                - /url: /laptop-gaming-asus-tuf-a15-fa506ll-al012t.html
+              - generic [ref=e377]: 0 đánh giá
+              - generic [ref=e378]:
+                - deletion [ref=e379]: 21.990.000đ
+                - generic [ref=e380]:
+                  - generic [ref=e381]: 20.990.000đ
+                  - generic [ref=e382]: "-5%"
+          - generic [ref=e383]:
+            - link "Túi đựng Laptop Lenovo Ultra Slim Sleeve" [ref=e384] [cursor=pointer]:
+              - /url: /tui-dung-laptop-lenovo-13-ultra-slim-sleeve.html
+              - img "Túi đựng Laptop Lenovo Ultra Slim Sleeve" [ref=e385]
+            - generic [ref=e386]:
+              - link "Túi đựng Laptop Lenovo Ultra Slim Sleeve" [ref=e387] [cursor=pointer]:
+                - /url: /tui-dung-laptop-lenovo-13-ultra-slim-sleeve.html
+              - generic [ref=e390]: 0 đánh giá
+              - generic [ref=e391]:
+                - deletion [ref=e392]
+                - generic [ref=e394]: 500.000đ
+          - generic [ref=e395]:
+            - link "LAPTOP ASUS ROG Strix G15 G512-IAL013T 1650TI/ 10300H/ 8GB/ 512GB/ 15.6″/ 144HZ/ IPS/ WIN 10" [ref=e396] [cursor=pointer]:
+              - /url: /laptop-asus-rog-strix-g15-g512-ial013t-1650ti-10300h-8gb-512gb-15-6-144hz-ips-win10.html
+              - img "LAPTOP ASUS ROG Strix G15 G512-IAL013T 1650TI/ 10300H/ 8GB/ 512GB/ 15.6″/ 144HZ/ IPS/ WIN 10" [ref=e397]
+            - generic [ref=e398]:
+              - link "LAPTOP ASUS ROG Strix G15 G512-IAL013T 1650TI/ 10300H/ 8GB/ 512GB/ 15.6″/ 144HZ/ IPS/ WIN 10" [ref=e399] [cursor=pointer]:
+                - /url: /laptop-asus-rog-strix-g15-g512-ial013t-1650ti-10300h-8gb-512gb-15-6-144hz-ips-win10.html
+              - generic [ref=e402]: 0 đánh giá
+              - generic [ref=e403]:
+                - deletion [ref=e404]: 24.690.000đ
+                - generic [ref=e405]:
+                  - generic [ref=e406]: 22.390.000đ
+                  - generic [ref=e407]: "-10%"
+          - generic [ref=e408]:
+            - link "RAM Laptop Kingston 8GB DDR4 Bus 3200" [ref=e409] [cursor=pointer]:
+              - /url: /ram-laptop-kingston-8gb-ddr4-bus-3200.html
+              - img "RAM Laptop Kingston 8GB DDR4 Bus 3200" [ref=e410]
+            - generic [ref=e411]:
+              - link "RAM Laptop Kingston 8GB DDR4 Bus 3200" [ref=e412] [cursor=pointer]:
+                - /url: /ram-laptop-kingston-8gb-ddr4-bus-3200.html
+              - generic [ref=e415]: 0 đánh giá
+              - generic [ref=e416]:
+                - deletion [ref=e417]: 999.000đ
+                - generic [ref=e418]:
+                  - generic [ref=e419]: 869.000đ
+                  - generic [ref=e420]: "-14%"
+          - generic [ref=e421]:
+            - link "Laptop Asus ROG Zephyrus G14 GA401I-HHE042T RYZEN 5 4600HS/ 8GB/ SSD 512GB/ 14″ 120HZ/ GTX 1650/ WIN 10" [ref=e422] [cursor=pointer]:
+              - /url: /laptop-rog-zephyrus-042t.html
+              - img "Laptop Asus ROG Zephyrus G14 GA401I-HHE042T RYZEN 5 4600HS/ 8GB/ SSD 512GB/ 14″ 120HZ/ GTX 1650/ WIN 10" [ref=e423]
+            - generic [ref=e424]:
+              - link "Laptop Asus ROG Zephyrus G14 GA401I-HHE042T RYZEN 5 4600HS/ 8GB/ SSD 512GB/ 14″ 120HZ/ GTX 1650/ WIN 10" [ref=e425] [cursor=pointer]:
+                - /url: /laptop-rog-zephyrus-042t.html
+              - generic [ref=e428]: 0 đánh giá
+              - generic [ref=e429]:
+                - deletion [ref=e430]: 26.490.000đ
+                - generic [ref=e431]:
+                  - generic [ref=e432]: 25.590.000đ
+                  - generic [ref=e433]: "-4%"
+          - generic [ref=e434]:
+            - link "Laptop Asus ROG Zephyrus G14 GA401II-HE155T R7 4800HS/ 16GB/ SSD 512GB/ 14″ 120HZ/ GTX 1650Ti/ WIN 10" [ref=e435] [cursor=pointer]:
+              - /url: /laptop-asus-rog-zephyrus-g14-ga401ii-he155t.html
+              - img "Laptop Asus ROG Zephyrus G14 GA401II-HE155T R7 4800HS/ 16GB/ SSD 512GB/ 14″ 120HZ/ GTX 1650Ti/ WIN 10" [ref=e436]
+            - generic [ref=e437]:
+              - link "Laptop Asus ROG Zephyrus G14 GA401II-HE155T R7 4800HS/ 16GB/ SSD 512GB/ 14″ 120HZ/ GTX 1650Ti/ WIN 10" [ref=e438] [cursor=pointer]:
+                - /url: /laptop-asus-rog-zephyrus-g14-ga401ii-he155t.html
+              - generic [ref=e441]: 0 đánh giá
+              - generic [ref=e442]:
+                - deletion [ref=e443]: 33.490.000đ
+                - generic [ref=e444]:
+                  - generic [ref=e445]: 32.490.000đ
+                  - generic [ref=e446]: "-3%"
+          - generic [ref=e447]:
+            - link "Laptop Asus Gaming ROG Zephyrus G14 GA401IU-HA075T R7 4800HS/16GB RAM/512GB SSD/14' 2K IPS/GTX 1660Ti 6GB/Win10" [ref=e448] [cursor=pointer]:
+              - /url: /laptop-asus-gaming-rog-zephyus-g14-ga401iu-ha075t.html
+              - img "Laptop Asus Gaming ROG Zephyrus G14 GA401IU-HA075T R7 4800HS/16GB RAM/512GB SSD/14' 2K IPS/GTX 1660Ti 6GB/Win10" [ref=e449]
+            - generic [ref=e450]:
+              - link "Laptop Asus Gaming ROG Zephyrus G14 GA401IU-HA075T R7 4800HS/16GB RAM/512GB SSD/14' 2K IPS/GTX 1660Ti 6GB/Win10" [ref=e451] [cursor=pointer]:
+                - /url: /laptop-asus-gaming-rog-zephyus-g14-ga401iu-ha075t.html
+              - generic [ref=e454]: 0 đánh giá
+              - generic [ref=e455]:
+                - deletion [ref=e456]: 37.490.000đ
+                - generic [ref=e457]:
+                  - generic [ref=e458]: 36.490.000đ
+                  - generic [ref=e459]: "-3%"
+          - generic [ref=e460]:
+            - link "Laptop Asus ROG Zephyrus G14 GA401II-HE152T RYZEN 7 4800HS/ 16GB/ SSD 512GB/ 14″ 120HZ/ GTX 1650Ti/ WIN 10" [ref=e461] [cursor=pointer]:
+              - /url: /laptop-asus-rog-zephyrus-g14-he152t.html
+              - img "Laptop Asus ROG Zephyrus G14 GA401II-HE152T RYZEN 7 4800HS/ 16GB/ SSD 512GB/ 14″ 120HZ/ GTX 1650Ti/ WIN 10" [ref=e462]
+            - generic [ref=e463]:
+              - link "Laptop Asus ROG Zephyrus G14 GA401II-HE152T RYZEN 7 4800HS/ 16GB/ SSD 512GB/ 14″ 120HZ/ GTX 1650Ti/ WIN 10" [ref=e464] [cursor=pointer]:
+                - /url: /laptop-asus-rog-zephyrus-g14-he152t.html
+              - generic [ref=e467]: 0 đánh giá
+              - generic [ref=e468]:
+                - deletion [ref=e469]: 31.990.000đ
+                - generic [ref=e470]:
+                  - generic [ref=e471]: 30.990.000đ
+                  - generic [ref=e472]: "-4%"
+          - generic [ref=e473]:
+            - link "Laptop Asus Gaming ROG Zephyrus G14 GA401IU-HA171T GTX1660TI/R7-4800HS/16GB/512GB/14″/2K/IPS/ECLIPSE GRAY/ANIME/WIN 10" [ref=e474] [cursor=pointer]:
+              - /url: /laptop-asus-gaming-rog-zephyrus-g14-ga401iu-ha171t.html
+              - img "Laptop Asus Gaming ROG Zephyrus G14 GA401IU-HA171T GTX1660TI/R7-4800HS/16GB/512GB/14″/2K/IPS/ECLIPSE GRAY/ANIME/WIN 10" [ref=e475]
+            - generic [ref=e476]:
+              - link "Laptop Asus Gaming ROG Zephyrus G14 GA401IU-HA171T GTX1660TI/R7-4800HS/16GB/512GB/14″/2K/IPS/ECLIPSE GRAY/ANIME/WIN 10" [ref=e477] [cursor=pointer]:
+                - /url: /laptop-asus-gaming-rog-zephyrus-g14-ga401iu-ha171t.html
+              - generic [ref=e480]: 0 đánh giá
+              - generic [ref=e481]:
+                - deletion [ref=e482]: 39.990.000đ
+                - generic [ref=e483]:
+                  - generic [ref=e484]: 36.990.000đ
+                  - generic [ref=e485]: "-8%"
+          - generic [ref=e486]:
+            - link "LAPTOP ASUS ROG ZEPHYRUS G14 GA401II-HE154T R7-4800HS/1650TI 4GB /16GB/512GB/14″/120HZ/IPS/ELIPSE GRAY/ANIME/WIN 10" [ref=e487] [cursor=pointer]:
+              - /url: /laptop-asus-rog-zephyrus-g14-ga401ii-he154t.html
+              - img "LAPTOP ASUS ROG ZEPHYRUS G14 GA401II-HE154T R7-4800HS/1650TI 4GB /16GB/512GB/14″/120HZ/IPS/ELIPSE GRAY/ANIME/WIN 10" [ref=e488]
+            - generic [ref=e489]:
+              - link "LAPTOP ASUS ROG ZEPHYRUS G14 GA401II-HE154T R7-4800HS/1650TI 4GB /16GB/512GB/14″/120HZ/IPS/ELIPSE GRAY/ANIME/WIN 10" [ref=e490] [cursor=pointer]:
+                - /url: /laptop-asus-rog-zephyrus-g14-ga401ii-he154t.html
+              - generic [ref=e493]: 0 đánh giá
+              - generic [ref=e494]:
+                - deletion [ref=e495]: 33.990.000đ
+                - generic [ref=e496]:
+                  - generic [ref=e497]: 32.990.000đ
+                  - generic [ref=e498]: "-3%"
+          - generic [ref=e499]:
+            - link "LAPTOP ASUS ROG ZEPHYRUS G14 GA401II-HE019T R7-4800HS/ GTX1650TI 4GB/ 16GB/ 512GB/ 14″/ 120HZ/ IPS/ ECLIPSE GRAY/ WIN 10" [ref=e500] [cursor=pointer]:
+              - /url: /laptop-asus-rog-zephyrus-g14-ga401ii-he019t.html
+              - img "LAPTOP ASUS ROG ZEPHYRUS G14 GA401II-HE019T R7-4800HS/ GTX1650TI 4GB/ 16GB/ 512GB/ 14″/ 120HZ/ IPS/ ECLIPSE GRAY/ WIN 10" [ref=e501]
+            - generic [ref=e502]:
+              - link "LAPTOP ASUS ROG ZEPHYRUS G14 GA401II-HE019T R7-4800HS/ GTX1650TI 4GB/ 16GB/ 512GB/ 14″/ 120HZ/ IPS/ ECLIPSE GRAY/ WIN 10" [ref=e503] [cursor=pointer]:
+                - /url: /laptop-asus-rog-zephyrus-g14-ga401ii-he019t.html
+              - generic [ref=e506]: 0 đánh giá
+              - generic [ref=e507]:
+                - deletion [ref=e508]: 32.490.000đ
+                - generic [ref=e509]:
+                  - generic [ref=e510]: 30.490.000đ
+                  - generic [ref=e511]: "-7%"
+          - generic [ref=e512]:
+            - link "RAM Laptop TeamGroup Elite 8GB 3200Mhz" [ref=e513] [cursor=pointer]:
+              - /url: /ram-laptop-teamgroup-elite-8gb-3200mhz.html
+              - img "RAM Laptop TeamGroup Elite 8GB 3200Mhz" [ref=e514]
+            - generic [ref=e515]:
+              - link "RAM Laptop TeamGroup Elite 8GB 3200Mhz" [ref=e516] [cursor=pointer]:
+                - /url: /ram-laptop-teamgroup-elite-8gb-3200mhz.html
+              - generic [ref=e519]: 0 đánh giá
+              - generic [ref=e520]:
+                - deletion [ref=e521]
+                - generic [ref=e523]: 1.289.000đ
+          - generic [ref=e524]:
+            - link "Laptop MSI Prestige 14 EVO 089VN I7 1185G7/16GB/512GB/14″/FHD/IPS/WIN 10/GRAY" [ref=e525] [cursor=pointer]:
+              - /url: /laptop-msi-prestige-14-evo-089vn.html
+              - img "Laptop MSI Prestige 14 EVO 089VN I7 1185G7/16GB/512GB/14″/FHD/IPS/WIN 10/GRAY" [ref=e526]
+            - generic [ref=e527]:
+              - link "Laptop MSI Prestige 14 EVO 089VN I7 1185G7/16GB/512GB/14″/FHD/IPS/WIN 10/GRAY" [ref=e528] [cursor=pointer]:
+                - /url: /laptop-msi-prestige-14-evo-089vn.html
+              - generic [ref=e531]: 0 đánh giá
+              - generic [ref=e532]:
+                - deletion [ref=e533]: 29.790.000đ
+                - generic [ref=e534]:
+                  - generic [ref=e535]: 27.990.000đ
+                  - generic [ref=e536]: "-7%"
+          - generic [ref=e537]:
+            - link "Laptop Gaming ASUS TUF F15 FX506LI-HN039T I5-10300H/ 8GB/ 512GB SSD/ GTX 1650Ti 4GB/ 15.6\" / Win10" [ref=e538] [cursor=pointer]:
+              - /url: /laptop-gaming-asus-tuf-f15-fx506li-hn039t.html
+              - img "Laptop Gaming ASUS TUF F15 FX506LI-HN039T I5-10300H/ 8GB/ 512GB SSD/ GTX 1650Ti 4GB/ 15.6\" / Win10" [ref=e539]
+            - generic [ref=e540]:
+              - link "Laptop Gaming ASUS TUF F15 FX506LI-HN039T I5-10300H/ 8GB/ 512GB SSD/ GTX 1650Ti 4GB/ 15.6\" / Win10" [ref=e541] [cursor=pointer]:
+                - /url: /laptop-gaming-asus-tuf-f15-fx506li-hn039t.html
+              - generic [ref=e544]: 0 đánh giá
+              - generic [ref=e545]:
+                - deletion [ref=e546]
+                - generic [ref=e548]: 21.290.000đ
+          - generic [ref=e549]:
+            - link "Laptop Acer Swift 3x SF314-510G-5742 - i5-1135G7/ Iris Xe Max/ 16GB RAM/ 1TB SSD NVME/ 14\" FHD" [ref=e550] [cursor=pointer]:
+              - /url: /laptop-acer-swift-sf314-510g-5742.html
+              - img "Laptop Acer Swift 3x SF314-510G-5742 - i5-1135G7/ Iris Xe Max/ 16GB RAM/ 1TB SSD NVME/ 14\" FHD" [ref=e551]
+            - generic [ref=e552]:
+              - link "Laptop Acer Swift 3x SF314-510G-5742 - i5-1135G7/ Iris Xe Max/ 16GB RAM/ 1TB SSD NVME/ 14\" FHD" [ref=e553] [cursor=pointer]:
+                - /url: /laptop-acer-swift-sf314-510g-5742.html
+              - generic [ref=e556]: 0 đánh giá
+              - generic [ref=e557]:
+                - deletion [ref=e558]: 26.990.000đ
+                - generic [ref=e559]:
+                  - generic [ref=e560]: 26.590.000đ
+                  - generic [ref=e561]: "-2%"
+          - generic [ref=e562]:
+            - link "Laptop MSI Gaming Stealth 15M A11SDK 060VN i7-1185G7/ 16GB/ SSD 512GB/ 15.6\" FHD/ GTX 1660Ti 6GB/ Win10" [ref=e563] [cursor=pointer]:
+              - /url: /laptop-msi-gaming-stealth-15m-a11sdk-060vn.html
+              - img "Laptop MSI Gaming Stealth 15M A11SDK 060VN i7-1185G7/ 16GB/ SSD 512GB/ 15.6\" FHD/ GTX 1660Ti 6GB/ Win10" [ref=e564]
+            - generic [ref=e565]:
+              - link "Laptop MSI Gaming Stealth 15M A11SDK 060VN i7-1185G7/ 16GB/ SSD 512GB/ 15.6\" FHD/ GTX 1660Ti 6GB/ Win10" [ref=e566] [cursor=pointer]:
+                - /url: /laptop-msi-gaming-stealth-15m-a11sdk-060vn.html
+              - generic [ref=e569]: 0 đánh giá
+              - generic [ref=e570]:
+                - deletion [ref=e571]: 34.490.000đ
+                - generic [ref=e572]:
+                  - generic [ref=e573]: 33.490.000đ
+                  - generic [ref=e574]: "-3%"
+          - generic [ref=e575]:
+            - link "Laptop MSI Gaming Stealth 15M A11SDK 061VN i7-1185G7/ 16GB/ SSD 512GB/ 15.6\" FHD/ GTX 1660Ti 6GB/ Win10" [ref=e576] [cursor=pointer]:
+              - /url: /laptop-msi-gaming-stealth-a11sdk-061vn.html
+              - img "Laptop MSI Gaming Stealth 15M A11SDK 061VN i7-1185G7/ 16GB/ SSD 512GB/ 15.6\" FHD/ GTX 1660Ti 6GB/ Win10" [ref=e577]
+            - generic [ref=e578]:
+              - link "Laptop MSI Gaming Stealth 15M A11SDK 061VN i7-1185G7/ 16GB/ SSD 512GB/ 15.6\" FHD/ GTX 1660Ti 6GB/ Win10" [ref=e579] [cursor=pointer]:
+                - /url: /laptop-msi-gaming-stealth-a11sdk-061vn.html
+              - generic [ref=e582]: 1 đánh giá
+              - generic [ref=e583]:
+                - deletion [ref=e584]: 34.490.000đ
+                - generic [ref=e585]:
+                  - generic [ref=e586]: 33.490.000đ
+                  - generic [ref=e587]: "-3%"
+          - generic [ref=e588]:
+            - link "Laptop Asus ROG Strix G17 G713QR-HG072T Ryzen 7-5800H/ RAM 16GB/ 1TB SSD/ RTX 3070/ 17.3 inch FHD/ Win 10/ Xám" [ref=e589] [cursor=pointer]:
+              - /url: /laptop-asus-rog-strix-g17-g713qr-hg072t.html
+              - img "Laptop Asus ROG Strix G17 G713QR-HG072T Ryzen 7-5800H/ RAM 16GB/ 1TB SSD/ RTX 3070/ 17.3 inch FHD/ Win 10/ Xám" [ref=e590]
+            - generic [ref=e591]:
+              - link "Laptop Asus ROG Strix G17 G713QR-HG072T Ryzen 7-5800H/ RAM 16GB/ 1TB SSD/ RTX 3070/ 17.3 inch FHD/ Win 10/ Xám" [ref=e592] [cursor=pointer]:
+                - /url: /laptop-asus-rog-strix-g17-g713qr-hg072t.html
+              - generic [ref=e595]: 0 đánh giá
+              - generic [ref=e596]:
+                - deletion [ref=e597]: 49.690.000đ
+                - generic [ref=e598]:
+                  - generic [ref=e599]: 48.990.000đ
+                  - generic [ref=e600]: "-2%"
+          - generic [ref=e601]:
+            - link "Laptop Gaming ASUS TUF F15 FX506LU-HN138T I7-10870H/ 8GB/ 512GB SSD/ GTX 1660Ti 6GB/ 15.6\" / Win10" [ref=e602] [cursor=pointer]:
+              - /url: /laptop-asus-tuf-gaming-f15-fx506lu-hn138t.html
+              - img "Laptop Gaming ASUS TUF F15 FX506LU-HN138T I7-10870H/ 8GB/ 512GB SSD/ GTX 1660Ti 6GB/ 15.6\" / Win10" [ref=e603]
+            - generic [ref=e604]:
+              - link "Laptop Gaming ASUS TUF F15 FX506LU-HN138T I7-10870H/ 8GB/ 512GB SSD/ GTX 1660Ti 6GB/ 15.6\" / Win10" [ref=e605] [cursor=pointer]:
+                - /url: /laptop-asus-tuf-gaming-f15-fx506lu-hn138t.html
+              - generic [ref=e608]: 0 đánh giá
+              - generic [ref=e609]:
+                - deletion [ref=e610]: 28.490.000đ
+                - generic [ref=e611]:
+                  - generic [ref=e612]: 27.990.000đ
+                  - generic [ref=e613]: "-2%"
+          - generic [ref=e614]:
+            - link "Laptop Gaming ASUS TUF F15 FX506LH-HN002T I5-10300H/ 8GB/ 512GB SSD/ GTX 1650 4GB/ 15.6inch FullHD / Win10" [ref=e615] [cursor=pointer]:
+              - /url: /laptop-asus-tuf-gaming-f15-fx506lh-hn002t.html
+              - img "Laptop Gaming ASUS TUF F15 FX506LH-HN002T I5-10300H/ 8GB/ 512GB SSD/ GTX 1650 4GB/ 15.6inch FullHD / Win10" [ref=e616]
+            - generic [ref=e617]:
+              - link "Laptop Gaming ASUS TUF F15 FX506LH-HN002T I5-10300H/ 8GB/ 512GB SSD/ GTX 1650 4GB/ 15.6inch FullHD / Win10" [ref=e618] [cursor=pointer]:
+                - /url: /laptop-asus-tuf-gaming-f15-fx506lh-hn002t.html
+              - generic [ref=e621]: 0 đánh giá
+              - generic [ref=e622]:
+                - deletion [ref=e623]: 22.290.000đ
+                - generic [ref=e624]:
+                  - generic [ref=e625]: 16.490.000đ
+                  - generic [ref=e626]: "-27%"
+          - generic [ref=e627]:
+            - link "Laptop Gaming ASUS TUF A15 FA506QM-HN016T R7 5800H/ 16GB/ RTX 3060 6GB/ 512GB SSD/ Win 10" [ref=e628] [cursor=pointer]:
+              - /url: /laptop-gaming-asus-tuf-a15-fa506qm-hn016t.html
+              - img "Laptop Gaming ASUS TUF A15 FA506QM-HN016T R7 5800H/ 16GB/ RTX 3060 6GB/ 512GB SSD/ Win 10" [ref=e629]
+            - generic [ref=e630]:
+              - link "Laptop Gaming ASUS TUF A15 FA506QM-HN016T R7 5800H/ 16GB/ RTX 3060 6GB/ 512GB SSD/ Win 10" [ref=e631] [cursor=pointer]:
+                - /url: /laptop-gaming-asus-tuf-a15-fa506qm-hn016t.html
+              - generic [ref=e634]: 0 đánh giá
+              - generic [ref=e635]:
+                - deletion [ref=e636]
+                - generic [ref=e638]: 30.990.000đ
+          - generic [ref=e639]:
+            - link "Laptop Asus ROG Zephyrus G15 GA503QS-HQ052T R9 5900HS/ 32GB/ SSD 1TB NVME/ RTX 3080/ 15.6\"/ 2K/ 165Hz/ Win 10" [ref=e640] [cursor=pointer]:
+              - /url: /laptop-asus-rog-zephyrus-g15-ga503qs-hq052t.html
+              - img "Laptop Asus ROG Zephyrus G15 GA503QS-HQ052T R9 5900HS/ 32GB/ SSD 1TB NVME/ RTX 3080/ 15.6\"/ 2K/ 165Hz/ Win 10" [ref=e641]
+            - generic [ref=e642]:
+              - link "Laptop Asus ROG Zephyrus G15 GA503QS-HQ052T R9 5900HS/ 32GB/ SSD 1TB NVME/ RTX 3080/ 15.6\"/ 2K/ 165Hz/ Win 10" [ref=e643] [cursor=pointer]:
+                - /url: /laptop-asus-rog-zephyrus-g15-ga503qs-hq052t.html
+              - generic [ref=e646]: 0 đánh giá
+              - generic [ref=e647]:
+                - deletion [ref=e648]
+                - generic [ref=e650]: 69.990.000đ
+          - generic [ref=e651]:
+            - link "Laptop Asus ROG Flow X13 GV301QH-K6054T R7 5800HS/ 16GB/ 512GB NVMe/ 13.4 FullHD/ 120Hz/ IPS/ GTX 1650/ Win 10" [ref=e652] [cursor=pointer]:
+              - /url: /laptop-asus-rog-flow-x13-gv301qh-k6054t.html
+              - img "Laptop Asus ROG Flow X13 GV301QH-K6054T R7 5800HS/ 16GB/ 512GB NVMe/ 13.4 FullHD/ 120Hz/ IPS/ GTX 1650/ Win 10" [ref=e653]
+            - generic [ref=e654]:
+              - link "Laptop Asus ROG Flow X13 GV301QH-K6054T R7 5800HS/ 16GB/ 512GB NVMe/ 13.4 FullHD/ 120Hz/ IPS/ GTX 1650/ Win 10" [ref=e655] [cursor=pointer]:
+                - /url: /laptop-asus-rog-flow-x13-gv301qh-k6054t.html
+              - generic [ref=e658]: 0 đánh giá
+              - generic [ref=e659]:
+                - deletion [ref=e660]
+                - generic [ref=e662]: 34.990.000đ
+          - generic [ref=e663]:
+            - link "Laptop Asus ROG Zephyrus G15 GA503QM-HQ097T R7 5800HS/ 16GB/ SSD 512GB/ RTX 3060/ 15.6\"/ 2K/ 165Hz/ Win 10" [ref=e664] [cursor=pointer]:
+              - /url: /laptop-asus-rog-zephyrus-g15-g503qm-hq097t.html
+              - img "Laptop Asus ROG Zephyrus G15 GA503QM-HQ097T R7 5800HS/ 16GB/ SSD 512GB/ RTX 3060/ 15.6\"/ 2K/ 165Hz/ Win 10" [ref=e665]
+            - generic [ref=e666]:
+              - link "Laptop Asus ROG Zephyrus G15 GA503QM-HQ097T R7 5800HS/ 16GB/ SSD 512GB/ RTX 3060/ 15.6\"/ 2K/ 165Hz/ Win 10" [ref=e667] [cursor=pointer]:
+                - /url: /laptop-asus-rog-zephyrus-g15-g503qm-hq097t.html
+              - generic [ref=e670]: 0 đánh giá
+              - generic [ref=e671]:
+                - deletion [ref=e672]
+                - generic [ref=e674]: 39.890.000đ
+          - generic [ref=e675]:
+            - link "LAPTOP ASUS ROG Strix G17 G713QM-K4113T R7-5800H/16GB/512GB/RTX 3060 6GB/17.3 inch/WQHD/Win 10" [ref=e676] [cursor=pointer]:
+              - /url: /laptop-asus-rog-strix-g17-g713qm-k4113t.html
+              - img "LAPTOP ASUS ROG Strix G17 G713QM-K4113T R7-5800H/16GB/512GB/RTX 3060 6GB/17.3 inch/WQHD/Win 10" [ref=e677]
+            - generic [ref=e678]:
+              - link "LAPTOP ASUS ROG Strix G17 G713QM-K4113T R7-5800H/16GB/512GB/RTX 3060 6GB/17.3 inch/WQHD/Win 10" [ref=e679] [cursor=pointer]:
+                - /url: /laptop-asus-rog-strix-g17-g713qm-k4113t.html
+              - generic [ref=e682]: 0 đánh giá
+              - generic [ref=e683]:
+                - deletion [ref=e684]
+                - generic [ref=e686]: 41.890.000đ
+          - generic [ref=e687]:
+            - link "Ram Laptop Lexar 8GB DDR4 Bus 2666MHz" [ref=e688] [cursor=pointer]:
+              - /url: /ram-laptop-lexar-8gb-ddr4-bus-2666.html
+              - img "Ram Laptop Lexar 8GB DDR4 Bus 2666MHz" [ref=e689]
+            - generic [ref=e690]:
+              - link "Ram Laptop Lexar 8GB DDR4 Bus 2666MHz" [ref=e691] [cursor=pointer]:
+                - /url: /ram-laptop-lexar-8gb-ddr4-bus-2666.html
+              - generic [ref=e694]: 0 đánh giá
+              - generic [ref=e695]:
+                - deletion [ref=e696]
+                - generic [ref=e698]: 1.099.000đ
+          - generic [ref=e699]:
+            - link "Laptop Asus ROG Strix Scar 15 G533QR-HQ098T R9-5900HX/ 16GB/ 1TB SSD/ RTX 3070 8GB/ 15.6 WQHD/ 165Hz/ IPS/ Win 10" [ref=e700] [cursor=pointer]:
+              - /url: /laptop-asus-rog-strix-scar-15-g533qr-hq098t.html
+              - img "Laptop Asus ROG Strix Scar 15 G533QR-HQ098T R9-5900HX/ 16GB/ 1TB SSD/ RTX 3070 8GB/ 15.6 WQHD/ 165Hz/ IPS/ Win 10" [ref=e701]
+            - generic [ref=e702]:
+              - link "Laptop Asus ROG Strix Scar 15 G533QR-HQ098T R9-5900HX/ 16GB/ 1TB SSD/ RTX 3070 8GB/ 15.6 WQHD/ 165Hz/ IPS/ Win 10" [ref=e703] [cursor=pointer]:
+                - /url: /laptop-asus-rog-strix-scar-15-g533qr-hq098t.html
+              - generic [ref=e706]: 0 đánh giá
+              - generic [ref=e707]:
+                - deletion [ref=e708]
+                - generic [ref=e710]: 59.690.000đ
+          - generic [ref=e711]:
+            - link "Laptop Asus ROG Zephyrus G14 GA401QH-HZ035T RYZEN 7 5800HS/ 8GB/ SSD 512GB/ 14″/ 144HZ/ GTX 1650/ WIN 10/ Eclipse Gray" [ref=e712] [cursor=pointer]:
+              - /url: /laptop-asus-rog-zephyrus-g14-ga401qh-hz035t.html
+              - img "Laptop Asus ROG Zephyrus G14 GA401QH-HZ035T RYZEN 7 5800HS/ 8GB/ SSD 512GB/ 14″/ 144HZ/ GTX 1650/ WIN 10/ Eclipse Gray" [ref=e713]
+            - generic [ref=e714]:
+              - link "Laptop Asus ROG Zephyrus G14 GA401QH-HZ035T RYZEN 7 5800HS/ 8GB/ SSD 512GB/ 14″/ 144HZ/ GTX 1650/ WIN 10/ Eclipse Gray" [ref=e715] [cursor=pointer]:
+                - /url: /laptop-asus-rog-zephyrus-g14-ga401qh-hz035t.html
+              - generic [ref=e718]: 0 đánh giá
+              - generic [ref=e719]:
+                - deletion [ref=e720]
+                - generic [ref=e722]: 28.490.000đ
+          - generic [ref=e723]:
+            - link "Laptop Asus Gaming ROG Zephyrus G14 GA401QC-HZ032T R7 5800HS/ 16GB/ 512GB/ RTX 3050/ Win 10" [ref=e724] [cursor=pointer]:
+              - /url: /laptop-asus-gaming-rog-zephyrus-g14-ga401qc-hz032t.html
+              - img "Laptop Asus Gaming ROG Zephyrus G14 GA401QC-HZ032T R7 5800HS/ 16GB/ 512GB/ RTX 3050/ Win 10" [ref=e725]
+            - generic [ref=e726]:
+              - link "Laptop Asus Gaming ROG Zephyrus G14 GA401QC-HZ032T R7 5800HS/ 16GB/ 512GB/ RTX 3050/ Win 10" [ref=e727] [cursor=pointer]:
+                - /url: /laptop-asus-gaming-rog-zephyrus-g14-ga401qc-hz032t.html
+              - generic [ref=e730]: 0 đánh giá
+              - generic [ref=e731]:
+                - deletion [ref=e732]
+                - generic [ref=e734]: 31.890.000đ
+          - generic [ref=e735]:
+            - link "Laptop Asus ROG Strix G15 G513QE-HN010T R7 5800H/ 16GB/ 512GB/ RTX 3050Ti/ Win 10" [ref=e736] [cursor=pointer]:
+              - /url: /laptop-asus-rog-strix-g15-g513qe-010t.html
+              - img "Laptop Asus ROG Strix G15 G513QE-HN010T R7 5800H/ 16GB/ 512GB/ RTX 3050Ti/ Win 10" [ref=e737]
+            - generic [ref=e738]:
+              - link "Laptop Asus ROG Strix G15 G513QE-HN010T R7 5800H/ 16GB/ 512GB/ RTX 3050Ti/ Win 10" [ref=e739] [cursor=pointer]:
+                - /url: /laptop-asus-rog-strix-g15-g513qe-010t.html
+              - generic [ref=e742]: 0 đánh giá
+              - generic [ref=e743]:
+                - deletion [ref=e744]
+                - generic [ref=e746]: 30.790.000đ
+          - generic [ref=e747]:
+            - link "Laptop Asus ROG Strix G15 G513QC-HN015T R7 5800H/ 8GB/ 512GB/ RTX 3050/ Win 10" [ref=e748] [cursor=pointer]:
+              - /url: /laptop-asus-rog-strix-g15-g513qc-hn015t.html
+              - img "Laptop Asus ROG Strix G15 G513QC-HN015T R7 5800H/ 8GB/ 512GB/ RTX 3050/ Win 10" [ref=e749]
+            - generic [ref=e750]:
+              - link "Laptop Asus ROG Strix G15 G513QC-HN015T R7 5800H/ 8GB/ 512GB/ RTX 3050/ Win 10" [ref=e751] [cursor=pointer]:
+                - /url: /laptop-asus-rog-strix-g15-g513qc-hn015t.html
+              - generic [ref=e754]: 0 đánh giá
+              - generic [ref=e755]:
+                - deletion [ref=e756]: 28.390.000đ
+                - generic [ref=e757]:
+                  - generic [ref=e758]: 27.590.000đ
+                  - generic [ref=e759]: "-3%"
+          - generic [ref=e760]:
+            - link "LAPTOP ASUS ROG ZEPHYRUS G14 GA401QE-K2026T R7-5800HS/ RTX 3050 Ti 4GB/ 16GB/ 1TB SSD/ 14 inch 2K/ 120HZ/ IPS/ ELIPSE GRAY/ ANIME/ WIN 10" [ref=e761] [cursor=pointer]:
+              - /url: /laptop-asus-rog-zephyrus-g14-ga401qe-k2026t.html
+              - img "LAPTOP ASUS ROG ZEPHYRUS G14 GA401QE-K2026T R7-5800HS/ RTX 3050 Ti 4GB/ 16GB/ 1TB SSD/ 14 inch 2K/ 120HZ/ IPS/ ELIPSE GRAY/ ANIME/ WIN 10" [ref=e762]
+            - generic [ref=e763]:
+              - link "LAPTOP ASUS ROG ZEPHYRUS G14 GA401QE-K2026T R7-5800HS/ RTX 3050 Ti 4GB/ 16GB/ 1TB SSD/ 14 inch 2K/ 120HZ/ IPS/ ELIPSE GRAY/ ANIME/ WIN 10" [ref=e764] [cursor=pointer]:
+                - /url: /laptop-asus-rog-zephyrus-g14-ga401qe-k2026t.html
+              - generic [ref=e767]: 0 đánh giá
+              - generic [ref=e768]:
+                - deletion [ref=e769]: 41.990.000đ
+                - generic [ref=e770]:
+                  - generic [ref=e771]: 37.990.000đ
+                  - generic [ref=e772]: "-10%"
+          - generic [ref=e773]:
+            - link "Laptop Asus ExpertBook B9450CEA-XH75 Core i7-1165G7/ 16GB/ SSD 1TB SSD/ 14.0 inch FHD/ Win 10Pro" [ref=e774] [cursor=pointer]:
+              - /url: /laptop-asus-expertbook-b9450cea-xh75.html
+              - img "Laptop Asus ExpertBook B9450CEA-XH75 Core i7-1165G7/ 16GB/ SSD 1TB SSD/ 14.0 inch FHD/ Win 10Pro" [ref=e775]
+            - generic [ref=e776]:
+              - link "Laptop Asus ExpertBook B9450CEA-XH75 Core i7-1165G7/ 16GB/ SSD 1TB SSD/ 14.0 inch FHD/ Win 10Pro" [ref=e777] [cursor=pointer]:
+                - /url: /laptop-asus-expertbook-b9450cea-xh75.html
+              - generic [ref=e780]: 0 đánh giá
+              - generic [ref=e781]:
+                - deletion [ref=e782]: 49.890.000đ
+                - generic [ref=e783]:
+                  - generic [ref=e784]: 47.499.000đ
+                  - generic [ref=e785]: "-5%"
+          - generic [ref=e786]:
+            - link "Laptop Gaming ASUS TUF F15 FX506HC-HN002T i5-11400H/ 8GB/ RTX 3050 4GB/ 512GB/ Win 10" [ref=e787] [cursor=pointer]:
+              - /url: /laptop-gaming-asus-tuf-gaming-f15-fx506hc-hn002t.html
+              - img "Laptop Gaming ASUS TUF F15 FX506HC-HN002T i5-11400H/ 8GB/ RTX 3050 4GB/ 512GB/ Win 10" [ref=e788]
+            - generic [ref=e789]:
+              - link "Laptop Gaming ASUS TUF F15 FX506HC-HN002T i5-11400H/ 8GB/ RTX 3050 4GB/ 512GB/ Win 10" [ref=e790] [cursor=pointer]:
+                - /url: /laptop-gaming-asus-tuf-gaming-f15-fx506hc-hn002t.html
+              - generic [ref=e793]: 0 đánh giá
+              - generic [ref=e794]:
+                - deletion [ref=e795]
+                - generic [ref=e797]: 25.690.000đ
+          - generic [ref=e798]:
+            - link "Laptop Asus ROG Zephyrus G14 GA401QC-HZ022T R7-5800HS/ 16GB/ 512GB/ RTX 3050 4GB/ Win 10/ Anime Matrix" [ref=e799] [cursor=pointer]:
+              - /url: /laptop-asus-rog-zephyrus-g14-ga401qc-hz022t.html
+              - img "Laptop Asus ROG Zephyrus G14 GA401QC-HZ022T R7-5800HS/ 16GB/ 512GB/ RTX 3050 4GB/ Win 10/ Anime Matrix" [ref=e800]
+            - generic [ref=e801]:
+              - link "Laptop Asus ROG Zephyrus G14 GA401QC-HZ022T R7-5800HS/ 16GB/ 512GB/ RTX 3050 4GB/ Win 10/ Anime Matrix" [ref=e802] [cursor=pointer]:
+                - /url: /laptop-asus-rog-zephyrus-g14-ga401qc-hz022t.html
+              - generic [ref=e805]: 0 đánh giá
+              - generic [ref=e806]:
+                - deletion [ref=e807]
+                - generic [ref=e809]: 35.890.000đ
+          - generic [ref=e810]:
+            - link "Laptop Asus ROG Zephyrus G14 GA401QC-HZ021T R7 5800HS/ 16GB/ 512GB/ RTX 3050 4GB/ Win 10/ Amine Matrix" [ref=e811] [cursor=pointer]:
+              - /url: /laptop-asus-rog-zephyrus-g14-ga401qc-hz021t.html
+              - img "Laptop Asus ROG Zephyrus G14 GA401QC-HZ021T R7 5800HS/ 16GB/ 512GB/ RTX 3050 4GB/ Win 10/ Amine Matrix" [ref=e812]
+            - generic [ref=e813]:
+              - link "Laptop Asus ROG Zephyrus G14 GA401QC-HZ021T R7 5800HS/ 16GB/ 512GB/ RTX 3050 4GB/ Win 10/ Amine Matrix" [ref=e814] [cursor=pointer]:
+                - /url: /laptop-asus-rog-zephyrus-g14-ga401qc-hz021t.html
+              - generic [ref=e817]: 0 đánh giá
+              - generic [ref=e818]:
+                - deletion [ref=e819]
+                - generic [ref=e821]: 35.790.000đ
+          - generic [ref=e822]:
+            - link "Laptop Gaming ASUS TUF F15 FX506HM-HN018T i5-11400H/ 8GB/ 512GB / RTX 3060 6GB/ Win 10" [ref=e823] [cursor=pointer]:
+              - /url: /laptop-gaming-asus-tuf-f15-fx506hm-hn018t.html
+              - img "Laptop Gaming ASUS TUF F15 FX506HM-HN018T i5-11400H/ 8GB/ 512GB / RTX 3060 6GB/ Win 10" [ref=e824]
+            - generic [ref=e825]:
+              - link "Laptop Gaming ASUS TUF F15 FX506HM-HN018T i5-11400H/ 8GB/ 512GB / RTX 3060 6GB/ Win 10" [ref=e826] [cursor=pointer]:
+                - /url: /laptop-gaming-asus-tuf-f15-fx506hm-hn018t.html
+              - generic [ref=e829]: 0 đánh giá
+              - generic [ref=e830]:
+                - deletion [ref=e831]
+                - generic [ref=e833]: 29.990.000đ
+          - generic [ref=e834]:
+            - link "Laptop Đồ họa ConceptD 3 Ezel CC314-72G-75SM (NX.C5JSV.002) i7 10750H/ 16GB RAM/ 1TB SSD/ GTX1650Ti 4G/ 14 inch FHD Touch/ Bút/ Win10 Pro/ Trắng" [ref=e835] [cursor=pointer]:
+              - /url: /laptop-do-hoa-conceptd-3-ezel-cc314-72g-75sm-nxc5jsv002-trang.html
+              - img "Laptop Đồ họa ConceptD 3 Ezel CC314-72G-75SM (NX.C5JSV.002) i7 10750H/ 16GB RAM/ 1TB SSD/ GTX1650Ti 4G/ 14 inch FHD Touch/ Bút/ Win10 Pro/ Trắng" [ref=e836]
+            - generic [ref=e837]:
+              - link "Laptop Đồ họa ConceptD 3 Ezel CC314-72G-75SM (NX.C5JSV.002) i7 10750H/ 16GB RAM/ 1TB SSD/ GTX1650Ti 4G/ 14 inch FHD Touch/ Bút/ Win10 Pro/ Trắng" [ref=e838] [cursor=pointer]:
+                - /url: /laptop-do-hoa-conceptd-3-ezel-cc314-72g-75sm-nxc5jsv002-trang.html
+              - generic [ref=e841]: 0 đánh giá
+              - generic [ref=e842]:
+                - deletion [ref=e843]
+                - generic [ref=e845]: 51.990.000đ
+          - generic [ref=e846]:
+            - link "Laptop Đồ họa ConceptD 3 Ezel Pro CC314-72P-75EG (NX.C5KSV.001 ) i7 10750H/ 16GB RAM/ 1TB SSD/ Quadro™ T1000/ 14 inch FHD Touch/ Bút/ Win10 Pro/ Trắng" [ref=e847] [cursor=pointer]:
+              - /url: /laptop-do-hoa-conceptd-3-ezel-pro-cc314-72p-75eg-nxc5ksv001-trang.html
+              - img "Laptop Đồ họa ConceptD 3 Ezel Pro CC314-72P-75EG (NX.C5KSV.001 ) i7 10750H/ 16GB RAM/ 1TB SSD/ Quadro™ T1000/ 14 inch FHD Touch/ Bút/ Win10 Pro/ Trắng" [ref=e848]
+            - generic [ref=e849]:
+              - link "Laptop Đồ họa ConceptD 3 Ezel Pro CC314-72P-75EG (NX.C5KSV.001 ) i7 10750H/ 16GB RAM/ 1TB SSD/ Quadro™ T1000/ 14 inch FHD Touch/ Bút/ Win10 Pro/ Trắng" [ref=e850] [cursor=pointer]:
+                - /url: /laptop-do-hoa-conceptd-3-ezel-pro-cc314-72p-75eg-nxc5ksv001-trang.html
+              - generic [ref=e853]: 0 đánh giá
+              - generic [ref=e854]:
+                - deletion [ref=e855]
+                - generic [ref=e857]: 51.990.000đ
+        - link "Xem thêm " [active] [ref=e858] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - text: Xem thêm
+          - generic [ref=e859]: 
+  - paragraph [ref=e863]: Sản phẩm đã xem
+  - generic [ref=e874]:
+    - generic [ref=e877]:
+      - generic [ref=e878]:
+        - heading "Theo dõi chúng tôi tại" [level=3] [ref=e879]
+        - generic [ref=e880]:
+          - link [ref=e881] [cursor=pointer]:
+            - /url: https://www.facebook.com/tncstore/
+          - link [ref=e883] [cursor=pointer]:
+            - /url: https://www.instagram.com/tncstore_vn/
+          - link [ref=e885] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCvLGkK-wBBaoXwV71Tgx08Q
+          - link [ref=e887] [cursor=pointer]:
+            - /url: https://shopee.vn/tncofficialstore
+      - generic [ref=e889]:
+        - heading "Đăng ký email để nhận tin khuyến mãi" [level=3] [ref=e890]
+        - generic [ref=e891]:
+          - textbox "Nhập email của bạn" [ref=e892]
+          - link "Đăng ký" [ref=e893] [cursor=pointer]:
+            - /url: javascript:;
+    - generic [ref=e895]:
+      - generic [ref=e896]:
+        - generic [ref=e897]:
+          - heading "Danh Mục Sản Phẩm" [level=3] [ref=e898]
+          - generic [ref=e899]:
+            - link "PC Gaming" [ref=e900] [cursor=pointer]:
+              - /url: /gaming-pc.html
+            - link "Laptop Gaming" [ref=e901] [cursor=pointer]:
+              - /url: /gaming-laptop.html
+            - link "VGA NVidia Rtx 5070" [ref=e902] [cursor=pointer]:
+              - /url: /vga-nvidia-rtx-5070.html
+            - link "Ps5 Rẻ nhất Việt Nam" [ref=e903] [cursor=pointer]:
+              - /url: /may-play-station-5.html
+            - link "VGA NVidia Rtx 5060" [ref=e904] [cursor=pointer]:
+              - /url: /vga-rtx-5060.html
+        - generic [ref=e905]:
+          - heading "Thông Tin Chung" [level=3] [ref=e906]
+          - generic [ref=e907]:
+            - link "Giới Thiệu" [ref=e908] [cursor=pointer]:
+              - /url: /gioi-thieu
+            - link "Tuyển Dụng" [ref=e909] [cursor=pointer]:
+              - /url: "#"
+            - link "Tin Tức" [ref=e910] [cursor=pointer]:
+              - /url: /tin-tuc
+            - link "Ý Kiến Khách Hàng" [ref=e911] [cursor=pointer]:
+              - /url: "#"
+            - link "Liên Hệ Hợp Tác" [ref=e912] [cursor=pointer]:
+              - /url: /lien-he
+        - generic [ref=e913]:
+          - heading "Chính Sách" [level=3] [ref=e914]
+          - generic [ref=e915]:
+            - link "Quy Định Chung" [ref=e916] [cursor=pointer]:
+              - /url: "#"
+            - link "Chính Sách Vận Chuyển" [ref=e917] [cursor=pointer]:
+              - /url: /chinh-sach-van-chuyen-tnc-store
+            - link "Chính Sách Bảo Hành" [ref=e918] [cursor=pointer]:
+              - /url: /chinh-sach-va-quy-dinh-bao-hanh-tai-tnc-store
+            - link "Chính Sách Đổi, Trả Hàng" [ref=e919] [cursor=pointer]:
+              - /url: /chinh-sach-doi-tra-lai-hang
+            - link "Chính Sách Cho Doanh Nghiệp" [ref=e920] [cursor=pointer]:
+              - /url: /chinh-sach-cho-doanh-nghiep
+        - generic [ref=e921]:
+          - heading "Thông Tin Hữu Ích" [level=3] [ref=e922]
+          - generic [ref=e923]:
+            - link "Build PC là TNC" [ref=e924] [cursor=pointer]:
+              - /url: https://www.tncstore.vn/buildpc
+            - link "Hướng dẫn Build PC TNC" [ref=e925] [cursor=pointer]:
+              - /url: huong-dan-build-pc-tnc.html
+            - link "Tips Build PC TNC nhiều Khuyến Mại" [ref=e926] [cursor=pointer]:
+              - /url: tips-build-pc-tnc-nhieu-khuyen-mai.html
+            - link "Cách sửa cấu hình mẫu của Build PC TNC" [ref=e927] [cursor=pointer]:
+              - /url: /cach-sua-cau-hinh-mau-cua-build-pc-tnc.html
+            - link "Chính Sách Build PC TNC Cho Doanh Nghiệp" [ref=e928] [cursor=pointer]:
+              - /url: chinh-sach-build-pc-tnc-cho-doanh-nghiep.html
+      - generic [ref=e929]:
+        - iframe [ref=e931]:
+          
+        - generic [ref=e932]:
+          - heading "Công ty TNHH Thương mại & Tin học Tú Nguyệt" [level=3] [ref=e933]
+          - generic [ref=e934]:
+            - paragraph [ref=e935]: "Showroom: 172 Lê Thanh Nghị, Phường Bạch Mai, Hà Nội"
+            - paragraph [ref=e936]:
+              - text: "Tel:"
+              - link "(024) 36288790" [ref=e937] [cursor=pointer]:
+                - /url: tel:02436288790
+              - text: /
+              - link "(086) 830.2123" [ref=e938] [cursor=pointer]:
+                - /url: tel:0868302123
+          - generic [ref=e939]:
+            - paragraph [ref=e940]: "Trung tâm bảo hành: 172 Lê Thanh Nghị, Phường Bạch Mai, Hà Nội"
+            - paragraph [ref=e941]:
+              - text: "Tel:"
+              - link "(098) 978 1468" [ref=e942] [cursor=pointer]:
+                - /url: tel:0989781468
+          - generic [ref=e943]:
+            - paragraph [ref=e944]: "Trụ sở (Không bán hàng): 11 Vũ Thạnh, Phường Ô Chợ Dừa, Hà Nội"
+            - paragraph [ref=e945]:
+              - text: "Tel:"
+              - link "(086) 8302123" [ref=e946] [cursor=pointer]:
+                - /url: tel:0868302123
+            - paragraph [ref=e947]:
+              - text: "Fax:"
+              - link "(024) 36288790" [ref=e948] [cursor=pointer]:
+                - /url: tel:02436288790
+      - generic [ref=e949]:
+        - heading "Hình thức thanh toán" [level=3] [ref=e950]
+        - link [ref=e951] [cursor=pointer]:
+          - /url: "#"
+    - generic [ref=e955]:
+      - paragraph [ref=e956]: © 2020 - Bản quyền của Công ty TNHH Thương mại & Tin học Tú Nguyệt
+      - generic [ref=e957]:
+        - link [ref=e958] [cursor=pointer]:
+          - /url: http://online.gov.vn/Home/WebDetails/63325
+        - link [ref=e960] [cursor=pointer]:
+          - /url: http://online.gov.vn/Home/WebDetails/63325
+  - link "icon-zalo" [ref=e963] [cursor=pointer]:
+    - /url: https://zalo.me/2645761204946529607
+    - img "icon-zalo" [ref=e964]
+  - generic:
+    - generic [ref=e965]:
+      - link:
+        - /url: ""
+        - img
+    - generic [ref=e966]:
+      - link:
+        - /url: ""
+        - img
+  - generic [ref=e967]:
+    - generic [ref=e969] [cursor=pointer]:
+      - generic [ref=e970]:
+        - img "widget avatar" [ref=e971]
+        - generic [ref=e973]: TNC Store
+      - generic [ref=e975]: Gửi 1 đính kèm
+    - generic [ref=e976] [cursor=pointer]:
+      - img "chat button" [ref=e979]
+      - generic [ref=e980]: "1"
+```
